@@ -1,0 +1,241 @@
+#!/bin/bash
+
+#############################################################################################
+#The script is developed by Dr. Xiang Ren on 10/12/2018.
+#It aims to automatic the Abaqus job submission process in Linux OS. To use the script, on the terminal command line, type:
+#./job_control jobs
+#in which 'jobs' is a file containing the Abaqus jobs information to be submitted. See the sample 'jobs' file for the input format, which is quite simple.
+#Have fun.
+#############################################################################################
+
+###########################################Inputs############################################
+input=$1 #"./jobs"
+jobs_new=()
+
+line=0
+while IFS= read var
+do
+	#echo "$var"
+	line=$((line+1))
+	if [ $line == 2 ]; then
+		num_cpu=$var
+	elif [ $line == 5 ]; then
+		num_jobs=$var
+	elif [ $line -ge 6 -a $line -le $((6+num_jobs-1)) ]; then
+		jobs_new+=("$var")
+	elif [ $line -eq $((8+num_jobs)) ]; then
+		files_to_save_dum=$var
+		#echo "found: " "$files_to_save_dum"
+	elif [ $line -eq $((11+num_jobs)) ]; then
+		job_submission_format=$var
+	fi
+	
+done < "$input"
+
+#echo $job_submission_format
+#echo ${jobs_new[1]}
+
+job_submission_format=($job_submission_format)
+
+#echo ${job_submission_format[0]}
+#echo ${job_submission_format[1]}
+
+#echo $num_jobs
+#echo $files_to_save_dum
+
+job_path=()
+jobs=()
+
+echo
+echo "Total number of jobs to run:" ${#jobs_new[@]}
+echo 
+
+for i in "${jobs_new[@]}"; do
+	dum=($i)
+	job_path_dum="${dum[0]}"
+	job_name_dum="${dum[1]}"
+	job_path+=($job_path_dum)
+	jobs+=($job_name_dum)
+	echo "job path: "$job_path_dum
+	echo "job name: "$job_name_dum
+	echo
+done
+
+files_to_save=($files_to_save_dum)
+number_of_files=${#files_to_save[@]}
+
+DELAY=45
+
+#files_to_save=(*.sta Outputs/)
+
+#####################Previous results directory name###############################
+date_text=$(date)
+
+date_text_array=($date_text)
+
+Week_Day=${date_text_array[0]}
+Month=${date_text_array[1]}
+Day=${date_text_array[2]}
+time=${date_text_array[3]}
+zone=${date_text_array[4]}
+year=${date_text_array[5]}
+
+if [ $Month == 'Jan' ]; then
+	Month_Arab='1'
+elif [ $Month == 'Feb' ]; then
+	Month_Arab='2'
+elif [ $Month == 'Mar' ]; then
+	Month_Arab='3'
+elif [ $Month == 'Apr' ]; then
+	Month_Arab='4'
+elif [ $Month == 'May' ]; then
+	Month_Arab='5'
+elif [ $Month == 'Jun' ]; then
+	Month_Arab='6'
+elif [ $Month == 'Jul' ]; then
+	Month_Arab='7'
+elif [ $Month == 'Aug' ]; then
+	Month_Arab='8'
+elif [ $Month == 'Sep' ]; then
+	Month_Arab='9'
+elif [ $Month == 'Oct' ]; then
+	Month_Arab='10'
+elif [ $Month == 'Nov' ]; then
+	Month_Arab='11'
+elif [ $Month == 'Dec' ]; then
+	Month_Arab='12'
+fi
+
+time2=${time//:/_}
+
+Pre_Dir='Pre_Results_'$Month_Arab'_'$Day'_'$year'_'$time2'_'$zone
+####################################################################################
+
+###############################Implementation#######################################
+#echo "Number of Jobs to run: " ${#job_path[@]}
+
+number_of_jobs=${#job_path[@]}
+
+cur_dir=$(pwd)
+
+#rm output
+
+#: <<'END'
+
+#length_str=${#Pre_Dir}
+
+#Pre_Dir_Ori=$Pre_Dir
+
+i=0
+
+until [ $i -ge $number_of_jobs ]; do 
+
+	cd ${job_path[$i]}
+	
+	########Put the previous results into the Pre_Dir#########
+	#j=0
+	#Pre_Dir=$Pre_Dir_Ori
+	#while true; do
+	#	if [ -e $Pre_Dir/ ]; then
+	#		j=$((j+1))
+	#		Pre_Dir=${Pre_Dir[@]:0:$length_str}$j
+	#	else
+	#		mkdir $Pre_Dir
+	#		number_of_files=${#files_to_save[@]}
+	#	
+	#		dum=0
+	#	
+	#		until [ $dum -ge $number_of_files ]; do
+	#			cp -a ${files_to_save[$dum]} $Pre_Dir/ #copy a directory, the flag -a is needed
+	#			dum=$((dum+1))
+	#		done
+	#
+	#		break
+	#	fi	
+	#done
+	
+	if [ $number_of_files -ge 1 ]; then
+		mkdir $Pre_Dir
+		dum=0
+		until [ $dum -ge $number_of_files ]; do
+			#echo "Files to save: " ${files_to_save[$dum]} $dum
+			if [ -e ${files_to_save[$dum]} ]; then
+				cp -a ${files_to_save[$dum]} $Pre_Dir/ #copy a directory, the flag -a is needed
+			fi
+			dum=$((dum+1))
+		done
+	fi
+	##########################################################
+
+	rm -f *.lck; rm -f *.sta; rm -f *.odb
+
+	##########For XFA3D specifically###########
+	#rm -r Outputs/
+	#mkdir Outputs
+	#cd Outputs
+	#mkdir Cracks
+	#cd ..
+	###########################################
+
+	while true; do
+
+		if ! [ -e *.lck ]; then
+			#echo "The *.lck file is found. Job is running. Wait..."
+			#else
+			
+			if [ -e *.sta ]; then
+				echo "Job is finished in path: "
+				echo ${job_path[$i]}
+				echo
+				
+				if [ $((i+1)) -lt $number_of_jobs ]; then
+					echo "Go to the next job..."
+				else
+					echo "All the jobs have been finished."
+				fi
+				
+				break
+			else
+				#echo "The *.lck file is not found in path: "
+				#echo ${job_path[$i]}
+				echo
+				echo "Submit job "$((i+1))"..."
+			        echo
+				#abq2017 -j ${jobs[$i]} int standard_parallel=all cpus=$num_cpu |& tee -a $cur_dir/output
+				
+				dum=0
+				job_submission_format_old=("${job_submission_format[@]}")
+				for j in "${job_submission_format[@]}"; do
+					dum=$((dum+1))
+					if [ $j = "job-name" ]; then
+						job_submission_format_old[$((dum-1))]=${jobs[$i]}
+						#echo "Test1"
+						#echo ${job_submission_format[$((dum-1))]}
+					elif [ ${j[@]:0:5} = "cpus=" ]; then
+						dum_string="cpus="$num_cpu
+						job_submission_format_old[$((dum-1))]=$dum_string
+						#echo "Test2", $dum_string
+					fi
+				done
+
+				job_submission_format_new=$( IFS=$' '; echo "${job_submission_format_old[*]}" )
+				
+				job_submission_format_new=$job_submission_format_new 
+				
+				#|& tee -a "$cur_dir"/output"
+				
+				echo $job_submission_format_new
+				eval $job_submission_format_new
+			fi
+		fi
+		
+		sleep $DELAY
+	done
+
+	i=$((i+1))
+done
+
+#END
+
+exit
+
