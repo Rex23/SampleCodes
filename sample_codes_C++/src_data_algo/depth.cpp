@@ -1,3 +1,4 @@
+//Depth first search implemented by stack
 #include <stack>
 #include <vector>
 #include <iostream>

@@ -1,3 +1,4 @@
+//Longest substring with repeated character
 #include <string>
 #include <iostream>
 
@@ -15,19 +16,16 @@ int main(int argc, char* argv[])
 		int len = 1;
 
 		for (auto j = i + 1; j < dum.size(); j++){
-			cout << "Test1: " << dum[j] << ", " << dum_char << endl;	
 			if ( dum[j] == dum_char ){
 				len++;	
 			}
 			else{
 				cout << "Break!" << endl;
-				//i = j;
 				break;
 			}
 		}
 
 		max_length = max(max_length, len);
-		//cout << "Test " << i << ", " << max_length << endl;
 	}
 
 	cout << "max_length: " << max_length << endl;

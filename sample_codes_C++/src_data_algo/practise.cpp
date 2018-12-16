@@ -5,11 +5,17 @@
 #include <map>
 #include <typeinfo>
 #include <vector>
+#include "utilities.h"
 
 using namespace std;
 
 int main(int argc, char** argv)
 {
+
+	vector <int> a_vec{1,2,3,4,5,6};
+
+	printvector("Test: ", a_vec);
+
 	char abc[256] = "test";
 
 	cout << "Test abc.size(): " << strlen(abc) << endl;
