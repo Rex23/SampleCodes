@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#echo "Hello!"
+
+filename=$1
+
+g++ -g $filename -o ../../exe/a 
