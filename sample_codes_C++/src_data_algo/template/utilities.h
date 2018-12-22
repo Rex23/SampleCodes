@@ -23,4 +23,18 @@ void printvector(const string& a_string, const vector <T>& a_vector)
 	}
 }
 
+template <typename T>
 
+class Node_n_ary
+{
+public:
+	T val;
+
+	vector <Node_n_ary*> children;
+
+	Node_n_ary(){}
+
+	Node_n_ary(T _val) {
+        	val = _val;
+        }
+};
