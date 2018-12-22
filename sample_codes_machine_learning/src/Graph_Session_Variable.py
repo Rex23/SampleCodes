@@ -31,6 +31,7 @@ with tf.Session() as sess:
     init.run()
     result2 = f.eval()
     
+#Interactive Session
 sess2 = tf.InteractiveSession()
 
 init.run()
@@ -60,7 +61,8 @@ z = x + 3
 with tf.Session() as sess:
     print(y.eval())
     print(z.eval())
-    
+
+#evaluate y and z simultaneously to avoid duplicate variable evaluations
 with tf.Session() as sess:
     y_val, z_val = sess.run([y,z])
     print(y_val)
