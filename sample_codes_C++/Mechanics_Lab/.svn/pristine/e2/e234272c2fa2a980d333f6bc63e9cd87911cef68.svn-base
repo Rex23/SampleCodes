@@ -1,0 +1,50 @@
+﻿  
+  Microsoft (R) Program Maintenance Utility Version 14.11.25547.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	echo %PATH
+  %PATH
+  	cd
+  C:\Users\xiang\source\repos\Mechanics_Lab\Visual_Studio\Mechanics_Lab_Visual_Studio\Mechanics_Lab_Visual_Studio
+  	icl /debug /Qwd810 /I.\Include .\Source\*.cpp /EHsc /Fe.\Debug_Self\Debug.exe /link /libpath:"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.1.156\windows\compiler\lib\intel64_win"
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.1.156 Build 20171018
+  Copyright (C) 1985-2017 Intel Corporation.  All rights reserved.
+  
+  Boundary.cpp
+  C3D8.cpp
+  FEM_Object_3D.cpp
+  Load.cpp
+  Local_Parameters.cpp
+  Main.cpp
+  Material.cpp
+  Mesh_3D.cpp
+  Model.cpp
+  Section.cpp
+  Step.cpp
+  Surface.cpp
+  Utilities.cpp
+  Microsoft (R) Incremental Linker Version 14.11.25547.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  -out:.\Debug_Self\Debug.exe 
+  -debug 
+  -pdb:.\Debug_Self\Debug.pdb 
+  "/libpath:C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.1.156\windows\compiler\lib\intel64_win" 
+  Boundary.obj 
+  C3D8.obj 
+  FEM_Object_3D.obj 
+  Load.obj 
+  Local_Parameters.obj 
+  Main.obj 
+  Material.obj 
+  Mesh_3D.obj 
+  Model.obj 
+  Section.obj 
+  Step.obj 
+  Surface.obj 
+  Utilities.obj 
+  	copy .\Debug_Self\*.exe ..\x64\Debug
+  .\Debug_Self\Debug.exe
+          1 file(s) copied.
+  	del ..\x64\Debug\Mechanics_Lab_Visual_Studio.exe
+  	ren ..\x64\Debug\Debug.exe Mechanics_Lab_Visual_Studio.exe

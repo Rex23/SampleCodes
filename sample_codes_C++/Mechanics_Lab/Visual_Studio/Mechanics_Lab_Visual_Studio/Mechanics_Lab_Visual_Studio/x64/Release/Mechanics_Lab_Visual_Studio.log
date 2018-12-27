@@ -1,0 +1,30 @@
+﻿  
+  Microsoft (R) Program Maintenance Utility Version 14.11.25547.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  	echo %PATH
+  %PATH
+  	cd
+  C:\Users\xiang\source\repos\Mechanics_Lab\Visual_Studio\Mechanics_Lab_Visual_Studio\Mechanics_Lab_Visual_Studio
+  	icl /I.\Include .\Source\*.cpp /EHsc /Fe.\Release_Self\Release.exe /link /libpath:"C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.1.156\windows\compiler\lib\intel64_win"
+  Intel(R) C++ Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 18.0.1.156 Build 20171018
+  Copyright (C) 1985-2017 Intel Corporation.  All rights reserved.
+  
+  Main.cpp
+  Utilities.cpp
+.\Source\Utilities.cpp(281): warning #810: conversion from "char *" to "int" may lose significant bits
+    	if (int(param) != 0 && strlen(param)>0) {
+    	    ^
+  
+  Microsoft (R) Incremental Linker Version 14.11.25547.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  -out:.\Release_Self\Release.exe 
+  "/libpath:C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2018.1.156\windows\compiler\lib\intel64_win" 
+  Main.obj 
+  Utilities.obj 
+  	copy .\Release_Self\*.exe ..\x64\Release
+  .\Release_Self\Release.exe
+          1 file(s) copied.
+  	del ..\x64\Release\Mechanics_Lab_Visual_Studio.exe
+  	ren ..\x64\Release\Release.exe Mechanics_Lab_Visual_Studio.exe

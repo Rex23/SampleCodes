@@ -1,3 +1,3 @@
 .
-├── src_tf            # Source codes for sample tensorflow implementations
+├── src             # Source codes for sample tensorflow implementations
 └── README.md
