@@ -23,18 +23,17 @@ void printvector(const string& a_string, const vector <T>& a_vector)
 	}
 }
 
+// Definition for a n-ary Node.
 template <typename T>
-
-class Node_n_ary
-{
+class Node_n_ary{
 public:
-	T val;
+    T val;
+    vector<Node_n_ary*> children;
 
-	vector <Node_n_ary*> children;
+    Node_n_ary() {}
 
-	Node_n_ary(){}
-
-	Node_n_ary(T _val) {
-        	val = _val;
-        }
+    Node_n_ary(T _val, vector<Node_n_ary*> _children) {
+        val = _val;
+        children = _children;
+    }
 };
