@@ -1,0 +1,1 @@
+g++ -I~/Installed/boost/boost_1_67_0 example.cpp -o example -L/usr/local/lib/ -lboost_regex
