@@ -10,8 +10,13 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
+	//Sample code 1: Query Device Properties
 	//devicequery(argc, argv);
+	
+	//Sample code 2: Add two arrays
 	//add_two_arrays_example();
+	
+	//Sample code 3: Dot product of two vectors. The shared memory is used for each block.
 	dot_product();
 
 	system("pause");
