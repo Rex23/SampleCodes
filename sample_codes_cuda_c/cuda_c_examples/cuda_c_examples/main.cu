@@ -31,8 +31,11 @@ int main(int argc, char** argv)
 		const_memory();
 		break;
 	case 4:
-		//Sample code: Cuda events
+		//Sample code: Cuda events creat, record and synchonize
 		Event_Create_Record_Synchonize();
+		break;
+	case 5:
+		//Sample code: Cuda non-default streams
 		break;
 	default:
 		break;
