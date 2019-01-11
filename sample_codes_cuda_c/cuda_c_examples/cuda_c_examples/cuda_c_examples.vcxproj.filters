@@ -2,5 +2,9 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="Event_Create_Record_Synchonize.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Event_Create_Record_Synchonize.cuh" />
   </ItemGroup>
 </Project>

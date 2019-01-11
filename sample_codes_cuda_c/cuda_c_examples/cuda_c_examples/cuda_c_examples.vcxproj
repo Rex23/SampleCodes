@@ -96,6 +96,7 @@
     <CudaCompile Include="const_memory.cu" />
     <CudaCompile Include="devicequery.cu" />
     <CudaCompile Include="dot_product.cu" />
+    <CudaCompile Include="Event_Create_Record_Synchonize.cu" />
     <CudaCompile Include="kernel.cu" />
     <CudaCompile Include="main.cu" />
   </ItemGroup>
@@ -104,6 +105,7 @@
     <ClInclude Include="cpu_bitmap.h" />
     <ClInclude Include="devicequery.cuh" />
     <ClInclude Include="dot_product.cuh" />
+    <ClInclude Include="Event_Create_Record_Synchonize.cuh" />
     <ClInclude Include="gl_helper.h" />
     <ClInclude Include="helper_cuda.h" />
     <ClInclude Include="kernel.cuh" />
