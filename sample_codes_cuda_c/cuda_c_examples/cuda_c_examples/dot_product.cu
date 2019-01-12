@@ -11,7 +11,7 @@ __global__ void dot(float *a, float *b, float *c) {
 	int tid = threadIdx.x + blockIdx.x * blockDim.x;
 	int cacheIndex = threadIdx.x;
 
-	float temp = 0;
+	float temp = 0; //Rex: Local to every thread
 
 	while (tid < N) {
 		temp += a[tid] * b[tid];

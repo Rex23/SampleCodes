@@ -78,8 +78,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);$(CudaToolkitLibDir);$(SolutionDir)cuda_c_examples\lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cublas.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);$(CudaToolkitLibDir);$(SolutionDir)cuda_c_examples\lib</AdditionalLibraryDirectories>
     </Link>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
@@ -94,21 +94,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CudaCompile Include="const_memory.cu" />
+    <CudaCompile Include="cublas_one_based_indexing.cu" />
     <CudaCompile Include="devicequery.cu" />
     <CudaCompile Include="dot_product.cu" />
     <CudaCompile Include="Event_Create_Record_Synchonize.cu" />
     <CudaCompile Include="kernel.cu" />
     <CudaCompile Include="main.cu" />
+    <CudaCompile Include="non_default_streams.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="const_memory.cuh" />
     <ClInclude Include="cpu_bitmap.h" />
+    <ClInclude Include="cublas_one_based_indexing.cuh" />
     <ClInclude Include="devicequery.cuh" />
     <ClInclude Include="dot_product.cuh" />
     <ClInclude Include="Event_Create_Record_Synchonize.cuh" />
     <ClInclude Include="gl_helper.h" />
     <ClInclude Include="helper_cuda.h" />
     <ClInclude Include="kernel.cuh" />
+    <ClInclude Include="non_default_streams.cuh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
