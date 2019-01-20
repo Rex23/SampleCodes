@@ -2,19 +2,19 @@ The program is for obtaining a 3D solid structure's failure response under exter
 
 To build thie package, type:
 
-make -f Makefile
+make 
 
 To clean the package, type:
 
-make -f Makefile clean
+make clean 
 
 To run google test, type:
 
-make -f Makefile google
+make google
 
 To clean the google test objects, type:
 
-make -f Makefile cleangoogle
+make cleangoogle
 
 To run the executable, go to ./lab and type:
 
