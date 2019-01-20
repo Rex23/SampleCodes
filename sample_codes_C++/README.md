@@ -1,4 +1,3 @@
-.
 ├── src_data_algo     # Sample source codes for solving data structure and algorithm problems 
 
 ├── exe               # Executables
