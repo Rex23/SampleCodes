@@ -8,6 +8,14 @@ To clean the package, type:
 
 make -f Makefile clean
 
+To run google test, type:
+
+make -f Makefile google
+
+To clean the google test objects, type:
+
+make -f Makefile cleangoogle
+
 To run the executable, go to ./lab and type:
 
 ./LAB Test.in
