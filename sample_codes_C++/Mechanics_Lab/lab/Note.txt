@@ -1,0 +1,10 @@
+1. To turn off IntelliSense options off:
+		On the Tools menu, click Options.
+
+		Select the Text Editor folder.
+
+		C/C++
+
+		General
+
+		Unclick 'Parameter Information'.
