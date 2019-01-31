@@ -11,7 +11,7 @@
 #include <iomanip>
 #include <locale>
 #include <cmath>
-#pragma once
+#include "boost/multi_array.hpp"
 
 namespace New_Class_Utilities {
 

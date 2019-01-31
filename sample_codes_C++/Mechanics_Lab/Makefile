@@ -8,7 +8,11 @@ OBJ_DIR = ./source
 
 LAB_DIR = ./lab
 
-CXXFLAGS += -g -Wall -Wextra -pthread -std=c++11 -fpermissive -I$(INC_DIR) -w
+BOOST_ROOT = /usr/local/include/boost/
+
+BOOSTFLAGS = -I$(BOOST_ROOT)
+
+CXXFLAGS += -g -Wall -Wextra -pthread -std=c++1y -fpermissive -I$(INC_DIR) -w $(BOOSTFLAGS)
 
 SOURCES = $(wildcard $(SOURCE_DIR)/*.cpp)
 
@@ -17,7 +21,7 @@ OBJ = $(SOURCES:.cpp=.o)
 $(LAB_DIR)/LAB: $(OBJ) 
 	$(CXX) $(CXXFLAGS) -o $@ $^ 
 
-all: $(LAB)
+all: $(LAB_DIR)/LAB
 
 #For google test:
 

@@ -15,7 +15,7 @@ class Class_C3D8 : virtual public Class_Mesh, virtual public Class_Material, vir
 {
 public:
 	Class_C3D8(int Nnode_In = 8, int NumofNaturalCoords_In = 3, int NumberofIP_Normal_In = 8);
-	virtual ~Class_C3D8() {};
+	virtual ~Class_C3D8() {}
 
 	int Obtain_C3D8_Local_Normal_Assembly(const std::vector <std::vector <double> >& Coords, const std::vector <std::vector <double> >& CC,
 		const std::vector <std::vector <double> >& U, std::vector <double>& Rhs, std::vector <double> Sig, std::vector <std::vector <double> >& Amatrx);

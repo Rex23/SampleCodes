@@ -273,7 +273,7 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 	std::vector< std::string > row_string;
 	std::vector< std::string > Terms;
 
-	std::ifstream infile(FileName, std::ios_base::binary); //std::ios::binary);
+	std::ifstream infile(FileName, std::ios_base::binary);
 
 	if (infile.fail())
 	{
@@ -284,6 +284,7 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 
 	std::string Step_Name = std::string();
 	std::string tmp;
+
 	while (getline(infile, tmp)) {
 
 		if (tmp[0] == '*' && tmp[1] != '*') {
@@ -307,7 +308,6 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 					else {
 						ReadLine(tmp2, row2);
 						std::vector<double> row_Temp(row2.begin() + 1, row2.end());
-						//Mesh.Push_Back_Nodes(row_Temp);
 						Model -> Nodes.push_back(row_Temp);
 					}
 				}
@@ -325,7 +325,6 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 					else if (Ele_Type == "C3D10") {
 						Model->C3D10_Flag = true;
 					}
-					//std::cout << Ele_Type << std::endl;
 				}
 				else {
 					std::cerr << "Error: element type is undefined for the keyword '*ELEMENT'.\n";
@@ -350,7 +349,6 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 						std::vector<int> row_Temp(row.begin() + 1, row.end());
 						Model->Connectivities.push_back(row_Temp);
 						Model->Connectivities_Type.push_back(Ele_Type);
-						//Mesh.Push_Back_Connectivities(row_Temp);
 					}
 				}
 			}
@@ -358,7 +356,6 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 
 			//**************************Material**************************
 			else if ( MatchKeyword(Terms[0].c_str(), "*MATERIAL") ){
-				//std::cout << "Test 2" << std::endl;
 
 				std::string Material_Name = UpperString(Terms[1]).substr(UpperString(Terms[1]).find("=") + 1);
 				
@@ -378,8 +375,6 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 						break;
 					}
 				}
-				
-				//std::cout << Material_Type << std::endl;
 
 				std::string string_Material_Properties;
 
@@ -621,8 +616,6 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 					std::string tmp2;
 					std::streamoff previous = infile.tellg();
 					getline(infile, tmp2);
-
-					//std::cout << tmp2 << std::endl;
 					
 					if ((tmp2[0] == '*' && tmp2[1] != '*') ) {
 						infile.seekg(previous, std::ios::beg);
@@ -635,7 +628,6 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 						DivideTerms(tmp2, &Terms);
 						std::map <std::string, std::string> Set_Surface;
 						Set_Surface[Terms[0]] = Terms[1];
-						//std::cout << Surface_Name <<", , "<<Terms[0] << ", , " << Terms[1] << std::endl;
 						Model->SurfaceName_Sets[Surface_Name] = Set_Surface;
 					}
 				}
@@ -679,7 +671,7 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 						std::string Surface = Terms[0];
 						std::string LoadType = Terms[1];
 						double Magnitude = atof(Terms[2].c_str());
-						//std::cout << "Test a few: " << Surface << ", " << LoadType << ", " << Magnitude << std::endl;
+
 						Model->DsloadSurface_LoadType[Surface] = LoadType;
 						Model->DsloadSurface_Magnitude[Surface] = Magnitude;
 
@@ -728,7 +720,6 @@ int FEM_Object_3D::Read_Input_File(const std::string& FileName)
 						}
 						Model->BoundarySet_Directions[Terms[0]] = Directions;
 						Model->BoundarySet_Magnitude[Terms[0]] = Magnitude;
-						//std::cout << "Set Name: " << Terms[0] << ", " << "Directions: " << Directions[0] << ", " << Directions[1] << ", " << Magnitude << std::endl;
 					
 						if (!Step_Name.empty()) {
 							Model->StepName_Boundaries[Step_Name].push_back(Terms[0]);

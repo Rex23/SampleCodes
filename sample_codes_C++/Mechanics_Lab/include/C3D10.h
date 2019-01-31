@@ -15,5 +15,5 @@ class Class_C3D10 : virtual public Class_Mesh, virtual public Class_Material, vi
 {
 public:
 	Class_C3D10(int Nnode_In = 10, int NumofNaturalCoords_In = 4, int NumberofIP_Normal_In = 5);
-	virtual ~Class_C3D10() {};
+	virtual ~Class_C3D10() {}
 };
