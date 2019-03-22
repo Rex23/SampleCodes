@@ -6,6 +6,7 @@
 #include "kernel.cuh"
 #include "dot_product.cuh"
 #include "const_memory.cuh"
+#include "const_memory_global_const_addition.cuh"
 #include "Event_Create_Record_Synchonize.cuh"
 #include "non_default_streams.cuh"
 #include "cublas_one_based_indexing.cuh"
@@ -14,7 +15,7 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-	int a_case = 6;
+	int a_case = 4;
 
 	//Sample code: Query Device Properties
 	devicequery(argc, argv);
@@ -33,14 +34,18 @@ int main(int argc, char** argv)
 		const_memory();
 		break;
 	case 4:
+		//Sample code: Constant memory usage 2
+		const_memory_global_const_addition();
+		break;
+	case 5:
 		//Sample code: Cuda events creat, record and synchonize
 		Event_Create_Record_Synchonize();
 		break;
-	case 5:
+	case 6:
 		//Sample code: Cuda non-default streams
 		non_default_streams();
 		break;
-	case 6:
+	case 7:
 		//Sample code: Cublas for one based indexing
 		cblas_one_based_indexing();
 	default:

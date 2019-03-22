@@ -94,6 +94,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CudaCompile Include="const_memory.cu" />
+    <CudaCompile Include="const_memory_global_const_addition.cu" />
     <CudaCompile Include="cublas_one_based_indexing.cu" />
     <CudaCompile Include="devicequery.cu" />
     <CudaCompile Include="dot_product.cu" />
@@ -104,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="const_memory.cuh" />
+    <ClInclude Include="const_memory_global_const_addition.cuh" />
     <ClInclude Include="cpu_bitmap.h" />
     <ClInclude Include="cublas_one_based_indexing.cuh" />
     <ClInclude Include="devicequery.cuh" />

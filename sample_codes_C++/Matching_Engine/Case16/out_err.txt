@@ -1,0 +1,11 @@
+Error: the input message type is neither 0 or 1.
+Error: the order ID is smaller than or equal to 0.
+Error: the order side is neither buy or sell.
+Error: the order quantity is smaller than or equal to 0.
+Unknown message type: BADMESSAGE
+Unknown message type: BADMESSAGE
+Unknown message type: BADMESSAGE
+Unknown message type: BADMESSAGE
+Unknown message type: BADMESSAGE
+Unknown message type: BADMESSAGE
+Unknown message type: BADMESSAGE
