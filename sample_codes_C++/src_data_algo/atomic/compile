@@ -1,7 +1,0 @@
-#!/bin/bash
-
-#echo "Hello!"
-
-filename=$1
-
-g++ -pthread $filename -o ../../exe/a 

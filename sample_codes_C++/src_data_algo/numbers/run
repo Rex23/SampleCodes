@@ -1,8 +1,0 @@
-#!/bin/bash
-
-if [ "$1" != "" ]; then
-	exe=$1
-	$exe ./../../exe/a
-else
-	./../../exe/a
-fi
