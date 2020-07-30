@@ -1,2 +1,4 @@
+Problems 503, 1475 in Leetcode:
 
+Similarity: find the next element which is greater or smaller than the current one. The complexity in space and time can be O(n). 
 
