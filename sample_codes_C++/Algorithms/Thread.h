@@ -31,7 +31,7 @@ int example_hardware_concurrency()
 
 	cout << "finished.\n";
 
-	cout << std::thread::hardware_concurrency() << endl; //Don’t forget the ()!
+	cout << std::thread::hardware_concurrency() << endl; //Donâ€™t forget the ()!
 
 	return 0;
 }
