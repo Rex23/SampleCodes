@@ -4,8 +4,6 @@
 
 ├── IGA               # Source codes for the 'IGA' project I developed using my spare time by using Microsoft Visual Studio. The code generates B splines using Cox-de Boor algorithm.
 
-├── Algorithms        # Sample source codes for solving data structure and algorithm problems. 
-
-├── exe               # Temporary executables
+├── Algorithms        # Sample source codes for solving data structure and algorithm problems.
 
 └── README.md
