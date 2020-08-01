@@ -1,3 +1,4 @@
+//https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/
 //Fisher-yates shuffle algorithm
 // C++ Program to shuffle a given array  
 #include<bits/stdc++.h>  
