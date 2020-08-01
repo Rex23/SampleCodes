@@ -32,3 +32,9 @@ int j = rand() % max_number; //generate a number between (0, max_number - 1)
 wrong: for (size_t i = a_vector.size(); i >= 0; i--)
 correct: for (int i = a_vector.size(); i >= 0; i--)
 
+*char and integer correspondance:
+'A' <-> 65
+'a' <-> 97
+
+
+
