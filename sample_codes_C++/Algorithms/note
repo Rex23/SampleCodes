@@ -28,5 +28,7 @@ http://www.cplusplus.com/reference/cstdlib/
 srand(time(NULL)); 
 int j = rand() % max_number; //generate a number between (0, max_number - 1)  
 
-
+*reverse loop through an array:
+wrong: for (size_t i = a_vector.size(); i >= 0; i--)
+correct: for (int i = a_vector.size(); i >= 0; i--)
 
