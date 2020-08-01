@@ -36,5 +36,8 @@ correct: for (int i = a_vector.size(); i >= 0; i--)
 'A' <-> 65
 'a' <-> 97
 
+*the middle element:
+Given an array with size n. If n is odd, n / 2 will give the exact middle element and if n is even, n / 2 will give the right one of the middle two elements.
+
 
 
