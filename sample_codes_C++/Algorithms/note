@@ -1,3 +1,13 @@
+*Remembered problems:
+
+1. The rainfall volumes between the mountains
+
+2. randomly shuffle an array of numbers
+
+3. rvalue reference
+
+4. hash table
+
 *Problems 503, 1475 in Leetcode:
 
 Similarity: find the next element which is greater or smaller than the current one. The complexity in space and time can be O(n). 
