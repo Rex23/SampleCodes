@@ -11,4 +11,11 @@
       ListNode(int x, ListNode *next) : val(x), next(next) {}
  };
 
+//loop through the list from the head
+while (head != nullptr)
+{
+    binary.push_back(head->val);
+    head = head->next;
+}
+
 
