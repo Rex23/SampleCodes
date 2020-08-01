@@ -1,7 +1,7 @@
 #pragma once
 #include <list>
 
- //Definition for singly-linked list.
+ //definition for singly-linked list.
  struct ListNode 
  {
       int val;
@@ -18,4 +18,30 @@ while (head != nullptr)
     head = head->next;
 }
 
+//problem 1290:
+//convert a list of binary numbers to a decimal number
+
+//method 1: bit manipulation
+class Solution {
+public:
+    int getDecimalValue(ListNode* head) {
+        int ret = 0;
+        while(head)
+        {
+            ret <<= 1;
+            ret |= head->val;
+            head = head->next;
+        }
+        return ret;
+    }
+};
+
+//method 2: (python) (Read the binary number from MSB to LSB?)
+class Solution:
+    def getDecimalValue(self, head: ListNode) -> int:
+        answer = 0
+        while head: 
+            answer = 2*answer + head.val 
+            head = head.next 
+        return answer 
 
