@@ -23,5 +23,10 @@ https://www.techiedelight.com/convert-char-to-string-cpp/
 *<cstdlib> (stdlib.h)
 http://www.cplusplus.com/reference/cstdlib/
 
+*random number generator:
+#include <time.h>  
+srand(time(NULL)); 
+int j = rand() % max_number; //generate a number between (0, max_number - 1)  
+
 
 
