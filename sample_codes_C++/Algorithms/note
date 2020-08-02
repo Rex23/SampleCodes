@@ -50,5 +50,25 @@ while (i < j) {
 
 *std::swap
 
+*comparison of values of size_t and int. The int number will be casted to size_t automatically.
 
-
+//Example
+#include <iostream>
+using namespace std;
+int main()
+{
+   size_t i = 1;
+   int j = -1;
+   
+   std::cout << (i > j) << std::endl;
+   std::cout << (j < i) << std::endl;
+   std::cout << (i < j) << std::endl;
+   std::cout << (j > i) << std::endl;
+   
+   return 0;
+}
+//Output
+0
+0
+1
+1
