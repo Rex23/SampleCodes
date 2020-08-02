@@ -188,3 +188,11 @@ void test_graph()
 {
 	Initialize_Graph();
 }
+
+int main()
+{
+	test_graph();
+
+	system("pause");
+	return 0;
+}
