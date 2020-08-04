@@ -542,6 +542,13 @@ void test_thread()
 	}
 }
 
+int main()
+{
+	test_thread();
+
+	system("pause");
+	return 0;
+}
 
 
 
