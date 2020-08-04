@@ -92,4 +92,8 @@ isdigit()
 tolower()
 toupper()
 
+*stack: when stack.empty(), stack.pop() is erroneous
+
+*substr: a_string(a_position, 0) is legal
+
 
