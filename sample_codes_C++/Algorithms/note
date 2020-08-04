@@ -96,4 +96,6 @@ toupper()
 
 *substr: a_string(a_position, 0) is legal
 
+*string: valid methods: push_back(), pop_back, a_string.back()
+
 
