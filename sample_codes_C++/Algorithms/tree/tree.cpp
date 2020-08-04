@@ -189,7 +189,7 @@ void single_tree()
 	//   /  \
 	//  2    3
 	// / \  / \
-    //4  5 6   7
+        //4  5 6   7
 	//[1,2,3,4,5,6,7]
 
 	cout << "     1\n";
@@ -299,4 +299,11 @@ void test_tree()
 {
 	single_tree();
 	two_trees();
+}
+
+int main()
+{
+	test_tree();
+	system("pause");
+	return 0;
 }
