@@ -83,4 +83,13 @@ int main()
 
 *count frequency of an element in a set(unordered_set): a_set.count(an_element)
 
+*cctype library:
+
+#include <cctype>
+isalpha()
+isalnum()
+isdigit()
+tolower()
+toupper()
+
 
