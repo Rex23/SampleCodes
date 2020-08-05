@@ -100,4 +100,6 @@ toupper()
 
 *string: valid methods: push_back(), pop_back, a_string.back()
 
+*append: for C++, only string library have 'append' method.
+
 
