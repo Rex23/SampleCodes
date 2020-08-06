@@ -102,4 +102,8 @@ toupper()
 
 *append: for C++, only string library have 'append' method.
 
+*Problem 225: implement stack using queues
+
+Note: we can either use one or two queues to achieve this.
+
 
