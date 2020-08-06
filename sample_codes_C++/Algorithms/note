@@ -131,12 +131,20 @@ process string separated by comma:
 #include <iostream>
 #include <sstream>
 
-std::string input = "abc,def,ghi";
-std::istringstream ss(input);
-std::string token;
+int main()
+{
+    std::string input = "abc, def,  ghi";
+    std::istringstream ss(input);
+    std::string token;
+    
+    while(std::getline(ss, token, ',')) {
+        std::cout << token << '\n';
+    }
 
-while(std::getline(ss, token, ',')) {
-    std::cout << token << '\n';
+    return 0;
 }
 
-
+output:
+abc                                                                                                                                                                                  
+ def                                                                                                                                                                                 
+  ghi
