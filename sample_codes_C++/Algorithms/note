@@ -106,4 +106,37 @@ toupper()
 
 Note: we can either use one or two queues to achieve this.
 
+*stringstream example:
+
+Example:
+process string separated by space:
+
+        stringstream ss(sentence);
+        
+        size_t count = 0;
+        
+        string token;
+        
+        while (ss >> token)
+        {
+            
+            if (token.substr(0, searchWord.size()) == searchWord) return count + 1;
+            
+            count++;
+        }
+        
+Example:
+process string separated by comma:
+
+#include <iostream>
+#include <sstream>
+
+std::string input = "abc,def,ghi";
+std::istringstream ss(input);
+std::string token;
+
+while(std::getline(ss, token, ',')) {
+    std::cout << token << '\n';
+}
+
 
