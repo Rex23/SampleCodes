@@ -166,3 +166,8 @@ int main()
 } 
 
 *string: string::npos equals to -1
+
+*set (multiset) erase: 
+
+erase(a_set.begin()): only erases the iterater!
+erase(*a_set.begin()): erase all the elements with the value!
