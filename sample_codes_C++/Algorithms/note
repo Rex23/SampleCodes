@@ -171,3 +171,8 @@ int main()
 
 erase(a_set.begin()): only erases the iterater!
 erase(*a_set.begin()): erase all the elements with the value!
+
+*std::upper_bound: returns an iterator pointing to the first element in the range [first,last) which compares greater than val.
+
+*std::lower_bound: returns an iterator pointing to the first element in the range [first,last) which does not compare less than val.
+
