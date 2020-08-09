@@ -176,3 +176,5 @@ erase(*a_set.begin()): erase all the elements with the value!
 
 *std::lower_bound: returns an iterator pointing to the first element in the range [first,last) which does not compare less than val.
 
+*first and last element: .front() and .back() for std::vector, std::list, std::queue, std::string
+
