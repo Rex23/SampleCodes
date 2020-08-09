@@ -46,7 +46,79 @@ public:
 			TreeMethod_Recursive_Search(root->right);
 
 	}
+	
+	//in_order
+	//     1
+	//   /  \
+	//  2    3
+	// / \  / \
+	//4  5 6   7
+	//output: 4
+	//output: 2
+	//output: 5
+	//output: 1
+	//output: 6
+	//output: 3
+	//output: 7
+	void in_order(TreeNode* a_node, std::vector <int>& val)
+	{	
+	    if (a_node == nullptr) return;
 
+	    in_order(a_node->left, val);
+
+	    val.push_back(a_node->val);
+
+	    in_order(a_node->right, val);
+	}
+	
+	//pre_order
+	//     1
+	//   /  \
+	//  2    3
+	// / \  / \
+	//4  5 6   7
+	//output: 1
+	//output: 2
+	//output: 4
+	//output: 5
+	//output: 3
+	//output: 6
+	//output: 7
+	void pre_order(TreeNode* a_node, std::vector <int>& val)
+	{
+	    if (a_node == nullptr) return;
+
+	    val.push_back(a_node->val);
+
+	    pre_order(a_node->left, val);
+
+	    pre_order(a_node->right, val);
+	}	
+	
+	//post_order
+	//     1
+	//   /  \
+	//  2    3
+	// / \  / \
+	//4  5 6   7
+	//output: 4
+	//output: 5
+	//output: 2
+	//output: 6
+	//output: 7
+	//output: 3
+	//output: 1	
+	void post_order(TreeNode* a_node, std::vector <int>& val)
+	{
+	    if (a_node == nullptr) return;
+
+	    post_order(a_node->left, val);
+
+	    post_order(a_node->right, val);
+
+	    val.push_back(a_node->val);
+	}
+	
 	void TreeMethod_InOrder_Iterative(TreeNode* root)
 	{
 		stack <TreeNode*> a_stack;
