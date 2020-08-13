@@ -182,3 +182,5 @@ erase(*a_set.begin()): erase all the elements with the value!
 
 *first and last element: .front() and .back() for std::vector, std::list, std::queue, std::string
 
+*distance between iterations: std::distance
+
