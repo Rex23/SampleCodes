@@ -187,3 +187,5 @@ erase(*a_set.begin()): erase all the elements with the value!
 *1051. Height Checker:
 the multiset sort can be replaced by a vector or unordered_map
 
+*1E3 and 10E3 are different!!
+
