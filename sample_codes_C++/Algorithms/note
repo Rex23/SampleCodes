@@ -224,5 +224,7 @@ Example:
 
         std::cout << "left, right: " << left << ", " << right << std::endl;
     }
+    
+ *a square number is 1+3+5+7+...
 
 
