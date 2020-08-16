@@ -188,5 +188,10 @@ erase(*a_set.begin()): erase all the elements with the value!
 *1051. Height Checker:
 the multiset sort can be replaced by a vector or unordered_map
 
-*1E3 and 10E3 are different!!
+*1E3 and 10E3 are different and 1E3 is default double 
+
+*-3 % 2 equals to -1 not 1!
+
+*std::equal_range for a sorted sequence
+http://www.cplusplus.com/reference/algorithm/equal_range/
 
