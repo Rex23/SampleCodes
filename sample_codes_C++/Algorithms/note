@@ -195,3 +195,13 @@ the multiset sort can be replaced by a vector or unordered_map
 *std::equal_range for a sorted sequence
 http://www.cplusplus.com/reference/algorithm/equal_range/
 
+*emplace for unordered_map
+Example:
+        std::unordered_map <int, int> map_val_rank;
+        
+        for (const auto& item : arr_copy)
+        {
+            map_val_rank.emplace(item, map_val_rank.size() + 1);
+        }
+
+
