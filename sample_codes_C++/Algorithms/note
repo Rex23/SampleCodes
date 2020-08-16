@@ -22,6 +22,7 @@
 696. Count Binary Substrings
 1071. Greatest Common Divisor of Strings
 1089. Duplicate Zeros (there is a better solution)
+441. Arranging Coins
 
 *Problem 392: one string is a substring of another, re-visit.
 
@@ -205,5 +206,23 @@ Example:
         {
             map_val_rank.emplace(item, map_val_rank.size() + 1);
         }
+        
+*binary search prototype:
+441. Arranging Coins
+    long left = 0, right = n;
+    long k, curr;
+    while (left <= right)
+    {
+        k = left + (right - left) / 2;
+
+        curr = k * (k + 1) / 2;
+
+        if (curr == n) return k;
+
+        if (n < curr) right = k - 1;
+        else left = k + 1;
+
+        std::cout << "left, right: " << left << ", " << right << std::endl;
+    }
 
 
