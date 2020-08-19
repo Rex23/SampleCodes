@@ -229,6 +229,26 @@ Example:
         std::cout << "left, right: " << left << ", " << right << std::endl;
     }
     
- *a square number is 1+3+5+7+...
+*a square number is 1+3+5+7+...
+
+*-1 is also considered to be true!
+
+Example:
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   if (-1)
+   {
+       std::cout << "Test a1\n";
+   }
+   
+   return 0;
+}
+
+Output:
+Test a1
 
 
