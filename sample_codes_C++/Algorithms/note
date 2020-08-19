@@ -26,6 +26,7 @@
 1539. Kth Missing Positive Number (next time resolve it using binary search)
 1275. Find Winner on a Tic Tac Toe Game (good practice to consider the corner cases)
 989. Add to Array-Form of Integer (notice the given solution method in Java)
+937. Reorder Data in Log Files (a hard problem!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
