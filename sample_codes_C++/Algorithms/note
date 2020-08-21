@@ -256,4 +256,6 @@ Test a1
 cout << 5 / 0 << endl; //error
 cout << 1.0 * 5 / 0 << endl; //ok
 
+*floor and ceil
+
 
