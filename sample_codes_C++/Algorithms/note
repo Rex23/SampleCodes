@@ -34,6 +34,7 @@
 532. K-diff Pairs in an Array (notice that k can be <0, == 0, and > 0, and same numbers only count once)
 414. Third Maximum Number (consider using one loop)
 535. Encode and Decode TinyURL (what is tinyURL?)
+953. Verifying an Alien Dictionary (compare adjacent string, re-do)
 
 *Problem 392: one string is a substring of another, re-visit.
 
