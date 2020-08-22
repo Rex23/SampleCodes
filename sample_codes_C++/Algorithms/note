@@ -30,6 +30,7 @@
 507. Perfect Number (re-visit!)
 168. Excel Sheet Column Title (interesting)
 453. Minimum Moves to Equal Array Elements
+189. Rotate Array (must try the O(1) extra space method!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
