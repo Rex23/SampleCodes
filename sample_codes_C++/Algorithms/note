@@ -274,5 +274,7 @@ int main()
     if(inf > max)
         std::cout << inf << " is greater than " << max << '\n';
 }
+Example:
+std::numeric_limits <int>::infinity(); //returns 0!!!!! seems only working for floating numbers
 
 
