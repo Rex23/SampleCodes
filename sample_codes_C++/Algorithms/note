@@ -33,6 +33,7 @@
 189. Rotate Array (must try the O(1) extra space method!)
 532. K-diff Pairs in an Array (notice that k can be <0, == 0, and > 0, and same numbers only count once)
 414. Third Maximum Number (consider using one loop)
+535. Encode and Decode TinyURL (what is tinyURL?)
 
 *Problem 392: one string is a substring of another, re-visit.
 
