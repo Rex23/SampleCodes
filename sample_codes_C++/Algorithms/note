@@ -106,11 +106,12 @@ int main()
 
 *cctype library:
 
+//notice that there are no '_' in the methods below!
 #include <cctype>
 isalpha()
 isalnum()
 isdigit()
-tolower()
+tolower() 
 toupper()
 
 *stack: when stack.empty(), stack.pop() is erroneous
