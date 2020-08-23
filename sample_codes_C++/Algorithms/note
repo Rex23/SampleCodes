@@ -283,4 +283,8 @@ int main()
 Example:
 std::numeric_limits <int>::infinity(); //returns 0!!!!! seems only working for floating numbers
 
+*'-' cannot be used in variable name. 
+Example:
+string letter-log; //error
+
 
