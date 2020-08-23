@@ -302,4 +302,6 @@ iterator insert (iterator p, char c);
 template <class InputIterator>
 void insert (iterator p, InputIterator first, InputIterator last);
 
+*for an array of size n, if n % 2 == 1, the middle element index is n / 2, and if n % 2 == 0, the middle right element index is n / 2 (assume element starts from 0).
+
 
