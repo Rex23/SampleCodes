@@ -36,6 +36,7 @@
 535. Encode and Decode TinyURL (what is tinyURL?)
 953. Verifying an Alien Dictionary (compare adjacent string, re-do)
 447. Number of Boomerangs (notice that for each point, generate a hash map)
+299. Bulls and Cows (re-do, think about some faster method)
 
 *Problem 392: one string is a substring of another, re-visit.
 
