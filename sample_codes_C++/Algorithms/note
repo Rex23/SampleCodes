@@ -37,6 +37,7 @@
 953. Verifying an Alien Dictionary (compare adjacent string, re-do)
 447. Number of Boomerangs (notice that for each point, generate a hash map)
 299. Bulls and Cows (re-do, think about some faster method)
+1556. Thousand Separator (make sure pass one time. 1. a_string.insert(position, count, char) 2. do not add '.' at position = 0)
 
 *Problem 392: one string is a substring of another, re-visit.
 
@@ -286,5 +287,19 @@ std::numeric_limits <int>::infinity(); //returns 0!!!!! seems only working for f
 *'-' cannot be used in variable name. 
 Example:
 string letter-log; //error
+
+*string insert format:
+Example:
+a_string.insert(position, count, a_char)
+
+string& insert (size_t pos, const string& str);
+string& insert (size_t pos, const string& str, size_t subpos, size_t sublen);
+string& insert (size_t pos, const char* s);
+string& insert (size_t pos, const char* s, size_t n);
+string& insert (size_t pos, size_t n, char c);
+void insert (iterator p, size_t n, char c);
+iterator insert (iterator p, char c);
+template <class InputIterator>
+void insert (iterator p, InputIterator first, InputIterator last);
 
 
