@@ -41,6 +41,7 @@
 1277. Count Square Submatrices with All Ones (dynamic programming, the 1D index one does not work because i, j are both updated!)
 1433. Check If a String Can Break Another String (failed to work it out. Re-do!)
 1104. Path In Zigzag Labelled Binary Tree (interesting, worth re-do)
+1442. Count Triplets That Can Form Two Arrays of Equal XOR (definitely re-do, needs some derivations on XOR operations)
 
 *Problem 392: one string is a substring of another, re-visit.
 
