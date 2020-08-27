@@ -40,6 +40,7 @@
 1556. Thousand Separator (make sure pass one time. 1. a_string.insert(position, count, char) 2. do not add '.' at position = 0)
 1277. Count Square Submatrices with All Ones (dynamic programming, the 1D index one does not work because i, j are both updated!)
 1433. Check If a String Can Break Another String (failed to work it out. Re-do!)
+1104. Path In Zigzag Labelled Binary Tree (interesting, worth re-do)
 
 *Problem 392: one string is a substring of another, re-visit.
 
