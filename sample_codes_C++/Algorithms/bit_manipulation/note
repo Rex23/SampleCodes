@@ -4,7 +4,7 @@
 
 *for any number, couting number of bits of 1:
 Equation:
-f(N) = f(N / 2) + f(N % 2)
+f(N) = f(N / 2) + N % 2
 
 Example:
 338. Counting Bits
