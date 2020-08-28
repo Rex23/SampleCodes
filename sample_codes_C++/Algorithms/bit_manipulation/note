@@ -1,1 +1,14 @@
 *divide a number by 2: num=num>>1
+
+*for any number, couting number of bits of 1:
+Equation:
+f(N) = f(N / 2) + f(N % 2)
+
+Example:
+338. Counting Bits
+Solution: (Java)
+public int[] countBits(int num) {
+    int[] f = new int[num + 1];
+    for (int i=1; i<=num; i++) f[i] = f[i >> 1] + (i & 1);
+    return f;
+}
