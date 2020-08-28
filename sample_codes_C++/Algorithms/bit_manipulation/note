@@ -2,6 +2,10 @@
 
 *reminder of a number by 2: num = num & 1
 
+*'+' preceeds '&': 
+Example: 
+1 + 2 & 3
+
 *for any number, couting number of bits of 1:
 Equation:
 f(N) = f(N / 2) + N % 2
