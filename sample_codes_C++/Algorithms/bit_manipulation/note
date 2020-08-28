@@ -1,5 +1,7 @@
 *divide a number by 2: num=num>>1
 
+*reminder of a number by 2: num = num & 1
+
 *for any number, couting number of bits of 1:
 Equation:
 f(N) = f(N / 2) + f(N % 2)
