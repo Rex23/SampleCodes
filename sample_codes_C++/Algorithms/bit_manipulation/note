@@ -1,3 +1,6 @@
+*Problems:
+1238. Circular Permutation in Binary Representation (grey code)
+
 *1 << 1 (2^0) 1 << 2 (2^1) ...
 
 *divide a number by 2: num=num>>1
@@ -23,6 +26,22 @@ public int[] countBits(int num) {
 
 *grey code:
 https://cp-algorithms.com/algebra/gray-code.html
+Example:
+A sequence of grey code:
+#include <iostream>
+#include <bitset>
+using namespace std;
+
+int main()
+{
+   int n = 5;
+   for (int i = 0; i < (1 << n); ++i)
+   {
+       std::cout << std::bitset<16>((i ^ (i >> 1))) << std::endl; //note the use of parentesis
+   }
+   
+   return 0;
+}
 
 *operator >> (<<) precedes ^
 
