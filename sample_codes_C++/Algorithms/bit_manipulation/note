@@ -7,6 +7,8 @@
 
 *divide a number by 2: num=num>>1
 
+*0 ^ a_number = a_number
+
 *reminder of a number by 2: num = num & 1
 
 *the last bit of a binary: num = num & 1
