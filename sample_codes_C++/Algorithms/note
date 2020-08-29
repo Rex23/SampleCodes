@@ -314,4 +314,6 @@ void insert (iterator p, InputIterator first, InputIterator last);
 Example:
 a_map[a] = b; //wrong!
 
+*find(vector_of_vector.begin(), vector_of_vector.end(), {a, b}) //wrong expression, cannot use {a, b}
+
 
