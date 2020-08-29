@@ -45,6 +45,7 @@
 885. Spiral Matrix III (failed to work it out, re-do!)
 338. Counting Bits (needs to re-visit sometime, remember the equation)
 442. Find All Duplicates in an Array (re-do, two solutions, one is the one I figure out, the other is the solution in discussions)
+969. Pancake Sorting (may worth re-do)
 
 *Problem 392: one string is a substring of another, re-visit.
 
@@ -316,5 +317,7 @@ Example:
 a_map[a] = b; //wrong!
 
 *find(vector_of_vector.begin(), vector_of_vector.end(), {a, b}) //wrong expression, cannot use {a, b}
+
+*sort(a.begin(), a.end()) //note that for sort, the end position is the real find position + 1
 
 
