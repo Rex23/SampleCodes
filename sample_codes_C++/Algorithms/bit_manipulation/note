@@ -1,6 +1,12 @@
 *Problems:
 1238. Circular Permutation in Binary Representation (grey code)
 
+*In C++ octal numbers are denoted by beginning always with a 0 digit.
+http://www.cplusplus.com/doc/hex/
+
+*In C++, hexadecimal numbers are preceded by 0x (zero, x).
+http://www.cplusplus.com/doc/hex/
+
 *1 << 0 (2^0) 
  1 << 1 (2^1) 
  1 << 2 (2^2) ...
