@@ -1,3 +1,5 @@
+*1 << 1 (2^0) 1 << 2 (2^1) ...
+
 *divide a number by 2: num=num>>1
 
 *reminder of a number by 2: num = num & 1
@@ -18,3 +20,6 @@ public int[] countBits(int num) {
     for (int i=1; i<=num; i++) f[i] = f[i >> 1] + (i & 1);
     return f;
 }
+
+*grey code:
+https://cp-algorithms.com/algebra/gray-code.html
