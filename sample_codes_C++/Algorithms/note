@@ -47,6 +47,7 @@
 442. Find All Duplicates in an Array (re-do, two solutions, one is the one I figure out, the other is the solution in discussions)
 969. Pancake Sorting (may worth re-do)
 1338. Reduce Array Size to The Half (be careful, do not make mistakes)
+877. Stone Game (failed to work out. Re-do! Dynamic programming dp(i, j))
 
 *Problem 392: one string is a substring of another, re-visit.
 
