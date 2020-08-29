@@ -23,3 +23,5 @@ public int[] countBits(int num) {
 
 *grey code:
 https://cp-algorithms.com/algebra/gray-code.html
+
+*operator >> (<<) precedes ^
