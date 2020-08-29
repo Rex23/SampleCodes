@@ -25,3 +25,15 @@ public int[] countBits(int num) {
 https://cp-algorithms.com/algebra/gray-code.html
 
 *operator >> (<<) precedes ^
+
+*output bit in C++
+https://katyscode.wordpress.com/2012/05/12/printing-numbers-in-binary-format-in-c/#:~:text=int%20v%20%3D%200x12345678%3B%20for%20(,%3E%3E%20i)%20%26%201)%3B
+Example1:
+int v = 0x12345678;
+for (int i = 31; i >= 0; i--)
+    std::cout << ((v >> i) & 1); //the & eliminates all the higher order bits
+
+Example2:
+#include <bitset>
+int v = 0x12345678;
+std::cout << std::bitset<32>(v);
