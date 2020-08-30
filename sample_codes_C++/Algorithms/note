@@ -331,4 +331,28 @@ a_map[a] = b; //wrong!
 
 *std::cout << -3 % (-2) << std::endl; //result -1, the quotient is closer to 0
 
-
+*note that for iterating through the vector, sometimes forgot to update the operations of the last element:
+Example:
+        int pre_diff = A[1] - A[0];
+        int count = 1;
+        for (int i = 0; i < A.size() - 1; ++i)
+        {
+            int diff = A[i + 1] - A[i];
+            
+            if (diff == pre_diff && i != A.size() - 2)
+            {
+                count++;
+            }
+            else if (diff == pre_diff && i == A.size() - 2)
+            {
+                count++;
+                consecutive.push_back(count);
+            }
+            else if (diff != pre_diff)
+            {
+                if (count >= 3) consecutive.push_back(count);
+                
+                pre_diff = diff;
+                count = 2;
+            }
+        }
