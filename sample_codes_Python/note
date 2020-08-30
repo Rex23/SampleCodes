@@ -42,6 +42,35 @@ https://www.youtube.com/watch?v=HGOBQPFzWKo&t=201s
  mylist = [1, 2, ...6]
  b = [i*i for i in mylist]
  
+*tuple cannot be changed after creation
+
+*the parentesis is optional for tuple
+
+*mytuple=("Max") #not recognized as a tuple, put comma after it
+print(type(mytuple)) #str
+
+*mytuple[0] = "New" #error
+
+*my_tuple.count('p')
+
+*my_tuple.index('p')
+
+*unpack:
+name, age, city = my_tuple
+i1, *i2, i3 = mytuple #i1 is the first, and i3 is the last, and i2 is converted to a list!
+
+*sys:
+import sys
+sys.getsizeof(my_list)
+
+*timeit
+timeit.timeit(stmt="[0, ...,5]", number = 100000)
+
+
+
+
+
+
 
 
 
