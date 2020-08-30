@@ -324,4 +324,6 @@ a_map[a] = b; //wrong!
 
 *sort(a.begin(), a.end()) //note that for sort, the end position is the real find position + 1
 
+*gcd, lcm since C++17
+
 
