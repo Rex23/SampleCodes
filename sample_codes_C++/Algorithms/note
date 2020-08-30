@@ -52,6 +52,7 @@
 1227. Airplane Seat Assignment Probability (dynamic programming problem. Although the solution is guessed. It is great if can derive later.)
 1447. Simplified Fractions (from small to large number, if gcd(i,j) == 1 accumulate)
 1017. Convert to Base -2 (remember the formula)
+413. Arithmetic Slices (made too many mistakes, re-do)
 
 *Problem 392: one string is a substring of another, re-visit.
 
