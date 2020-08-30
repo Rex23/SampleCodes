@@ -1,1 +1,50 @@
+*itermediate tutorial:
+https://www.youtube.com/watch?v=HGOBQPFzWKo&t=201s
+
+*mylist = [a,b,c]
+
+*if something:
+ else:
+ 
+*len(mylist)
+
+*mylist.append(something)
+
+*mylist.insert(1, something)
+
+*item = mylist.pop() #returns and remove
+
+*mylist.remove(something)
+
+*mylist.clear()
+
+*mylist.reverse() or mylist[::-1]
+
+*mylist.sort()
+
+*new_list = sorted(mylist)
+
+*mylist = [0] * 5
+
+*mylist2 = mylist + mylist2 #this is concatenation of two lists
+
+*a = mylist[1:5] #the last index is excluded
+
+*a = mylist[:5] or a = mylist[1:] or a = mylist[::1]
+
+*list_org = [...]
+ list_cpy = list_org #both refer to the same memory
+ list_cpy = list_org.copy() #not refer to the same memory
+ list_cpy = list(list_org) #creat a new list
+ list_cpy = list_or[:] #not refer to the same memory
+ 
+*list comprehension
+ mylist = [1, 2, ...6]
+ b = [i*i for i in mylist]
+ 
+
+
+
+
+
 
