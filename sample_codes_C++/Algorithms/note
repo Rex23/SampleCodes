@@ -49,6 +49,7 @@
 1338. Reduce Array Size to The Half (be careful, do not make mistakes)
 877. Stone Game (failed to work out. Re-do! Dynamic programming dp(i, j), starts from dp(i,i) and then increase the i, j difference. Definitely worth re-doing)
 1344. Angle Between Hands of a Clock (not hard, but be careful, do not mistake double to int, and each hour corresponds to 5 in the 60 circle)
+1227. Airplane Seat Assignment Probability (dynamic programming problem. Although the solution is guessed. It is great if can derive later.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
