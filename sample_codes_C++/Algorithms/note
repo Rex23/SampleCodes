@@ -329,4 +329,6 @@ a_map[a] = b; //wrong!
 
 *gcd, lcm since C++17
 
+*std::cout << -3 % (-2) << std::endl; //result -1, the quotient is closer to 0
+
 
