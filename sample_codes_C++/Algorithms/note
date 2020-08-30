@@ -357,3 +357,6 @@ Example:
                 count = 2;
             }
         }
+
+*int64_t, int32_t
+
