@@ -58,7 +58,7 @@
 1362. Closest Divisors (be careful, do not make mistakes, priority_queue solution?)
 553. Optimal Division (maybe understand the problem better?)
 1233. Remove Sub-Folders from the Filesystem (I did not figure out this solution. Have to re-do.)
-1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold (sliding window, note less or equal to, and note the overflow)
+1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold (sliding window, note less or equal to, and note the overflow, can also be solved by presum)
 
 *Problem 392: one string is a substring of another, re-visit.
 
