@@ -56,6 +56,7 @@
 665. Non-decreasing Array (definitely re-do, for i, first change (i - 1) if (i - 2) <= i, else change i == i - 1) 
 1508. Range Sum of Sorted Subarray Sums (sliding window and do not make mistakes)
 1362. Closest Divisors (be careful, do not make mistakes, priority_queue solution?)
+553. Optimal Division (maybe understand the problem better?)
 
 *Problem 392: one string is a substring of another, re-visit.
 
