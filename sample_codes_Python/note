@@ -66,6 +66,75 @@ sys.getsizeof(my_list)
 *timeit
 timeit.timeit(stmt="[0, ...,5]", number = 100000)
 
+*mydict = {"name": "Max, "age": 28, ...}
+ mydict = dict(name = "Mary, age = 27, ...)
+ mydict["email"] = "max..."
+ del mydict["name"] #delete the key
+ mydict.pop("age")
+ mydict.popitem() #removes the last one after 3.7.1
+ if "name" in mydict:
+  print(...)
+ for key in mydict:
+   print(key)
+ for key in mydict.keys():
+   print(key)
+ for value in mydict.values():
+   print(value)
+ for key, value in mydict.items():
+   print(key, value)
+ mydict_cpy = mydict #same as original one
+ mydict_cpy = mydict.copy()
+ mydict_cpy = dict(mydict)
+ mydict.update(my_dict_2) #mydict is updated by my_dict_2
+ 
+ mytuple = (8, 7)
+ mydict = {mytuple : 15} #tuple is OK, list is not OK!
+ 
+*set (unordered, mutable, no duplicates)
+myset = {1, 2, 3}
+myset = set([1, 2, 3])
+myset = set("Hello")
+myset = {}
+print(type(myset)) #dictionary!
+myset.add(1)
+myset.remove(4)
+myset.discard(3) #no error message if not found
+myset.clear()
+myset.pop() #return and remove
+for i in myset:
+    print(i)
+u = odds.union(evens) #union!
+i = odds.intersection(evens)
+diff = setA.difference(setB) #the ones in setA but not in setB
+diff = setB.symmetric_difference(setA) #both in setA and setB
+setA.update(setB) #union and setA is updated in place!
+setA.intersection_update(setB) #intersection and setA is updated in place!
+setA.difference_update(setB) #same thing
+setA.symmetric_difference_update(setB) #same thing
+setA.issubset(setB)
+setB.issuperset(setA)
+setA.isdisjoint(setB) #no intersection returns true
+setB = setA
+setB = setA.copy()
+setB = set(setA)
+
+*a = frozenset([1, 2, 3, 4]) #cannot change after creation
+ a.add(2) #error
+ a.remove(1) #error
+ 
+*string #ordered, immutable!, text representation
+my_string = "Hello World" or 'Hello World"
+my_string = 'I\'m a programmer' or "I'm a programmer" #!!!
+my_string = """Hello \ #\ means continue in the next line
+World""" #multi-line quote
+
+
+ 
+*try:
+ except:
+
+
+
 
 
 
