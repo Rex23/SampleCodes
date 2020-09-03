@@ -65,6 +65,7 @@
 1437. Check If All 1's Are at Least Length K Places Away (be careful not to make mistakes, may worth re-do)
 1493. Longest Subarray of 1's After Deleting One Element (I have no idea about the solution!!! Resolve it later with the other sliding window problems!!!)
 290. Word Pattern (made so many mistakes! Read solution)
+762. Prime Number of Set Bits in Binary Representation (note the __builtin_popcount solution and the bitset<32>(i).count() solution)
 
 *Problem 392: one string is a substring of another, re-visit.
 
