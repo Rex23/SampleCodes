@@ -1,5 +1,6 @@
 *Problems:
 1238. Circular Permutation in Binary Representation (grey code)
+405. Convert a Number to Hexadecimal (very classic, but be re-done several times!)
 
 *In C++ octal numbers are denoted by beginning always with a 0 digit.
 http://www.cplusplus.com/doc/hex/
@@ -72,3 +73,32 @@ std::cout << std::bitset<32>(v);
 *__builtin_popcount(int) function is used to count the number of one’s(set bits) in an integer.
 
 *std::bitset<32>(i).count() //count number of 1's
+
+*convert a decimal number to a hexadecimal number (including negative number)
+Example:
+note that: 
+1. if num is changed to unsigned, the count condition can be omitted.
+2. num % 16 and num & 0xf are different for negative numbers
+3. num & 0xf and num & 15 are the same
+4. num >> 4 and num / 16 are different for negative numbers
+
+    string toHex(int num) {
+        
+        if (num == 0) return "0";
+        
+        std::vector <string> hex{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"};
+        
+        string result;
+        int count = 0;
+        while (num != 0 && count < 8)
+        {
+            result = hex[num & 0xf] + result;
+            
+            num = num >> 4;
+            
+            count++;
+        }
+        
+        return result;
+    }
+
