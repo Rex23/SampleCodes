@@ -68,3 +68,7 @@ Example2:
 #include <bitset>
 int v = 0x12345678;
 std::cout << std::bitset<32>(v);
+
+*__builtin_popcount(int) function is used to count the number of one’s(set bits) in an integer.
+
+*std::bitset<32>(i).count() //count number of 1's
