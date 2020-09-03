@@ -128,10 +128,90 @@ my_string = 'I\'m a programmer' or "I'm a programmer" #!!!
 my_string = """Hello \ #\ means continue in the next line
 World""" #multi-line quote
 
-
- 
 *try:
  except:
+
+*strings
+my_string = "Hello World"
+char = my_string[0]
+char = my_string[-1]
+my_string[0] = 'h' #error! strings are immutable
+substring = my_string[1:5] #index 5 is excluded
+substring = my_string[:5]
+substring = my_string[::-1] #reverse the string!
+sentence = greeting + " " + name
+for i in greeting:
+   print(i)
+if 'e' in greeting:
+   print('yes')
+else:
+   print('no')
+my_string = my_string.strip() #remove the white space before and after #have to assign it to update as it is immutable
+my_string.upper()
+my_string.lower()
+my_string.startswith('Hello') #check whether starts with 'Hello'
+my_string.endswith('Hello')
+my_string.find('o')
+my_string.find('lo') #-1 returned if not found
+my_string.count('o')
+my_string.replace('World', 'Universe') #return a new string #does nothing is not found
+my_list = my_string.split() #convert to a list separated by space, default is " "
+my_list = my_string.split(",")
+new_string = ' '.join(my_list) #convert a list to a string
+my_list = ['a'] * 6
+my_string = ''.join(my_list)
+#%, .format(), f-strings #three formatting
+method 1:
+var = "Tom"
+my_string = "the variable is %s" % var
+var = 3
+my_string = "the variable is %d" % var
+var = 3.1234567
+my_string = "the variable is %f" % var #default 6 digits
+my_string = "the variable is %.2f" % var
+
+method 2:
+var = 3.1234567
+my_string = "the variable is {}".format(var)
+var2 = 6
+my_string = "the variable is {:.2f} and {}".format(var, var2)
+
+method 3 (f-string since 3.6):
+my_string = f"the variable is {var} and {var2}"
+my_string = f"the variable is {var*2} and {var2}"
+
+*from timeit import default_timer as timer
+start = timer()
+end = timer()
+print(end - start)
+
+*collections: counter, namedtuple, OrderedDict, defaultdict, deque
+*Counter
+from collections import Counter
+a = 'aaaaabbbccc'
+my_counter = Counter(a)
+print(my_counter)
+Counter({'a': 5, 'b': 4, 'c': 3})
+my_counter.keys()
+my_counter.values()
+my_counter.most_common(1) #the most common
+[('a', 5)]
+my_counter.most_common(1)[0][0]
+a
+list(my_counter.elements()) #in list() it is the iterator
+
+*namedtuple
+from collections import namedtuple
+
+
+
+
+
+
+
+
+ 
+
 
 
 
