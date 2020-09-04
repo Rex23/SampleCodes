@@ -1,4 +1,5 @@
 *Problems:
+1442. Count Triplets That Can Form Two Arrays of Equal XOR (definitely re-do, needs some derivations on XOR operations)
 1238. Circular Permutation in Binary Representation (grey code)
 405. Convert a Number to Hexadecimal (very classic, but be re-done several times!)
 342. Power of Four (note the without loop solution)
