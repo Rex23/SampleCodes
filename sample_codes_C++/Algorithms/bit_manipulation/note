@@ -101,4 +101,7 @@ note that:
         
         return result;
     }
+    
+ *shift exponent 32 is too large for 1 << 32.
+ solution: (long) 1 << 32
 
