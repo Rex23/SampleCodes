@@ -70,6 +70,7 @@
 1493. Longest Subarray of 1's After Deleting One Element (I have no idea about the solution!!! Resolve it later with the other sliding window problems!!!)
 290. Word Pattern (made so many mistakes! Read solution)
 762. Prime Number of Set Bits in Binary Representation (note the __builtin_popcount solution and the bitset<32>(i).count() solution)
+781. Rabbits in Forest (note the use of map, key: total rabbits of same color, value: accumulated rabbits. Note that do not forget to add all the remaining map keys)
 
 *Problem 392: one string is a substring of another, re-visit.
 
