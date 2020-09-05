@@ -85,6 +85,7 @@
 )
 
 1031. Maximum Sum of Two Non-Overlapping Subarrays (This question is worth re-do. Two pre_sum. Do not make mistakes.)
+1267. Count Servers that Communicate (not hard but do not make mistakes, j and a_vector[i][j] are different!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
