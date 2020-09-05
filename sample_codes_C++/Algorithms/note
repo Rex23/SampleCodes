@@ -72,6 +72,7 @@
 762. Prime Number of Set Bits in Binary Representation (note the __builtin_popcount solution and the bitset<32>(i).count() solution)
 781. Rabbits in Forest (note the use of map, key: total rabbits of same color, value: accumulated rabbits. Note that do not forget to add all the remaining map keys)
 858. Mirror Reflection (I did not figure out this solution. This is done by mirroring the blocks. It needs some drawings and summary.)
+963. Minimum Area Rectangle II (in my opinion, a hard problem. Have to remember to use centroid and diagonal length.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
