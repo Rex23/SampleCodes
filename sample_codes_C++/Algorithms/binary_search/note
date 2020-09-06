@@ -1,0 +1,10 @@
+*standard format:
+while (left < right)
+{
+  auto middle = (left + right) / 2;
+  
+  if (result > middle) left = middle + 1;
+  else right = middle;
+}
+
+return right;
