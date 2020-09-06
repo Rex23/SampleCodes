@@ -447,3 +447,6 @@ character (2)
 iterator erase (iterator p);
 range (3)	
 iterator erase (iterator first, iterator last);
+
+*it = lower_bound(it, A.end(), cur); //A is a sorted vector of string, and cur is a string. 
+You can use lower bound to find the first element in the vector which matches cur. The complexity is log(N).
