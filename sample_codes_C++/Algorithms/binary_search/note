@@ -1,4 +1,4 @@
-*standard format:
+*example format:
 while (left < right)
 {
   auto middle = (left + right) / 2;
