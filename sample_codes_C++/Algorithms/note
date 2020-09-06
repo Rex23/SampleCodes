@@ -439,3 +439,11 @@ uchar	0		0		255
 int	-2147483648	-2147483648	2147483647
 float	-3.40282e+38	1.17549e-38	3.40282e+38
 double	-1.79769e+308	2.22507e-308	1.79769e+308
+
+*std::string::erase
+sequence (1)	
+string& erase (size_t pos = 0, size_t len = npos);
+character (2)	
+iterator erase (iterator p);
+range (3)	
+iterator erase (iterator first, iterator last);
