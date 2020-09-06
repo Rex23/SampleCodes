@@ -97,6 +97,7 @@
 216. Combination Sum III (Failed to solve. Backtracking problem!!!!! Using my methods keep passing time limit. The key is to keep increasing the next element.
 This is an important problem. Should try doing later several times.)
 39. Combination Sum (worth re-do. Similar to problem 216.)
+22. Generate Parentheses (worth re-do. Another backtracking problem.)
 1111. Maximum Nesting Depth of Two Valid Parentheses Strings (Did not understand the problem. Re-do! The trick is to split even as much as possible. The odd and even parentheses are separated into A and B respectively.)
 287. Find the Duplicate Number (my unique way of resolving it)
 
