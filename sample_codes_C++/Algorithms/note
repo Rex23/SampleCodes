@@ -452,3 +452,11 @@ iterator erase (iterator first, iterator last);
 
 *it = lower_bound(it, A.end(), cur); //A is a sorted vector of string, and cur is a string. 
 You can use lower bound to find the first element in the vector which matches cur. The complexity is log(N).
+
+*erase-remove idiom
+https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom
+https://stackoverflow.com/questions/3385229/c-erase-vector-element-by-value-rather-than-by-position
+#include <algorithm>
+...
+vec.erase(std::remove(vec.begin(), vec.end(), 8), vec.end());
+This combination is also known as the erase-remove idiom.
