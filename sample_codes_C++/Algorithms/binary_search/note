@@ -7,4 +7,4 @@ while (left < right)
   else right = middle;
 }
 
-return right;
+return left;
