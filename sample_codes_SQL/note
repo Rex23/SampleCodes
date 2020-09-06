@@ -23,8 +23,10 @@ FROM employee
 WHERE employee.salary > 30000;
 
 *INT
-DECIMAL(M,N)
+DECIMAL(M,N) #M, total digits, N, digits after the decimal point
 VARCHAR(1)
 BLOB
 DATA
 TIMESTAMP
+
+1:30:52
