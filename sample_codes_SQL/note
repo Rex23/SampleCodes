@@ -1,1 +1,30 @@
+Structured Query Language
 
+MySQL is a relational database management system
+
+*PopSQL is also needed; a program works like a text editor hooked up to MySQL
+
+*Tutorial:
+https://www.youtube.com/watch?v=HXV3zeQKqGY&t=14247s
+
+*Installation of MySQL on Windows:
+52:29
+MySQL community server
+MySQL 5.7 Command Line Client
+PopSQL hostname: localhost
+port: 3306
+1:15:50 (creating tables)
+
+*create database giraffe;
+
+*
+SELECT employee.name, employee.age
+FROM employee
+WHERE employee.salary > 30000;
+
+*INT
+DECIMAL(M,N)
+VARCHAR(1)
+BLOB
+DATA
+TIMESTAMP
