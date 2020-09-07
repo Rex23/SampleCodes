@@ -491,3 +491,8 @@ int main()
     auto lambda = [&](double a, double b){return a + b / v.size(); };
     std::cout << std::accumulate(v.begin(), v.end(), 0.0, lambda) << std::endl;
 }
+
+*set_intersection
+Example:
+vector<int> res;
+set_intersection(begin(v), end(v), begin(vec.v), end(vec.v), back_inserter(res));
