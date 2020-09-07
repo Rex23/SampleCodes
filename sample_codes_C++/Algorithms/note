@@ -105,6 +105,7 @@ This is an important problem. Should try doing later several times.)
 1035. Uncrossed Lines (dynamic programming, I did not figure out the solution. Re-do!!!)
 256. Paint House (dynamic programming, I did not figure out the solution. Re-do. The DP can be 2D!)
 276. Paint Fence (dynamic programming, I did not figure out the solution. Re-do. Needs some derivations.)
+1043. Partition Array for Maximum Sum (dynamic programming. I did not figure out the solution. This is a hard problem! The key is that for any element, goes back from 1 to k, and see which one is the largest. re-do!!!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
