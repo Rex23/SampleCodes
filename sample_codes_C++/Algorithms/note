@@ -103,6 +103,7 @@ This is an important problem. Should try doing later several times.)
 1249. Minimum Remove to Make Valid Parentheses (stack is used. sometimes slow down the writing can avoid a lot of logic and typo errors.)
 856. Score of Parentheses (failed to solve. the stack saves the previous score, can you believe that? re-solve later!!!!!!)
 1035. Uncrossed Lines (dynamic programming, I did not figure out the solution. Re-do!!!)
+256. Paint House (dynamic programming, I did not figure out the solution. Re-do. The DP can be 2D!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
