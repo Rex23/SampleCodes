@@ -108,6 +108,7 @@ This is an important problem. Should try doing later several times.)
 1043. Partition Array for Maximum Sum (dynamic programming. I did not figure out the solution. This is a hard problem! The key is that for any element, goes back from 1 to k, and see which one is the largest. re-do!!!)
 758. Bold Words in String (made so many mistakes!! re-do!!! a_string.find(another_string, start_position)!!! inserting something into a string is awlays a pain!)
 1286. Iterator for Combination (very interesting problem for backtracking. Figured out myself. Do not forget return. Worth re-do.)
+1198. Find Smallest Common Element in All Rows (Of lower priority to re-do. Use set_intersection to solve the problem. the container types need to be the same)
 
 *Problem 392: one string is a substring of another, re-visit.
 
