@@ -104,6 +104,7 @@ This is an important problem. Should try doing later several times.)
 856. Score of Parentheses (failed to solve. the stack saves the previous score, can you believe that? re-solve later!!!!!!)
 1035. Uncrossed Lines (dynamic programming, I did not figure out the solution. Re-do!!!)
 256. Paint House (dynamic programming, I did not figure out the solution. Re-do. The DP can be 2D!)
+276. Paint Fence (dynamic programming, I did not figure out the solution. Re-do. Needs some derivations.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
