@@ -473,3 +473,21 @@ https://stackoverflow.com/questions/3385229/c-erase-vector-element-by-value-rath
 ...
 vec.erase(std::remove(vec.begin(), vec.end(), 8), vec.end());
 This combination is also known as the erase-remove idiom.
+
+*std::accumulate with lambda function
+Example:
+return accumulate(begin(res), end(res), 0, [&](int s, int i) { return s + n[i] * vec.n[i]; });
+
+Example:
+#include <vector>
+#include <algorithm>
+#include <iostream>
+#include <numeric>
+using namespace std;
+std::vector<int> v = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+int main()
+{
+    auto lambda = [&](double a, double b){return a + b / v.size(); };
+    std::cout << std::accumulate(v.begin(), v.end(), 0.0, lambda) << std::endl;
+}
