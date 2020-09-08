@@ -514,3 +514,8 @@ int dotProduct(SparseVector& vec, int res = 0) {
             res += v[i].second * vec.v[j].second;
     return res;
 }
+
+*out of range error for 'for loop':
+Example:
+for (int i = 0; i <= (int) (S.length() - K); ++i) //if 'S.length() - K' is not converted to int, error is generated!!!
+
