@@ -110,6 +110,7 @@ This is an important problem. Should try doing later several times.)
 1286. Iterator for Combination (very interesting problem for backtracking. Figured out myself. Do not forget return. Worth re-do.)
 1198. Find Smallest Common Element in All Rows (Of lower priority to re-do. Use set_intersection to solve the problem. the container types need to be the same)
 1056. Confusing Number (Of lower priority to re-do. Note that the rotation is not based on each digit but based on the entire number.)
+370. Range Addition (range addition time complexity can be O(m + n). I did not work it out myself. A Google problem. Definitely worth re-do!!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
