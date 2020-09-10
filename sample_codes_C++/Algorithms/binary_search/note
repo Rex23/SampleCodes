@@ -14,7 +14,7 @@ Example:
             auto middle = left + (right - left) / 2;
             if (nums[middle] < target) left = middle + 1;
             else if (nums[middle] == target) return middle;
-            else right = middle - 1; //right = middle also works
+            else right = middle - 1; //right = middle works even better
         }
         
         return -1;
