@@ -114,6 +114,7 @@ This is an important problem. Should try doing later several times.)
 1151. Minimum Swaps to Group All 1's Together (classic sliding window problem! worth re-do! Do not make mistakes)
 565. Array Nesting (I did not figure out the solution. The trick is that once the number is involed, it is no longer involved. Definitely do it again.)
 311. Sparse Matrix Multiplication (there is obviously a better solution. re-do.)
+1244. Design A Leaderboard (very slow. re-do!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
