@@ -115,6 +115,7 @@ This is an important problem. Should try doing later several times.)
 565. Array Nesting (I did not figure out the solution. The trick is that once the number is involed, it is no longer involved. Definitely do it again.)
 311. Sparse Matrix Multiplication (there is obviously a better solution. re-do.)
 1244. Design A Leaderboard (very slow. re-do!)
+1256. Encode Number (a math problem, f(n) = f((n - 1) / 2) + "10"[n / 2])
 
 *Problem 392: one string is a substring of another, re-visit.
 
