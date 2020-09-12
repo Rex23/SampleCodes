@@ -117,6 +117,7 @@ This is an important problem. Should try doing later several times.)
 1244. Design A Leaderboard (very slow. re-do!)
 1256. Encode Number (a math problem, f(n) = f((n - 1) / 2) + "10"[n / 2])
 1272. Remove Interval (just be careful. Google problem.)
+1213. Intersection of Three Sorted Arrays (very good practise two two pointers. there is a better solution.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
