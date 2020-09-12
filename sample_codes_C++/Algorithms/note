@@ -116,6 +116,7 @@ This is an important problem. Should try doing later several times.)
 311. Sparse Matrix Multiplication (there is obviously a better solution. re-do.)
 1244. Design A Leaderboard (very slow. re-do!)
 1256. Encode Number (a math problem, f(n) = f((n - 1) / 2) + "10"[n / 2])
+1272. Remove Interval (just be careful. Google problem.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
