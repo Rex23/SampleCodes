@@ -128,6 +128,7 @@ This is an important problem. Should try doing later several times.)
 573. Squirrel Simulation (choose the first nut is the key. needs to consider not only the distance for the squirrel but also needs to consider the saved distance from the tree to the nut.)
 462. Minimum Moves to Equal Array Elements II (I did not figure out the solution. The trick is to find the median element, not the average! The median is found by using nth_element algorithm. re-do!)
 1109. Corporate Flight Bookings (a range sum problem. Do not make mistakes.)
+1131. Maximum of Absolute Value Expression (did not figure out the solution. Do it later!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
