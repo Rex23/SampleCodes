@@ -8,3 +8,14 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-f
 188. Best Time to Buy and Sell Stock IV
 309. Best Time to Buy and Sell Stock with Cooldown
 714. Best Time to Buy and Sell Stock with Transaction Fee (definitely re-do!!! a transaction is made of buy and sell (a pair contributes to a fee))
+
+*651. 4 Keys Keyboard:
+this problem is pretty hard!
+it is a dynamic programming problem.
+it assumes that:
+the maximum can either achieved by:
+add one from previous
+or
+multiple previous state by some number.
+it needs some derivations and assume that you know you can only multiply to achieve the maximum!
+re-do!
