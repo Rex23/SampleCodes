@@ -124,6 +124,7 @@ This is an important problem. Should try doing later several times.)
 1403. Minimum Subsequence in Non-Increasing Order (study the priority queue solution.)
 1561. Maximum Number of Coins You Can Get (the trick is to let the third person take the last 1/3.)
 1057. Campus Bikes (my original idea was sort based on set. It was out of time limit. The trick is that we know the distance range will be from 0 to 1998. may re-do.)
+1006. Clumsy Factorial (the trick: first 3 elements, and then +, -, *, /. do not make mistakes.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
