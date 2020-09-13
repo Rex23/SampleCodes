@@ -126,6 +126,7 @@ This is an important problem. Should try doing later several times.)
 1057. Campus Bikes (my original idea was sort based on set. It was out of time limit. The trick is that we know the distance range will be from 0 to 1998. may re-do.)
 1006. Clumsy Factorial (the trick: first 3 elements, and then +, -, *, /. do not make mistakes.)
 573. Squirrel Simulation (choose the first nut is the key. needs to consider not only the distance for the squirrel but also needs to consider the saved distance from the tree to the nut.)
+462. Minimum Moves to Equal Array Elements II (I did not figure out the solution. The trick is to find the median element, not the average! The median is found by using nth_element algorithm. re-do!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
@@ -533,3 +534,9 @@ int dotProduct(SparseVector& vec, int res = 0) {
 Example:
 for (int i = 0; i <= (int) (S.length() - K); ++i) //if 'S.length() - K' is not converted to int, error is generated!!!
 
+*nth_element:
+Example:
+int n = nums.size();
+auto it = nums.begin() + n/2;
+nth_element(nums.begin(), it, nums.end());
+int median = *it;
