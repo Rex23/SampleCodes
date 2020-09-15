@@ -129,6 +129,7 @@ This is an important problem. Should try doing later several times.)
 462. Minimum Moves to Equal Array Elements II (I did not figure out the solution. The trick is to find the median element, not the average! The median is found by using nth_element algorithm. re-do!)
 1109. Corporate Flight Bookings (a range sum problem. Do not make mistakes.)
 1131. Maximum of Absolute Value Expression (did not figure out the solution. Do it later!)
+1296. Divide Array in Sets of K Consecutive Numbers (it is a Google problem. It is highly easy to make mistakes. re-do!!! The next element may not be continuous. e.g. 1,2,3,5,6,7 (3 and 5 are not continuous) The given solution is to check the next k elements have the same frequency. may re-do using this!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
