@@ -133,6 +133,7 @@ This is an important problem. Should try doing later several times.)
 667. Beautiful Arrangement II (failed to solve. A Google problem. Solve it later! Definitely do it!)
 1041. Robot Bounded In Circle (if flip direction or change 0, it is a circle. re-do if does not know the previous sentence.)
 1358. Number of Substrings Containing All Three Characters (I did not figure out the solution and it is too slow! use sliding window to re-do it!!!)
+592. Fraction Addition and Subtraction (use std::gcd, std::lcm. made so many mistakes. re-do!!!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
