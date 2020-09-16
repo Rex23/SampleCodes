@@ -132,6 +132,7 @@ This is an important problem. Should try doing later several times.)
 1296. Divide Array in Sets of K Consecutive Numbers (it is a Google problem. It is highly easy to make mistakes. re-do!!! The next element may not be continuous. e.g. 1,2,3,5,6,7 (3 and 5 are not continuous) The given solution is to check the next k elements have the same frequency. may re-do using this!)
 667. Beautiful Arrangement II (failed to solve. A Google problem. Solve it later! Definitely do it!)
 1041. Robot Bounded In Circle (if flip direction or change 0, it is a circle. re-do if does not know the previous sentence.)
+1358. Number of Substrings Containing All Three Characters (I did not figure out the solution and it is too slow! use sliding window to re-do it!!!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
