@@ -21,3 +21,5 @@ or
 multiple previous state by some number.
 it needs some derivations and assume that you know you can only multiply to achieve the maximum!
 re-do!!!
+
+343. Integer Break (a dp problem. may re-do.)
