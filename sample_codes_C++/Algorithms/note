@@ -572,3 +572,7 @@ public:
         for(int i = 0; i < res.size(); i++) ids.push_back(res[i][0]);
         return ids;
     }
+    
+    *accumulate
+    Example
+    std::accumulate(a_vec.begin(), a_vec.end(), 0); //if a_vec is of double, it will be casted into int!!!
