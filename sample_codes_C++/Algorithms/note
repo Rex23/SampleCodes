@@ -135,7 +135,7 @@ This is an important problem. Should try doing later several times.)
 1358. Number of Substrings Containing All Three Characters (I did not figure out the solution and it is too slow! use sliding window to re-do it!!!)
 592. Fraction Addition and Subtraction (use std::gcd, std::lcm. made so many mistakes. re-do!!!)
 360. Sort Transformed Array (the key is that when a >= 0, the curve is high-low-high, and when a < 0, the curve is low-high-low. (when a = 0, it depends on how you choose next.) two pointers problem. re-do!!!)
-1582. Special Positions in a Binary Matrix (what should I say... re-do. did not do it very well.)
+1582. Special Positions in a Binary Matrix (what should I say... re-do. did not do it very well. Notice the given solution.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
