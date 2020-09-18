@@ -2,6 +2,7 @@
 1060. Missing Element in Sorted Array (re-do this by using binary search)
 1064. Fixed Point (binary search, note only 1 element special case. re-do!)
 875. Koko Eating Bananas (re-do!!! Do not make mistakes. The binary search may not stop for ever)
+911. Online Election (I did not figure out the solution. Have to re-do!!! Notice the unordered_map and lead structure to track the largest in O(n).)
 
 *standard format:
 Example:
