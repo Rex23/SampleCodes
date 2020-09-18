@@ -137,6 +137,7 @@ This is an important problem. Should try doing later several times.)
 360. Sort Transformed Array (the key is that when a >= 0, the curve is high-low-high, and when a < 0, the curve is low-high-low. (when a = 0, it depends on how you choose next.) two pointers problem. re-do!!!)
 1582. Special Positions in a Binary Matrix (what should I say... re-do. did not do it very well. Notice the given solution. Two passes. Similar to #531 lonely-pixel-i.)
 1366. Rank Teams by Votes (very good sorting problem. re-do!)
+648. Replace Words (the given solution is trie. Revisit later. Re-do.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
