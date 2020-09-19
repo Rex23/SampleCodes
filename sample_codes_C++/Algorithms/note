@@ -139,6 +139,7 @@ This is an important problem. Should try doing later several times.)
 1366. Rank Teams by Votes (very good sorting problem. re-do!)
 648. Replace Words (the given solution is trie. Revisit later. Re-do.)
 1452. People Whose List of Favorite Companies Is Not a Subset of Another List (sort beforehand can speed it up. re-do!)
+1509. Minimum Difference Between Largest and Smallest Value in Three Moves (note all the possibilities)
 
 *Problem 392: one string is a substring of another, re-visit.
 
