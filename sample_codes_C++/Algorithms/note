@@ -138,6 +138,7 @@ This is an important problem. Should try doing later several times.)
 1582. Special Positions in a Binary Matrix (what should I say... re-do. did not do it very well. Notice the given solution. Two passes. Similar to #531 lonely-pixel-i.)
 1366. Rank Teams by Votes (very good sorting problem. re-do!)
 648. Replace Words (the given solution is trie. Revisit later. Re-do.)
+1452. People Whose List of Favorite Companies Is Not a Subset of Another List (sort beforehand can speed it up. re-do!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
@@ -580,3 +581,7 @@ public:
     *accumulate
     Example
     std::accumulate(a_vec.begin(), a_vec.end(), 0); //if a_vec is of double, it will be casted into int!!!
+    
+    *includes
+    Example:
+    found = std::includes(comp2.begin(), comp2.end(), comp1.begin(), comp1.end()); //note that comp1 and comp2 need to be sorted
