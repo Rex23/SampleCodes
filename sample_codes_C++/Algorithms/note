@@ -146,6 +146,7 @@ This is an important problem. Should try doing later several times.)
 1452. People Whose List of Favorite Companies Is Not a Subset of Another List (sort beforehand can speed it up. re-do!)
 1509. Minimum Difference Between Largest and Smallest Value in Three Moves (note all the possibilities)
 1016. Binary String With Substrings Representing 1 To N (time: O(N * (log(N) + S)). space: O(log(N)). only needs to check N to N / 2, for i = 1 to N/2, N to N / 2 can incorporate them.)
+1093. Statistics from a Large Sample (the median is obtained by pre_sum and current_sum. Even and odd conditions are tested. be careful.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
