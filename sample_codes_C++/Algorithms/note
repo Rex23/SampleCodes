@@ -24,6 +24,9 @@
 
 7. What is a sliding window algorithm?
 
+8. very important re-visit problems:
+767. Reorganize String (a very important problem! Did not figure out the solution at the beginning at all. Have to re-do!!! trick: from 1 to ..., and then from 0 to ... if a char is larger than (N + 1) / 2. no such solution...)
+
 8. re-visit problems: 
 1004. (sliding window) 
 1237.
