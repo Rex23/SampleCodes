@@ -150,6 +150,7 @@ This is an important problem. Should try doing later several times.)
 1016. Binary String With Substrings Representing 1 To N (time: O(N * (log(N) + S)). space: O(log(N)). only needs to check N to N / 2, for i = 1 to N/2, N to N / 2 can incorporate them.)
 1093. Statistics from a Large Sample (the median is obtained by pre_sum and current_sum. Even and odd conditions are tested. be careful.)
 986. Interval List Intersections (two pointers. do not make mistakes. re-do! sometimes only found issues when the problematic case is given. what if it is not?)
+1150. Check If a Number Is Majority Element in a Sorted Array (first use lower_bound to find the first appearance.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
