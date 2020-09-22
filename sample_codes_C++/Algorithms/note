@@ -30,7 +30,7 @@
 1023. Camelcase Matching (string and trie?????)
 357. Count Numbers with Unique Digits (failed to solve. Two approaches. Re-do!!!!)
 279. Perfect Squares (dynamic programming! do not make mistakes. re-do!)
-729. My Calendar I (my lord. I had no clue at all! very hard to me! re-do!!!!)
+729. My Calendar I (my lord. I had no clue at all! very hard to me! use set and lower_bound. re-do!!!!)
 
 8. re-visit problems: 
 1004. (sliding window) 
