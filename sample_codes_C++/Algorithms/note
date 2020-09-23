@@ -158,6 +158,7 @@ This is an important problem. Should try doing later several times.)
 1014. Best Sightseeing Pair (go through A[j] - j, and for each, find the previous max and add them together. re-do!)
 926. Flip String to Monotone Increasing (go through from left to right, record how many 1s. go through from right to left, record how many 0s. Note that it is possible all 0s and all 1s.)
 423. Reconstruct Original Digits from English (can first deduce the numbers with the unique letters.)
+1418. Display Table of Food Orders in a Restaurant (the biggest issue for me to handle hash table is speed.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
