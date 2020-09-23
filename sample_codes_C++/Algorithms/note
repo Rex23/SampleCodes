@@ -160,6 +160,7 @@ This is an important problem. Should try doing later several times.)
 423. Reconstruct Original Digits from English (can first deduce the numbers with the unique letters.)
 1418. Display Table of Food Orders in a Restaurant (the biggest issue for me to handle hash table is speed.)
 524. Longest Word in Dictionary through Deleting (essense: from 'axdsfbsdfc', see whether 'abc' is a substring by deleting. categarize based on 26 letters, and then sequetially upper_bound the position in each category. re-do! made so many mistakes.)
+75. Sort Colors (in place algorithm, mine is the fastest.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
