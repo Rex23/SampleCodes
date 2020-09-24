@@ -34,6 +34,7 @@
 991. Broken Calculator (failed to work it out. very important. re-do!!!)
 313. Super Ugly Number (had no clue at all!!!)
 1072. Flip Columns For Maximum Number of Equal Rows (XOR. No clue at all. re-do!!!)
+253. Meeting Rooms II (a very important problem. the idea is that first sort, and then keep track of the current first with the previously stored second interval by using upper_bound. time complexity?)
 
 8. re-visit problems: 
 1004. (sliding window) 
