@@ -37,6 +37,7 @@
 253. Meeting Rooms II (a very important problem. the idea is that first sort, and then keep track of the current first with the previously stored second interval by using upper_bound. time complexity?)
 705. Design HashSet (it seems like I failed to design it. re-do!!!)
 1248. Count Number of Nice Subarrays (failed to do. re-do!!!!!!)
+1588. Sum of All Odd Length Subarrays (do not use brute force. re-do!!!!)
 
 8. re-visit problems: 
 1004. (sliding window) 
