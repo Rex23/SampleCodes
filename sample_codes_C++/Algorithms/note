@@ -166,6 +166,7 @@ This is an important problem. Should try doing later several times.)
 524. Longest Word in Dictionary through Deleting (essense: from 'axdsfbsdfc', see whether 'abc' is a substring by deleting. categarize based on 26 letters, and then sequetially upper_bound the position in each category. re-do! made so many mistakes.)
 75. Sort Colors (in place algorithm, mine is the fastest.)
 1099. Two Sum Less Than K (look at the other solutions! re-do!!!)
+611. Valid Triangle Number (could have been faster? re-do.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
