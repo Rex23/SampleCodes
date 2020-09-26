@@ -40,6 +40,7 @@
 1588. Sum of All Odd Length Subarrays (do not use brute force. re-do!!!!)
 640. Solve the Equation (so complicated! it can be x, or 2x. made so many mistakes. re-do!)
 523. Continuous Subarray Sum (very easy to make mistakes. Did not figure out first. re-do!!!!)
+974. Subarray Sums Divisible by K (clasic! use hash map to solve! re-do! reference problem 523!)
 
 8. re-visit problems: 
 1004. (sliding window) 
