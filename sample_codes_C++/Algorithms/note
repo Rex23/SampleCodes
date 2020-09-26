@@ -167,6 +167,7 @@ This is an important problem. Should try doing later several times.)
 75. Sort Colors (in place algorithm, mine is the fastest.)
 1099. Two Sum Less Than K (look at the other solutions! re-do!!!)
 611. Valid Triangle Number (could have been faster? re-do.)
+593. Valid Square (the points can coincide, the length can be 1 or 2 or others, re-do)
 
 *Problem 392: one string is a substring of another, re-visit.
 
