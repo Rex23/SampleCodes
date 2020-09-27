@@ -176,6 +176,7 @@ This is an important problem. Should try doing later several times.)
 495. Teemo Attacking (check overlapping. Easy since the duration is constant.)
 1185. Day of the Week (interesting. leap year: not 100 years, can be divide by 4; 100 years, can be divided by 400)
 676. Implement Magic Dictionary (save the words without a letter into a hash map)
+244. Shortest Word Distance II (do not make mistakes)
 
 *Problem 392: one string is a substring of another, re-visit.
 
