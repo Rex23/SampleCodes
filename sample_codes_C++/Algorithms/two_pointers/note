@@ -7,3 +7,53 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 https://leetcode.com/problems/find-all-anagrams-in-a-string/
+
+159. Longest Substring with At Most Two Distinct Characters
+Solution:
+
+class Solution {
+public:
+    int lengthOfLongestSubstringTwoDistinct(string s) {
+        
+        //the algorithm is that:
+        //1. the two pointers are set at 0 initially, and use a hash map to track the freq of different characters.
+        //2. the right pointer keep on increasing.
+        //3. if there are less than 3 different characters, keep track of the maximum length.
+        //4. if there are 3 different characters
+        //5. increment the left char until the freq of a first char becomes 0 (note that the first char with freq becomes 0 is not necessarily the left most char)
+        
+        std::unordered_map <char, int> map_char_freq;
+        int left = 0, right = 0;
+        
+        int count = 0;
+        int max_length = 0;
+        for (int i = 0; i < s.length(); ++i)
+        {
+            right = i;
+            
+            if (map_char_freq[s[i]] == 0) //cannot use find!
+            {
+                count++;
+            }
+            map_char_freq[s[i]]++;
+            
+            if (count <= 2)
+                max_length = max(max_length, right - left + 1); //note +1
+            
+            while (count >= 3)
+            {                
+                map_char_freq[s[left]]--;
+                
+                if (map_char_freq[s[left]] == 0) 
+                {
+                    count--;
+                }
+                
+                left++; //note increment left no matter what
+            }
+            
+        }
+        
+        return max_length;
+    }
+};
