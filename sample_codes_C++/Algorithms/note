@@ -178,6 +178,7 @@ This is an important problem. Should try doing later several times.)
 676. Implement Magic Dictionary (save the words without a letter into a hash map)
 244. Shortest Word Distance II (do not make mistakes)
 554. Brick Wall (the key is to use pre_sum and change the numbers into hash table.)
+1598. Crawler Log Folder (use stack to solve it. It may not be straitforward if did not know using stack at the beginning.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
