@@ -179,6 +179,7 @@ This is an important problem. Should try doing later several times.)
 244. Shortest Word Distance II (do not make mistakes)
 554. Brick Wall (the key is to use pre_sum and change the numbers into hash table.)
 1598. Crawler Log Folder (use stack to solve it. It may not be straitforward if did not know using stack at the beginning.)
+1381. Design a Stack With Increment Operation (take away: pop_back() returns void. cannot use pop_back() and back(), they indicate the last element of the entire vector. may or may not re-do)
 
 *Problem 392: one string is a substring of another, re-visit.
 
