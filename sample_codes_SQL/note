@@ -1,3 +1,10 @@
+1303. Find the Team Size 
+Solution:
+Window function? 
+select employee_id, count(*) over(partition by team_id) as team_size
+from employee
+
+
 Structured Query Language
 
 MySQL is a relational database management system
