@@ -1,3 +1,10 @@
+Keywords:
+
+1. count(*) over(partition by team_id)
+2. group_concat
+3. ORDER BY product ASC SEPARATOR ','
+
+
 1303. Find the Team Size 
 Solution:
 Window function? 
