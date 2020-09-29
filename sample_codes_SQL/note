@@ -1,9 +1,8 @@
 Keywords:
 
 1. count(*) over(partition by team_id)
-2. group_concat
-3. ORDER BY product ASC SEPARATOR ','
-
+2. group_concat(distinct(product) order by product asc separator ',')
+3. order by product asc
 
 1303. Find the Team Size 
 Solution:
