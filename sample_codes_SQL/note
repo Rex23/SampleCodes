@@ -5,6 +5,9 @@ Keywords:
 3. order by product asc
 4. IFNULL(sum(quantity), 0)
 5. order by travelled_distance desc, name asc
+6. left(order_date, 7)
+7. count(distinct customer_id)
+8. select cast(order_date as varchar(7)) as month ? (check its accuracy)
 
 1303. Find the Team Size 
 Solution:
