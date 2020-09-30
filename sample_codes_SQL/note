@@ -4,6 +4,7 @@ Keywords:
 2. group_concat(distinct(product) order by product asc separator ',')
 3. order by product asc
 4. IFNULL(sum(quantity), 0)
+5. order by travelled_distance desc, name asc
 
 1303. Find the Team Size 
 Solution:
