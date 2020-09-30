@@ -183,6 +183,7 @@ This is an important problem. Should try doing later several times.)
 921. Minimum Add to Make Parentheses Valid (use stack to solve this. extend the original string.)
 1190. Reverse Substrings Between Each Pair of Parentheses (when encountered ')', pop until '(', and then push backwards. It is O(n^2). Look at Lee's solution, which is O(n). May re-do.)
 1152. Analyze User Website Visit Pattern (it needs to clarify that: the timestamp is not sequential, the username is not sequential. the combination of three websites can be easily obtained by three loops)
+1424. Diagonal Traverse II (use std::sort combined with lambda function to sort it.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
