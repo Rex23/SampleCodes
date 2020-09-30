@@ -8,6 +8,7 @@ Keywords:
 6. left(order_date, 7)
 7. count(distinct customer_id)
 8. select cast(order_date as varchar(7)) as month ? (check its accuracy)
+9. where invoice > 20
 
 1303. Find the Team Size 
 Solution:
