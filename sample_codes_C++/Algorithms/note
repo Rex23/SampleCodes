@@ -44,6 +44,7 @@
 11. Container With Most Water (Classic two pointer problem. The key is to move the shorter line every time because: If we try to move the pointer at the longer line inwards, we won't gain any increase in area, since it is limited by the shorter line. But moving the shorter line's pointer could turn out to be beneficial, as per the same argument, despite the reduction in the width.)
 56. Merge Intervals (A classic interval problem! Be careful. Do not make mistakes! re-do!!! Note that the previous interval is evolving! Many companies tested this!)
 1498. Number of Subsequences That Satisfy the Given Sum Condition (Classic! Classic! Classic! Classic two pointer problem! re-do!!!!!)
+274. H-Index (visualize it. The key is to find the biggest i such that citations[i] > i. a key problem. re-do!!!)
 
 8. re-visit problems: 
 1004. (sliding window) 
