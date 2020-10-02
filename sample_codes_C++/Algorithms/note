@@ -187,6 +187,7 @@ This is an important problem. Should try doing later several times.)
 1152. Analyze User Website Visit Pattern (it needs to clarify that: the timestamp is not sequential, the username is not sequential. the combination of three websites can be easily obtained by three loops)
 1424. Diagonal Traverse II (use std::sort combined with lambda function to sort it.)
 853. Car Fleet (the trick is to first sort the cars by position, and then loop from right to left. if the next car cannot catch the current one, the next car is the previous car. re-do.)
+1288. Remove Covered Intervals (be careful. do not make mistakes. re-do! there can be two situations, one is (1, 2), (1, 4)... another is (1, 10), (2, 8)...)
 
 *Problem 392: one string is a substring of another, re-visit.
 
