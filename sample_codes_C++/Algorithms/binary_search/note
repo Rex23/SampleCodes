@@ -48,6 +48,7 @@ function binary_search_rightmost(A, n, T):
         1011. Capacity To Ship Packages Within D Days
         1231. Divide Chocolate
         1482. Minimum Number of Days to Make m Bouquets)
+410. Split Array Largest Sum (a very important question! binary search. need to convert the problem. can re-do!)
 
 *standard format:
 Example:
