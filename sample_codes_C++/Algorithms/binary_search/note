@@ -40,7 +40,7 @@ function binary_search_rightmost(A, n, T):
 1064. Fixed Point (binary search, note only 1 element special case. re-do!)
 875. Koko Eating Bananas (re-do!!! Do not make mistakes. The binary search may not stop for ever)
 911. Online Election (I did not figure out the solution. Have to re-do!!! Notice the unordered_map and the last largest person structure to track the largest in O(n).)
-1552. Magnetic Force Between Two Balls (classic! classic! classic!
+1552. Magnetic Force Between Two Balls (classic! classic! classic! definitely re-do!
     similar quesitons:
         410. Split Array Largest Sum
         774. Minimize Max Distance to Gas Station
