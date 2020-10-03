@@ -49,6 +49,7 @@ function binary_search_rightmost(A, n, T):
         1231. Divide Chocolate
         1482. Minimum Number of Days to Make m Bouquets)
 410. Split Array Largest Sum (a very important question! binary search. need to convert the problem. can re-do!)
+774. Minimize Max Distance to Gas Station (Classic!!! given the minimal maximum distance, how many new gas stations needed. The larger the minimal maximum distance, the smaller number of new gas stations needed. Use binary search to find the left most minimal maximum distance. note that for continuous values, this is the way of stop, i.e. while (l + 1.0E-6 < r). a very very important question. re-do!)
 
 *standard format:
 Example:
