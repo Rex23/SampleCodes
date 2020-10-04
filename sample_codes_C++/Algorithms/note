@@ -199,6 +199,11 @@ This is an important problem. Should try doing later several times.)
 
 Similarity: find the next element which is greater or smaller than the current one. The complexity in space and time can be O(n). 
 
+*convert string to lowercase (can use transform as shown below or write one myself)
+Example:
+std::string data = "Abc";
+std::transform(data.begin(), data.end(), data.begin(), [](unsigned char c){ return std::tolower(c); });
+    
 *string's length: .length()
 
 *10 ways to convert a char to string in C++:
