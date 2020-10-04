@@ -19,9 +19,12 @@ ORDER BY
     WHEN City IS NULL THEN Country
     ELSE City
 END);
+12. round(100 * sum(order_date = customer_pref_delivery_date) / count(*),2)
+13. sum(order_date = customer_pref_delivery_date)
+14. count(*)
 
+1173. Immediate Food Delivery I (I did not figure out this. re-do!!!)
 1179. Reformat Department Table (I did not figure out this. sum is necessary. See the reason in the first post discussions. re-do!)
-
 1303. Find the Team Size 
 Solution:
 Window function? 
