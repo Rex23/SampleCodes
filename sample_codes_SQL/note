@@ -10,6 +10,17 @@ Keywords:
 8. select cast(order_date as varchar(7)) as month ? (check its accuracy)
 9. where invoice > 20
 10. round(sum(units*P.price)/sum(U.units),2)
+11. Case!
+Example:
+SELECT CustomerName, City, Country
+FROM Customers
+ORDER BY
+(CASE
+    WHEN City IS NULL THEN Country
+    ELSE City
+END);
+
+1179. Reformat Department Table (I did not figure out this. sum is necessary. See the reason in the first post discussions. re-do!)
 
 1303. Find the Team Size 
 Solution:
