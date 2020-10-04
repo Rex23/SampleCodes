@@ -46,6 +46,7 @@
 1498. Number of Subsequences That Satisfy the Given Sum Condition (Classic! Classic! Classic! Classic two pointer problem! re-do!!!!!)
 274. H-Index (visualize it. The key is to find the biggest i such that citations[i] > i. a key problem. re-do!!!)
 57. Insert Interval (Try the solution in discussions. Three sections using while. Much clearer!)
+560. Subarray Sum Equals K (classic, classic, classic! Have to re-do!!!)
 
 8. re-visit problems: 
 1004. (sliding window) 
