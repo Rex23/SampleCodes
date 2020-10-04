@@ -47,6 +47,7 @@
 274. H-Index (visualize it. The key is to find the biggest i such that citations[i] > i. a key problem. re-do!!!)
 57. Insert Interval (Try the solution in discussions. Three sections using while. Much clearer!)
 560. Subarray Sum Equals K (classic, classic, classic! Have to re-do!!!)
+1218. Longest Arithmetic Subsequence of Given Difference (classic!!! re-do!!! use hash table as dynamic programming!!!)
 
 8. re-visit problems: 
 1004. (sliding window) 
