@@ -191,6 +191,7 @@ This is an important problem. Should try doing later several times.)
 853. Car Fleet (the trick is to first sort the cars by position, and then loop from right to left. if the next car cannot catch the current one, the next car is the previous car. re-do.)
 1288. Remove Covered Intervals (be careful. do not make mistakes. re-do! there can be two situations, one is (1, 2), (1, 4)... another is (1, 10), (2, 8)...)
 792. Number of Matching Subsequences (This example illustrates how important to use pointer or reference to speedup!!! Look at the solution in the discussions! re-do.)
+1138. Alphabet Board Path (should be easy. The special place is at (5, 0) to other locations.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
