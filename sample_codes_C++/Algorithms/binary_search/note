@@ -35,6 +35,14 @@ function binary_search_rightmost(A, n, T):
             L := m + 1
     return R - 1
 
+continuous: 
+
+while (l + 1.0E-6 < r)
+{
+    ... l = mid
+    ... r = mid
+}
+
 1533. Find the Index of the Large Integer (note the left and right updates, re-do!)
 1060. Missing Element in Sorted Array (re-do this by using binary search)
 1064. Fixed Point (binary search, note only 1 element special case. re-do!)
@@ -50,6 +58,7 @@ function binary_search_rightmost(A, n, T):
         1482. Minimum Number of Days to Make m Bouquets)
 410. Split Array Largest Sum (a very important question! binary search. need to convert the problem. can re-do!)
 774. Minimize Max Distance to Gas Station (Classic!!! given the minimal maximum distance, how many new gas stations needed. The larger the minimal maximum distance, the smaller number of new gas stations needed. Use binary search to find the left most minimal maximum distance. note that for continuous values, this is the way of stop, i.e. while (l + 1.0E-6 < r). a very very important question. re-do!)
+1482. Minimum Number of Days to Make m Bouquets (at day 0, we cannot make any bouquets. at the maximum day, all flowers blossom, and we can see whether we can make m bouquets each of k flowers. binary search to solve the problem and find the left most solution.)
 
 *standard format:
 Example:
