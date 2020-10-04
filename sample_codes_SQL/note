@@ -10,7 +10,7 @@ Keywords:
 8. select cast(order_date as varchar(7)) as month ? (check its accuracy)
 9. where invoice > 20
 10. round(sum(units*P.price)/sum(U.units),2)
-11. Case!
+11. 'Case' usage:
 Example:
 https://www.w3schools.com/sql/func_mysql_case.asp
 
@@ -32,6 +32,7 @@ END);
 12. round(100 * sum(order_date = customer_pref_delivery_date) / count(*),2)
 13. sum(order_date = customer_pref_delivery_date)
 14. count(*)
+15. min(event_date)
 
 1173. Immediate Food Delivery I (I did not figure out this. re-do!!!)
 1179. Reformat Department Table (I did not figure out this. sum is necessary. See the reason in the first post discussions. re-do!)
