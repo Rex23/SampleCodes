@@ -195,6 +195,7 @@ This is an important problem. Should try doing later several times.)
 792. Number of Matching Subsequences (This example illustrates how important to use pointer or reference to speedup!!! Look at the solution in the discussions! re-do.)
 1138. Alphabet Board Path (should be easy. The special place is at (5, 0) to other locations.)
 247. Strobogrammatic Number II (The trick is from center to outside do recursions. For each pair: 6,9 and 9,6 or (0,0, 1,1, 8,8). Outside cannot be 0,0. My solution is relatively slow....)
+1428. Leftmost Column with at Least a One (For each row, do binary search to find the left most element with 1. A very good practise problem. Can re-do.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
