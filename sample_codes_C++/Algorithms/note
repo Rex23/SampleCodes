@@ -49,6 +49,7 @@
 560. Subarray Sum Equals K (classic, classic, classic! Have to re-do!!!)
 1218. Longest Arithmetic Subsequence of Given Difference (classic!!! re-do!!! use hash table as dynamic programming!!!)
 548. Split Array with Equal Sum (Did not figure out the solution. First find the middle one, and then loop through first half and see equal. and then loop through second half and see whether can find the same equal by using hash set. O(n^2))
+1202. Smallest String With Swaps (a graph problem. do it later!!!!!!)
 
 8. re-visit problems: 
 1004. (sliding window) 
