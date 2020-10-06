@@ -645,10 +645,12 @@ public:
         return ids;
     }
     
-    *accumulate
-    Example
-    std::accumulate(a_vec.begin(), a_vec.end(), 0); //if a_vec is of double, it will be casted into int!!!
+*accumulate
+Example
+std::accumulate(a_vec.begin(), a_vec.end(), 0); //if a_vec is of double, it will be casted into int!!!
     
-    *includes
-    Example:
-    found = std::includes(comp2.begin(), comp2.end(), comp1.begin(), comp1.end()); //note that comp1 and comp2 need to be sorted
+*includes
+Example:
+found = std::includes(comp2.begin(), comp2.end(), comp1.begin(), comp1.end()); //note that comp1 and comp2 need to be sorted
+
+*this->small = small //note that in a class, 'this' is used so that identical names can be used.
