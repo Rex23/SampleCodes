@@ -199,7 +199,7 @@ This is an important problem. Should try doing later several times.)
 247. Strobogrammatic Number II (The trick is from center to outside do recursions. For each pair: 6,9 and 9,6 or (0,0, 1,1, 8,8). Outside cannot be 0,0. My solution is relatively slow....)
 1428. Leftmost Column with at Least a One (For each row, do binary search to find the left most element with 1. A very good practise problem. Can re-do.)
 1608. Special Array With X Elements Greater Than or Equal X (first sort and then keep on increasing x. if the found num is smaller than x, -1.)
-1297. Maximum Number of Occurrences of a Substring (seems like a sliding window problem. For each substr, use a window to track the number of unique letters and keep on updating it when sliding. The tricky part is that we only need to check minSize, as the larger sizes contains the situations of smaller size ones!!!)
+1297. Maximum Number of Occurrences of a Substring (seems like a sliding window problem. For each substr, use a window to track the number of unique letters and keep on updating it when sliding. The tricky part is that we only need to check minSize, as the larger sizes contains the situations of smaller size ones!!! Also, the max freq of any substr. There may be duplicate or may be not.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
