@@ -72,6 +72,12 @@ SELECT name, population, area
 FROM World
 WHERE population > 25000000
 
+18. where -> group by -> having
+
+19. where month(order_date) = 2 and year(order_date) = 2020
+
+20. 
+
 613. Shortest Distance in a Line (I did not figure out this. self join. re-do!!!!)
 1173. Immediate Food Delivery I (I did not figure out this. re-do!!!)
 1179. Reformat Department Table (I did not figure out this. sum is necessary. See the reason in the first post discussions. re-do!)
@@ -80,7 +86,7 @@ Solution:
 Window function? 
 select employee_id, count(*) over(partition by team_id) as team_size
 from employee
-
+1327. List the Products Ordered in a Period (not smooth. re-do!)
 
 Structured Query Language
 
