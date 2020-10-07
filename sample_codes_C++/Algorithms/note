@@ -51,6 +51,7 @@
 548. Split Array with Equal Sum (Did not figure out the solution. First find the middle one, and then loop through first half and see equal. and then loop through second half and see whether can find the same equal by using hash set. O(n^2))
 1202. Smallest String With Swaps (a graph problem. do it later!!!!!!)
 916. Word Subsets (note that for A to pass all B, it needs to have all distinct letter's max freq among B. I did not figure out the solution. re-do!!!!)
+90. Subsets II (this problem is classic! re-do!!! here the subset is not necessarily continuous and sequential!!! And e.g. (1,4,4) and (4,1,4) are the same. what is a power set?????!!!!!)
 
 8. re-visit problems: 
 1004. (sliding window) 
