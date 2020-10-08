@@ -102,6 +102,10 @@ from Views
 where author_id = viewer_id
 order by id asc
 
+23. update a table using 'update' and 'set'.
+Example:
+update salary set sex= CHAR(ASCII('f') + ASCII('m') - ASCII(sex));
+
 **********************************************************************************************************************************************
 
 613. Shortest Distance in a Line (I did not figure out this. self join. re-do!!!!)
