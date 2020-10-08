@@ -55,6 +55,7 @@
 259. 3Sum Smaller (my solution is slow. See the two pointer solution in the discussions! Classic!!! re-do!!!)
 795. Number of Subarrays with Bounded Maximum (a dynamic programming (dp) problem. very hard!!!!!!! the tricky part is that when the previous is less than L, needs to add all of them.)
 945. Minimum Increment to Make Array Unique (I did not figure out the solution. re-do!!!! the strategy is important. Without knowing the strategy, it cannot be solved. The strategy is that first sort, and then if A[i] <= A[i - 1], update A[i] to be A[i - 1] + 1.)
+809. Expressive Words (problem can be solved by two pointers! a very good problem to consider corner conditions, i.e. beginning and end!!! re-do at some point!!!)
 
 8. re-visit problems: 
 1004. (sliding window) 
