@@ -678,3 +678,6 @@ for(it2 = uc.begin(); it2 != uc.end();)
    }
    ...
 }
+
+*practice: convert a string into a string of sequential unique characters, e.g.: convert "aaaabbbbccdde" into 'abcde'. The tricky part is the first and last position!!!
+
