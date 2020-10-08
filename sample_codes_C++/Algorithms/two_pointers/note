@@ -11,6 +11,32 @@ https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-charac
 3. Longest Substring Without Repeating Characters (very easy to make mistakes. re-do!!!)
 438. Find All Anagrams in a String (did it long time ago. Have to re-do!!!!!!!!!!!!)
 
+259. 3Sum Smaller
+Solution (Java):
+public class Solution {
+    int count;
+    
+    public int threeSumSmaller(int[] nums, int target) {
+        count = 0;
+        Arrays.sort(nums);
+        int len = nums.length;
+    
+        for(int i=0; i<len-2; i++) {
+            int left = i+1, right = len-1;
+            while(left < right) {
+                if(nums[i] + nums[left] + nums[right] < target) {
+                    count += right-left;
+                    left++;
+                } else {
+                    right--;
+                }
+            }
+        }
+        
+        return count;
+    }
+}
+
 159. Longest Substring with At Most Two Distinct Characters
 Solution:
 
