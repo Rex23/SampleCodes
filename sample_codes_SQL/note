@@ -10,7 +10,7 @@ Keywords:
 8. select cast(order_date as varchar(7)) as month ? (check its accuracy)
 9. where invoice > 20
 10. round(sum(units*P.price)/sum(U.units),2)
-11. 'Case' usage:
+11. 'Case When Then ELSE END' usage:
 Examples:
 https://www.w3schools.com/sql/func_mysql_case.asp
 
@@ -85,6 +85,17 @@ UNION ALL
 SELECT '[10-15>' AS bin
 UNION ALL
 SELECT '15 or more' AS bin
+
+21. case when then else end:
+
+SELECT session_id, 
+           CASE WHEN duration/60<5 THEN '[0-5>'
+                WHEN duration/60>=5 AND duration/60<10 THEN '[5-10>'
+                WHEN duration/60>=10 AND duration/60<15 THEN '[10-15>'
+                ELSE '15 or more' END AS bin
+    FROM sessions
+
+**********************************************************************************************************************************************
 
 613. Shortest Distance in a Line (I did not figure out this. self join. re-do!!!!)
 1173. Immediate Food Delivery I (I did not figure out this. re-do!!!)
