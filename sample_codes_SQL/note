@@ -114,7 +114,7 @@ select employee_id, count(*) over(partition by team_id) as team_size
 from employee
 1327. List the Products Ordered in a Period (not smooth. re-do!)
 1435. Create a Session Bar Chart (I did not figure out the solution. Definitely re-do!!!!!!)
-
+627. Swap Salary (I did not figure out the solution. Definitely re-do!!!!)
 
 ***********************************************************************************************
 Structured Query Language
