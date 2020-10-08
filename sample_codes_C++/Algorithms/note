@@ -659,3 +659,19 @@ Example:
 found = std::includes(comp2.begin(), comp2.end(), comp1.begin(), comp1.end()); //note that comp1 and comp2 need to be sorted
 
 *this->small = small //note that in a class, 'this' is used so that identical names can be used.
+
+*erase while iterating
+example:
+for(it2 = uc.begin(); it2 != uc.end();)
+{
+   ...   
+   if(...)
+   {
+      it2 = uc.erase(it2); //the key!
+   }
+   else
+   {
+      ++it2;
+   }
+   ...
+}
