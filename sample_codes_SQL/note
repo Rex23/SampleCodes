@@ -94,6 +94,13 @@ SELECT session_id,
                 WHEN duration/60>=10 AND duration/60<15 THEN '[10-15>'
                 ELSE '15 or more' END AS bin
     FROM sessions
+    
+22. Note that author_id is the column in the original table, and id is the one in the new table. 'Where' needs to use the original column name, and 'order by' needs to use new column name!
+Example:
+select distinct(author_id) id
+from Views
+where author_id = viewer_id
+order by id asc
 
 **********************************************************************************************************************************************
 
