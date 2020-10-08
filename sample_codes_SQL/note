@@ -76,7 +76,15 @@ WHERE population > 25000000
 
 19. where month(order_date) = 2 and year(order_date) = 2020
 
-20. 
+20. UNION ALL:
+Example:
+SELECT '[0-5>' AS bin
+UNION ALL
+SELECT '[5-10>' AS bin
+UNION ALL
+SELECT '[10-15>' AS bin
+UNION ALL
+SELECT '15 or more' AS bin
 
 613. Shortest Distance in a Line (I did not figure out this. self join. re-do!!!!)
 1173. Immediate Food Delivery I (I did not figure out this. re-do!!!)
@@ -87,7 +95,10 @@ Window function?
 select employee_id, count(*) over(partition by team_id) as team_size
 from employee
 1327. List the Products Ordered in a Period (not smooth. re-do!)
+1435. Create a Session Bar Chart (I did not figure out the solution. Definitely re-do!!!!!!)
 
+
+***********************************************************************************************
 Structured Query Language
 
 MySQL is a relational database management system
