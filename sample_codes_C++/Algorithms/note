@@ -59,6 +59,7 @@
 1046. Last Stone Weight (what a classic problem for priority_queue!!!!!! I did not figure out the solution. re-do!!!!!! Can also be done by using std::set? Probably yes.)
 1518. Water Bottles (not hard, but very easy to make mistakes. re-do!)
 313. Super Ugly Number (amazing but I did not figure out the solution at all!!!!! have to re-do!!!!!! classic!!!!!!!)
+1605. Find Valid Matrix Given Row and Column Sums (I did not figure out the solution. Greedy! re-do!!!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
