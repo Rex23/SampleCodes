@@ -58,7 +58,9 @@
 809. Expressive Words (problem can be solved by two pointers! a very good problem to consider corner conditions, i.e. beginning and end!!! re-do at some point!!!)
 1046. Last Stone Weight (what a classic problem for priority_queue!!!!!! I did not figure out the solution. re-do!!!!!! Can also be done by using std::set? Probably yes.)
 1518. Water Bottles (not hard, but very easy to make mistakes. re-do!)
+313. Super Ugly Number (amazing but I did not figure out the solution at all!!!!! have to re-do!!!!!! classic!!!!!!!)
 
+*********************************************************************************
 8. re-visit problems: 
 1004. (sliding window) 
 1237.
