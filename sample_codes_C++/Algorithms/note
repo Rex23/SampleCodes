@@ -210,6 +210,7 @@ This is an important problem. Should try doing later several times.)
 1297. Maximum Number of Occurrences of a Substring (seems like a sliding window problem. For each substr, use a window to track the number of unique letters and keep on updating it when sliding. The tricky part is that we only need to check minSize, as the larger sizes contains the situations of smaller size ones!!! Also, the max freq of any substr. There may be duplicate or may be not.)
 1535. Find the Winner of an Array Game (not hard. Go through the array. Keep track of first ele, if freq == k, return. otherwise, if found max_ele, return. otherwise, return max_ele.)
 1282. Group the People Given the Group Size They Belong To (not very hard, but solution kind of slow. Greedy.)
+16. 3Sum Closest (idea: first num from 0th element to n-1th element. for the other two elements, use two pointers to track the closest. similar to the 3sum problem.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
