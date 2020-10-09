@@ -31,3 +31,5 @@ re-do!!!
 873. Length of Longest Fibonacci Subsequence (the trick is that dp(i,j) = max(dp(j - i, i) + 1). Convert data structure from element to index. Classic!!! did not figure out. very hard!!! re-do!!!!!!!!!!!!!)
 
 978. Longest Turbulent Subarray (a dynamic programming problem. 1, 0, 1, 0, 1, 1. a very good dynamic programming problem! the trick is change the trend to 1, -1, and 0 and use dp to solve it. worth re-do!!!)
+
+562. Longest Line of Consecutive One in Matrix (a great dynamic programming problem made so many mistakes!!! can do it again for practise.)
