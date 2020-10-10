@@ -216,6 +216,7 @@ This is an important problem. Should try doing later several times.)
 16. 3Sum Closest (idea: first num from 0th element to n-1th element. for the other two elements, use two pointers to track the closest. similar to the 3sum problem.)
 870. Advantage Shuffle (The trick is that first compare the largest between A and B, if found that A <= B, then choose the minimal element, otherwise, choose A. very good greedy practise. re-do!!!!)
 670. Maximum Swap (The key is that find the max digit, and then swap it between the left most and right most max digit!!! re-do!!)
+775. Global and Local Inversions (algorithm: from end to start, keep track of the minimum (keep one element apart from cur), and if cur > minimum, return false.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
