@@ -218,6 +218,7 @@ This is an important problem. Should try doing later several times.)
 870. Advantage Shuffle (The trick is that first compare the largest between A and B, if found that A <= B, then choose the minimal element, otherwise, choose A. very good greedy practise. re-do!!!!)
 670. Maximum Swap (The key is that find the max digit, and then swap it between the left most and right most max digit!!! re-do!!)
 775. Global and Local Inversions (algorithm: from end to start, keep track of the minimum (keep one element apart from cur), and if cur > minimum, return false.)
+1058. Minimize Rounding Error to Meet Target (greedy. floor all the prices and compare with target. The difference is filled by those closeset to original prices.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
