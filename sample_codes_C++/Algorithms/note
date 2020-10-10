@@ -214,6 +214,8 @@ This is an important problem. Should try doing later several times.)
 1535. Find the Winner of an Array Game (not hard. Go through the array. Keep track of first ele, if freq == k, return. otherwise, if found max_ele, return. otherwise, return max_ele.)
 1282. Group the People Given the Group Size They Belong To (not very hard, but solution kind of slow. Greedy.)
 16. 3Sum Closest (idea: first num from 0th element to n-1th element. for the other two elements, use two pointers to track the closest. similar to the 3sum problem.)
+870. Advantage Shuffle (The trick is that first compare the largest between A and B, if found that A <= B, then choose the minimal element, otherwise, choose A. very good greedy practise. re-do!!!!)
+
 
 *Problem 392: one string is a substring of another, re-visit.
 
