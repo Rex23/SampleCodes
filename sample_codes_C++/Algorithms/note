@@ -61,6 +61,7 @@
 313. Super Ugly Number (amazing but I did not figure out the solution at all!!!!! have to re-do!!!!!! classic!!!!!!!)
 264. Ugly Number II (the same as problem 313. very important!)
 1605. Find Valid Matrix Given Row and Column Sums (I did not figure out the solution. Greedy! re-do!!!!!!!!)
+1513. Number of Substrings With Only 1s (change the string to intervals of 1 and add them up. The tricky part is that two relatively small numbers can multiply into a number which is overflow. Look at the given solution in the discussion. So elegant!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
