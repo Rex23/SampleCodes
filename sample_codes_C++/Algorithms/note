@@ -65,6 +65,7 @@
 1605. Find Valid Matrix Given Row and Column Sums (I did not figure out the solution. Greedy! re-do!!!!!!!!)
 1513. Number of Substrings With Only 1s (change the string to intervals of 1 and add them up. The tricky part is that two relatively small numbers can multiply into a number which is overflow. Look at the given solution in the discussion. So elegant!!!!!!)
 634. Find the Derangement of An Array (a dynamic programming problem!!! my goodness. For dynamic problem, the formula is the key! a classic problem. Did not figure out the solution. re-do!!!!)
+983. Minimum Cost For Tickets (classic dynamic programming problem!!! Look at the usage of max(0, i) and min({a, b, c}), classic! Did not figure out the solution. Over thought about it. Re-do!!!)
 
 *********************************************************************************
 8. re-visit problems: 
