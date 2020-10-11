@@ -106,8 +106,26 @@ order by id asc
 Example:
 update salary set sex= CHAR(ASCII('f') + ASCII('m') - ASCII(sex));
 
+24. having combined with sum
+Example:
+SELECT customer_id, name
+FROM Customers JOIN Orders USING(customer_id) 
+    JOIN Product USING(product_id)
+GROUP BY customer_id
+HAVING SUM(IF(LEFT(order_date, 7) = '2020-06', quantity, 0) * price) >= 100
+    AND SUM(IF(LEFT(order_date, 7) = '2020-07', quantity, 0) * price) >= 100
+
+25. multiple join (see above)
+Example:
+SELECT customer_id, name
+FROM Customers JOIN Orders USING(customer_id) 
+    JOIN Product USING(product_id)
+GROUP BY customer_id
+HAVING SUM(IF(LEFT(order_date, 7) = '2020-06', quantity, 0) * price) >= 100
+    AND SUM(IF(LEFT(order_date, 7) = '2020-07', quantity, 0) * price) >= 100
 **********************************************************************************************************************************************
 
+1511. Customer Order Frequency (I did not figure out this. re-do!!!!)
 613. Shortest Distance in a Line (I did not figure out this. self join. re-do!!!!)
 1173. Immediate Food Delivery I (I did not figure out this. re-do!!!)
 1179. Reformat Department Table (I did not figure out this. sum is necessary. See the reason in the first post discussions. re-do!)
