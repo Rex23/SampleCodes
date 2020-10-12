@@ -232,6 +232,7 @@ This is an important problem. Should try doing later several times.)
 1058. Minimize Rounding Error to Meet Target (greedy. floor all the prices and compare with target. The difference is filled by those closeset to original prices.)
 452. Minimum Number of Arrows to Burst Balloons (Be careful. Do not make mistakes. Made so many mistakes. re-do!)
 1005. Maximize Sum Of Array After K Negations (Greedy. The key is that convert from smallest negative value, and keep track of the minimal positive value.)
+874. Walking Robot Simulation (Simulation. Can use customized unordered_set.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
@@ -721,4 +722,30 @@ std::cout << "there are: " << sizeof dp / sizeof(int) << " elements." << std::en
 *long int:
 Example
 1L
+
+*unordered_set with pair!!!:
+Use an operator!
+Example:
+#include <iostream>
+#include <unordered_set>
+
+using namespace std;
+
+struct PositionHash
+{
+    size_t operator()(const pair<int, int> &val) const
+    {
+        return val.first ^ val.second;
+    }
+};
+
+int main()
+{
+   unordered_set<pair<int, int>, PositionHash> obs;
+   
+   obs.insert({1,2});
+   obs.insert({1000000000, 1000000000});
+   
+   return 0;
+}
 
