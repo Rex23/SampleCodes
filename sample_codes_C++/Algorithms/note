@@ -231,6 +231,7 @@ This is an important problem. Should try doing later several times.)
 775. Global and Local Inversions (algorithm: from end to start, keep track of the minimum (keep one element apart from cur), and if cur > minimum, return false.)
 1058. Minimize Rounding Error to Meet Target (greedy. floor all the prices and compare with target. The difference is filled by those closeset to original prices.)
 452. Minimum Number of Arrows to Burst Balloons (Be careful. Do not make mistakes. Made so many mistakes. re-do!)
+1005. Maximize Sum Of Array After K Negations (Greedy. The key is that convert from smallest negative value, and keep track of the minimal positive value.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
