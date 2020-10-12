@@ -70,6 +70,7 @@
 881. Boats to Save People (Classic two pointers algorithm. the strategy is to pair heaviest and lightest. If not satisfy, only carry the heaviest... Use two pointers.)
 424. Longest Repeating Character Replacement (Classic. A very very very important two pointer problem. Did not figure out the solution. re-do!!!!!!!)
 487. Max Consecutive Ones II (similar to problem 424. Very important and classic!!!!!!!!!!!!!!!!)
+325. Maximum Size Subarray Sum Equals k (made way tooooooo many mistakes!!!!!! re-do!!!!!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
