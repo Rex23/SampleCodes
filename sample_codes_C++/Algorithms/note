@@ -69,6 +69,7 @@
 1504. Count Submatrices With All Ones (failed again. very hard!!!!!!!!!!! do it later!!!!!!!!!!!!!!!!!)
 881. Boats to Save People (Classic two pointers algorithm. the strategy is to pair heaviest and lightest. If not satisfy, only carry the heaviest... Use two pointers.)
 424. Longest Repeating Character Replacement (Classic. A very very very important two pointer problem. Did not figure out the solution. re-do!!!!!!!)
+487. Max Consecutive Ones II (similar to problem 424. Very important and classic!!!!!!!!!!!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
