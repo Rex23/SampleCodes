@@ -72,6 +72,7 @@
 487. Max Consecutive Ones II (similar to problem 424. Very important and classic!!!!!!!!!!!!!!!!)
 325. Maximum Size Subarray Sum Equals k (made way tooooooo many mistakes!!!!!! re-do!!!!!!!!!!)
 525. Contiguous Array (Classic hash table problem!!! worth re-do!!!!!!)
+1419. Minimum Number of Frogs Croaking (the problem is classic!!!!!!! A very good interval problem and get the minimal re-usable intervals!!!!!! re-do!!!!!! find_first_not_of used here.)
 
 *********************************************************************************
 8. re-visit problems: 
