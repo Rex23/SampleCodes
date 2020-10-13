@@ -233,6 +233,7 @@ This is an important problem. Should try doing later several times.)
 452. Minimum Number of Arrows to Burst Balloons (Be careful. Do not make mistakes. Made so many mistakes. re-do!)
 1005. Maximize Sum Of Array After K Negations (Greedy. The key is that convert from smallest negative value, and keep track of the minimal positive value.)
 874. Walking Robot Simulation (Simulation. Can use customized unordered_set.)
+962. Maximum Width Ramp (See the other solutions!!! Re-do later!!!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
