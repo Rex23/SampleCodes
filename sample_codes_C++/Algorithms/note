@@ -239,6 +239,7 @@ This is an important problem. Should try doing later several times.)
 962. Maximum Width Ramp (See the other solutions!!! Re-do later!!!)
 1564. Put Boxes Into the Warehouse I (sort the box and get the min_value of warehouse from left to right, and then use two pointers to get the solution.)
 1524. Number of Sub-arrays With Odd Sum (be careful. it is pre_sum - another pre_sum. also, notice the other solution in the discussion. re-do.)
+223. Rectangle Area (Just be careful. The areas not considering the over_lapping may be beyond INT_MAX)
 
 *Problem 392: one string is a substring of another, re-visit.
 
