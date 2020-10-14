@@ -78,6 +78,7 @@
 484. Find Permutation (the trick is that first construct a vector, and then locally reverse based on how many 'D' there are and go forward.)
 478. Generate Random Point in a Circle (simply re-do!)
 1144. Decrease Elements To Make Array Zigzag (Do each case (even indexed is greater, odd indexed is greater) separately. In say the even case, you should decrease each even-indexed element until it is lower than its immediate neighbors. Note that it needs to be lower than its immediate neighbors!!!!!! I did not figure out the solution at all. zigzag. Re-do!!!!!!)
+153. Find Minimum in Rotated Sorted Array (this seems like an important question as a lot of the companies tested this. However, I used my way to solve it. May re-visit later.)
 
 *********************************************************************************
 8. re-visit problems: 
