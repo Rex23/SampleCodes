@@ -77,6 +77,7 @@
 1419. Minimum Number of Frogs Croaking (the problem is classic!!!!!!! A very good interval problem and get the minimal re-usable intervals!!!!!! re-do!!!!!! find_first_not_of used here.)
 484. Find Permutation (the trick is that first construct a vector, and then locally reverse based on how many 'D' there are and go forward.)
 478. Generate Random Point in a Circle (simply re-do!)
+1144. Decrease Elements To Make Array Zigzag (Do each case (even indexed is greater, odd indexed is greater) separately. In say the even case, you should decrease each even-indexed element until it is lower than its immediate neighbors. Note that it needs to be lower than its immediate neighbors!!!!!! I did not figure out the solution at all. zigzag. Re-do!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
