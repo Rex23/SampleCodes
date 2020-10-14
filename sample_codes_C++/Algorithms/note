@@ -74,6 +74,7 @@
 525. Contiguous Array (Classic hash table problem!!! worth re-do!!!!!!)
 1419. Minimum Number of Frogs Croaking (the problem is classic!!!!!!! A very good interval problem and get the minimal re-usable intervals!!!!!! re-do!!!!!! find_first_not_of used here.)
 484. Find Permutation (the trick is that first construct a vector, and then locally reverse based on how many 'D' there are and go forward.)
+478. Generate Random Point in a Circle (simply re-do!)
 
 *********************************************************************************
 8. re-visit problems: 
