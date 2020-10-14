@@ -26,6 +26,8 @@
 
 7. std::move forward? in C++
 
+287 + 222 + 201 + 186 + 133 + 101 + 91 + 63 + 63 + 61 + 58 + 54 + 39 + 25 = 1584 (there are overlapping problems!)
+
 8. very important re-visit problems:
 767. Reorganize String (a very important problem! Did not figure out the solution at the beginning at all. Have to re-do!!! trick: from 1 to ..., and then from 0 to ... if a char is larger than (N + 1) / 2. no such solution...)
 1062. Longest Repeating Substring (the current solution is pretty slow although can pass. Re-do! Reference the given solution.)
