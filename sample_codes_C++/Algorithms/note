@@ -250,6 +250,7 @@ This is an important problem. Should try doing later several times.)
 1524. Number of Sub-arrays With Odd Sum (be careful. it is pre_sum - another pre_sum. also, notice the other solution in the discussion. re-do.)
 223. Rectangle Area (Just be careful. The areas not considering the over_lapping may be beyond INT_MAX)
 368. Largest Divisible Subset (a dynamic programming problem. O(n^2))
+681. Next Closest Time (Permutate all the possibilities. Note that for all the digits which are the same, just return themselves. It is a special case and was not well stated in the problem description.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
