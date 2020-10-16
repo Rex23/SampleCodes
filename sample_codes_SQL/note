@@ -138,6 +138,7 @@ where regexp_like(mail, '^[A-Za-z]+[A-Za-z0-9\_\.\-]*@leetcode.com');
 #GROUP BY seller_id
 #ORDER BY SUM(price) DESC
 
+1050. Actors and Directors Who Cooperated At Least Three Times (note that group by can use multiple criteria!)
 584. Find Customer Referee (the names should be able to duplicate because they may be different people!)
 1280. Students and Examinations (classic. I did not figure out the solution!!!!!! re-do!!!!!!!!!!)
 1511. Customer Order Frequency (Classic. multiple join and having combined with sum. I did not figure out this. re-do!!!!)
