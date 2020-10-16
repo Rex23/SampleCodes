@@ -85,7 +85,7 @@
 755. Pour Water (Classic. note the key is to find the lowest to left and right respectively. Another key is that if found higher, it needs to stop.)
 73. Set Matrix Zeroes (save the row and col info at first col and first row respectively. The (0, 0) can be confusing. Save first row and col info differently. re-do!)
 328. Odd Even Linked List (made so many mistakes. The main issue is indexing. re-do!!!!)
-430. Flatten a Multilevel Doubly Linked List (my goodness. made so many mistakes. have to re-do!!!!!!!!!!! 1. auto head_copy = head; (a new pointer is generated) 2. When the equal sign is there, the pointer is modified! 3. Needs to clean up the children.)
+430. Flatten a Multilevel Doubly Linked List (my goodness. made so many mistakes. have to re-do!!!!!!!!!!! 1. auto head_copy = head; (a new pointer is generated) 2. When the equal sign is there, the pointer is not modified and it points to a new content! 3. Needs to clean up the children.)
 725. Split Linked List in Parts (Made so many mistakes! re-do!!!!!! The essense of the problem: Distribute the numbers with adjacent difference at most 1. The left is greater than the right. Just n / k and from left to right add 1. For each part, the next of the end element needs to point to nullptr.)
 
 *********************************************************************************
