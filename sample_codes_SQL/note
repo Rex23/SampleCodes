@@ -130,8 +130,10 @@ select user_id, name, mail
 from Users
 where regexp_like(mail, '^[A-Za-z]+[A-Za-z0-9\_\.\-]*@leetcode.com');
 
-27. isnull
+27. isnull or is null
 where isnull(bonus) or bonus < 1000
+or 
+where bonus is null or bonus < 1000
 **********************************************************************************************************************************************
 
 1082. Sales Analysis I (Did not figure out the solution. re-do!)
