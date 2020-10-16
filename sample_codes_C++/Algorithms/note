@@ -253,6 +253,7 @@ This is an important problem. Should try doing later several times.)
 223. Rectangle Area (Just be careful. The areas not considering the over_lapping may be beyond INT_MAX)
 368. Largest Divisible Subset (a dynamic programming problem. O(n^2))
 681. Next Closest Time (Permutate all the possibilities. Note that for all the digits which are the same, just return themselves. It is a special case and was not well stated in the problem description.)
+445. Add Two Numbers II (list problem. may study the solution in discussions)
 
 *Problem 392: one string is a substring of another, re-visit.
 
