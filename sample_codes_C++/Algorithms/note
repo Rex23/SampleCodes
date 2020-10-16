@@ -83,7 +83,8 @@
 1019. Next Greater Node In Linked List (The next greated element. Classic!!!!!! Did not figure out the solution. Use stack! Re-do!!!)
 503. Next Greater Element II (Classic. Similar to problem 1019. Use stack to solve it. As it can be circular, pre stack the elements from end to start.)
 755. Pour Water (Classic. note the key is to find the lowest to left and right respectively. Another key is that if found higher, it needs to stop.)
- 
+73. Set Matrix Zeroes (save the row and col info at first col and first row respectively. The (0, 0) can be confusing. Save first row and col info differently. re-do!)
+
 *********************************************************************************
 8. re-visit problems: 
 1004. (sliding window) 
