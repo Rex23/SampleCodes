@@ -88,6 +88,7 @@
 430. Flatten a Multilevel Doubly Linked List (my goodness. made so many mistakes. have to re-do!!!!!!!!!!! 1. auto head_copy = head; (a new pointer is generated) 2. When the equal sign is there, the pointer is not modified and it points to a new content! 3. Needs to clean up the children.)
 725. Split Linked List in Parts (Made so many mistakes! re-do!!!!!! The essense of the problem: Distribute the numbers with adjacent difference at most 1. The left is greater than the right. Just n / k and from left to right add 1. For each part, the next of the end element needs to point to nullptr.)
 162. Find Peak Element (classic. binary search. re-do!!! The key is that the two ends are potentially the peak.)
+79. 79. Word Search (Failed to solve (re-do!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!))
 
 *********************************************************************************
 8. re-visit problems: 
