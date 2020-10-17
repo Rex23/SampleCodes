@@ -258,6 +258,7 @@ This is an important problem. Should try doing later several times.)
 681. Next Closest Time (Permutate all the possibilities. Note that for all the digits which are the same, just return themselves. It is a special case and was not well stated in the problem description.)
 445. Add Two Numbers II (list problem. may study the solution in discussions)
 469. Convex Polygon (well, be careful of the last two points. Have to extend as it is circular. Also, cross product can be 0. The key is >=, or <=. If both, wrong.)
+1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers (use hash table to solve. see the discussions for potential faster solutions.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
