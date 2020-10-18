@@ -263,6 +263,7 @@ This is an important problem. Should try doing later several times.)
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers (use hash table to solve. see the discussions for potential faster solutions.)
 2. Add Two Numbers (just be careful. when >= 10, minus; if not, do not need to.)
 86. Partition List (two pointers and then connect them. Just be careful!)
+339. Nested List Weight Sum (DFS. A good practise.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
