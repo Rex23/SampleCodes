@@ -136,7 +136,16 @@ or
 where bonus is null or bonus < 1000
 
 28. <> and != both represent not equal.
+
+29. lower; trim; date_format; group by 1, 2; order by 1, 2;
+Example:
+SELECT LOWER(TRIM(product_name)) product_name, date_format(sale_date, "%Y-%m") sale_date, count(sale_id) total
+FROM sales
+GROUP BY 1, 2
+ORDER BY 1, 2
+
 **********************************************************************************************************************************************
+1543. Fix Product Name Format (what a classic solution!!!!!! re-do!!!!!!!!)
 
 1082. Sales Analysis I (Did not figure out the solution. re-do!)
 #Method 1: ??? does not work???
