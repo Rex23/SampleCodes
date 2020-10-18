@@ -260,6 +260,7 @@ This is an important problem. Should try doing later several times.)
 445. Add Two Numbers II (list problem. may study the solution in discussions)
 469. Convex Polygon (well, be careful of the last two points. Have to extend as it is circular. Also, cross product can be 0. The key is >=, or <=. If both, wrong.)
 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers (use hash table to solve. see the discussions for potential faster solutions.)
+2. Add Two Numbers (just be careful. when >= 10, minus; if not, do not need to.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
