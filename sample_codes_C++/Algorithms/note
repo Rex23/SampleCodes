@@ -266,6 +266,7 @@ This is an important problem. Should try doing later several times.)
 339. Nested List Weight Sum (DFS. A good practise.)
 1315. Sum of Nodes with Even-Valued Grandparent (Tree. two layers. re-do.)
 1302. Deepest Leaves Sum (Tree. pre, in, or post do not matter. The key is to track the deepest layer.)
+1490. Clone N-ary Tree (deep clone N-ary tree.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
