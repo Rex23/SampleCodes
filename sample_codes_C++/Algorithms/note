@@ -269,6 +269,7 @@ This is an important problem. Should try doing later several times.)
 1302. Deepest Leaves Sum (Tree. pre, in, or post do not matter. The key is to track the deepest layer.)
 1490. Clone N-ary Tree (deep clone N-ary tree.)
 366. Find Leaves of Binary Tree (Tree problem. A very good problem. The key is to track the depth and assign to the vector. If the depth is beyond the vector size, resize the vector.)
+1448. Count Good Nodes in Binary Tree (Tree problem. Just keep track of the max element along the way!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
