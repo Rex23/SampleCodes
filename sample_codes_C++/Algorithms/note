@@ -264,6 +264,7 @@ This is an important problem. Should try doing later several times.)
 2. Add Two Numbers (just be careful. when >= 10, minus; if not, do not need to.)
 86. Partition List (two pointers and then connect them. Just be careful!)
 339. Nested List Weight Sum (DFS. A good practise.)
+1315. Sum of Nodes with Even-Valued Grandparent (Tree. two layers. re-do.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
