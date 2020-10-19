@@ -96,6 +96,7 @@
 1457. Pseudo-Palindromic Paths in a Binary Tree (can use bit manipulation to solve it. re-do!!!!!!)
 1110. Delete Nodes And Return Forest (A very good question. Google problem. The key is once found to be deleted node, push back its children. Do not forget to push back the root in the end. Also, to delete a node, the recursive method needs to have reference of pointer.)
 1123. Lowest Common Ancestor of Deepest Leaves (Tree problem. A very important question!!!!!!!!! The key is that if both left and right contains the deepest leaf, it is the closest ancestor. Keep on updating until it finds the newest one which is the answer.)
+5. Longest Palindromic Substring (A very important string question. Method 1: go through elements of s and calculate whether palindrome. Do method 2 later using dp!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
