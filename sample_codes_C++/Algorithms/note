@@ -94,6 +94,7 @@
 1485. Clone Binary Tree With Random Pointer (only one hash map can solve it. re-do!!!!!!)
 979. Distribute Coins in Binary Tree (classic. What should I say... Have to re-do!!!)
 1457. Pseudo-Palindromic Paths in a Binary Tree (can use bit manipulation to solve it. re-do!!!!!!)
+1110. Delete Nodes And Return Forest (A very good question. Google problem. The key is once found to be deleted node, push back its children. Do not forget to push back the root in the end. Also, to delete a node, the recursive method needs to have reference of pointer.)
 
 *********************************************************************************
 8. re-visit problems: 
