@@ -144,7 +144,30 @@ FROM sales
 GROUP BY 1, 2
 ORDER BY 1, 2
 
+30. where [day] between '2019-11-01' and '2019-11-30'
+
+31. avg
+example:
+problem 1294:
+select country_name,
+weather_type = case when AVG(weather_state*1.0)<=15.0 then 'Cold'
+					when AVG(weather_state*1.0)>=25.0 then 'Hot'
+					else 'Warm'
+			   end
+from Countries c inner join Weather  w
+on c.country_id  = w.country_id
+where [day] between '2019-11-01' and '2019-11-30'
+group by country_name
+
+32. select column using '='
+See above example
+
+33. inner join
+The INNER JOIN keyword selects records that have matching values in both tables!!!
+See example in 31. 
+
 **********************************************************************************************************************************************
+1294. Weather Type in Each Country (a very very good practise!!!)
 1113. Reported Posts (a very good practise)
 1543. Fix Product Name Format (what a classic solution!!!!!! re-do!!!!!!!!)
 
