@@ -154,6 +154,7 @@ ORDER BY 1, 2
 #GROUP BY seller_id
 #ORDER BY SUM(price) DESC
 
+603. Consecutive Available Seats (failed to figure out. re-do!!!!!! join with itself)
 1241. Number of Comments per Post (made so many mistakes. re-do.)
 610. Triangle Judgement (use case when then else end to generate a new column! Notice the criterion for judging a triangle!)
 1050. Actors and Directors Who Cooperated At Least Three Times (note that group by can use multiple criteria!)
