@@ -98,6 +98,7 @@
 1123. Lowest Common Ancestor of Deepest Leaves (Tree problem. A very important question!!!!!!!!! The key is that if both left and right contains the deepest leaf, it is the closest ancestor. Keep on updating until it finds the newest one which is the answer.)
 5. Longest Palindromic Substring (A very important string question. Method 1: go through elements of s and calculate whether palindrome. ***Do method 2 later using dynamic programming!!!!!!)
 15. 3Sum (just be careful! very important. re-do later!)
+109. Convert Sorted List to Binary Search Tree (my solution is quite different from the given solutions! Check the ones in the discussion!!! This is a classic problem! The key is convert to two sub problems and for each given begin and end. The stop criterion is that when begin > end.)
 
 *********************************************************************************
 8. re-visit problems: 
