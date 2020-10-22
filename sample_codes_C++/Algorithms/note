@@ -102,6 +102,8 @@
 91. Decode Ways (a dynamic programming problem. very easy to make mistakes, '0' is a special case. re-do!!!!!!)
 394. Decode String (a very good practise. Same the beginning and endding locations of the brackests. Recursively add the strings.)
 221. Maximal Square (a very very very important dynamic programming question. remember the equation and re-do!!!!!!)
+31. Next Permutation (A very important question. I believe that I did not do it in a correct way. Have to re-do and see the solutions in the discussion.)
+1130. Minimum Cost Tree From Leaf Values (A very important question. I did not do it in a correct way. Have to re-do and see the stack solutions in the discussion.)
 
 *********************************************************************************
 8. re-visit problems: 
