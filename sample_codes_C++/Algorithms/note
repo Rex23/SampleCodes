@@ -101,6 +101,7 @@
 109. Convert Sorted List to Binary Search Tree (my solution is quite different from the given solutions! Check the ones in the discussion!!! This is a classic problem! The key is convert to two sub problems and for each given begin and end. The stop criterion is that when begin > end.)
 91. Decode Ways (a dynamic programming problem. very easy to make mistakes, '0' is a special case. re-do!!!!!!)
 394. Decode String (a very good practise. Same the beginning and endding locations of the brackests. Recursively add the strings.)
+221. Maximal Square (a very very very important dynamic programming question. remember the equation and re-do!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
