@@ -108,6 +108,7 @@
 79. Word Search (Running time is very important. This example shows this well. In in-order, it replaces the board, and in post-order, it replaces it back!!!!!! Very classic. Re-do or review this!!!)
 54. Spiral Matrix (just follow the rule.)
 127. Word Ladder (A classic BSF problem!!!!!! depth search is too costly. Use BSF can guarantee to arrive in shortest path!!!!!! do it later!!!!!!)
+199. Binary Tree Right Side View (BSF can solve this. Every time, push back the queue's last element.)
 
 *********************************************************************************
 8. re-visit problems: 
