@@ -110,6 +110,7 @@
 127. Word Ladder (A classic BSF problem!!!!!! depth search is too costly. Use BSF can guarantee to arrive in shortest path!!!!!! do it later!!!!!!)
 199. Binary Tree Right Side View (BSF can solve this. Every time, push back the queue's last element.)
 127. Word Ladder (Classic; shortest path; BFS)
+33. Search in Rotated Sorted Array (This is a classic problem!!!!!! Have to re-do!!!!!! And see the solution in the discussions!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
