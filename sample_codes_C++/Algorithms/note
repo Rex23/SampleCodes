@@ -288,6 +288,7 @@ This is an important problem. Should try doing later several times.)
 1490. Clone N-ary Tree (deep clone N-ary tree.)
 366. Find Leaves of Binary Tree (Tree problem. A very good problem. The key is to track the depth and assign to the vector. If the depth is beyond the vector size, resize the vector.)
 1448. Count Good Nodes in Binary Tree (Tree problem. Just keep track of the max element along the way!)
+6. ZigZag Conversion (Find the rule and apply it. Each row is a string. Finally add the strings together.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
@@ -846,4 +847,8 @@ int main()
   
     return 0; 
 }
+
+*string concatenation time complexity in C++:
+https://stackoverflow.com/questions/15400508/string-concatenation-complexity-in-c-and-java
+
 
