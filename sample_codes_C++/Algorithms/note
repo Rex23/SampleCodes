@@ -107,6 +107,7 @@
 322. Coin Change (a very good and important dynamic programming problem. If there is no solution, dp[i] = -1.)
 79. Word Search (Running time is very important. This example shows this well. In in-order, it replaces the board, and in post-order, it replaces it back!!!!!! Very classic. Re-do or review this!!!)
 54. Spiral Matrix (just follow the rule.)
+127. Word Ladder (A classic BSF problem!!!!!! depth search is too costly. Use BSF can guarantee to arrive in shortest path!!!!!! do it later!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
