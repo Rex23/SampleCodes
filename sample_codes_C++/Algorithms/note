@@ -112,6 +112,7 @@
 127. Word Ladder (Classic; shortest path; BFS)
 33. Search in Rotated Sorted Array (This is a classic problem!!!!!! Have to re-do!!!!!! And see the solution in the discussions!!!!!!)
 138. Copy List with Random Pointer (High frequency. Use an unordered_map can solve such kind of random pointer problem. The hash is from old to new.)
+139. Word Break (Classic and high frequency! a BFS is slow! Use Dynamic programming!)
 
 *********************************************************************************
 8. re-visit problems: 
