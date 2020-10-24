@@ -166,6 +166,9 @@ See above example
 The INNER JOIN keyword selects records that have matching values in both tables!!!
 See example in 31. 
 
+34. direct use of null
+case when count(distinct(Salary)) > 1 then min(Salary) else null
+
 **********************************************************************************************************************************************
 1294. Weather Type in Each Country (a very very good practise!!!)
 1113. Reported Posts (a very good practise)
