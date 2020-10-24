@@ -169,6 +169,10 @@ See example in 31.
 34. direct use of null
 case when count(distinct(Salary)) > 1 then min(Salary) else null
 
+35. convert to float
+Example:
+SELECT CAST(1 AS float) / CAST(3 AS float)
+
 **********************************************************************************************************************************************
 1294. Weather Type in Each Country (a very very good practise!!!)
 1113. Reported Posts (a very good practise)
@@ -181,6 +185,7 @@ case when count(distinct(Salary)) > 1 then min(Salary) else null
 #GROUP BY seller_id
 #ORDER BY SUM(price) DESC
 
+1211. Queries Quality and Percentage (Classic!!! Look at the two solutions)
 181. Employees Earning More Than Their Managers (classic!!!!!!!!!!! Did not figure out. re-do!!!!!!!!!)
 607. Sales Person (have to re-do! failed to work it out.)
 603. Consecutive Available Seats (failed to figure out. re-do!!!!!! join with itself)
