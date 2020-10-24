@@ -118,6 +118,7 @@
 518. Coin Change 2 (A high frequency problem. A classic dynamic programming problem. Did not figure out the solution. Have to re-do!!!!!!!!!!! The trick is that loop the coin first!!!)
 300. Longest Increasing Subsequence (A high frequency problem. What should I say. The solution is very unique. I am afraid that I cannot remember it long term. Practise more. Definitely re-do!!!!!!)
 131. Palindrome Partitioning (Backtracking. Note that the solution usually needs to pop_back()!!! May forget to use backtracking. re-do!!!!!!)
+1283. Find the Smallest Divisor Given a Threshold (High frequency and very good practise. A binary search problem. Find the left most solution.)
 
 *********************************************************************************
 8. re-visit problems: 
