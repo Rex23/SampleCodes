@@ -115,6 +115,7 @@
 139. Word Break (Classic and high frequency! a BFS is slow! Use Dynamic programming!)
 152. Maximum Product Subarray (High frequency. dynamic programming. Look at recommended similar quesitons. O(n) to solve it!!! very important. Can be reviewed together with problem 53 Maximum Subarray. The key here is that for any element, the maximum can either be current, or min * cur, or max * cur. re-do!!!!!!!!!!!)
 105. Construct Binary Tree from Preorder and Inorder Traversal (This is a classic and important question!!!!!! Note that pre-order, in-order, and post-order corresponds to DFS concept, which is different from BFS. Note that in-order can naturally split the array into left portion and right portion. Have to re-do!!!!!!)
+518. Coin Change 2 (A high frequency problem. A classic dynamic programming problem. Did not figure out the solution. Have to re-do!!!!!!!!!!! The trick is that loop the coin first!!!)
 
 *********************************************************************************
 8. re-visit problems: 
