@@ -120,6 +120,7 @@
 131. Palindrome Partitioning (Backtracking. Note that the solution usually needs to pop_back()!!! May forget to use backtracking. re-do!!!!!!)
 1283. Find the Smallest Divisor Given a Threshold (High frequency and very good practise. A binary search problem. Find the left most solution.)
 621. Task Scheduler (The solution is unique!!! The trick is to find the max count letters' taking space, and the compare with the task size to find the maximum!!! High freq. Did not figure it out. re-do!!!!!!!!!!!!!!!!)
+34. Find First and Last Position of Element in Sorted Array (Classic!!! can re-do. Binary search, first use lower bound and then find the right most ele.)
 
 *********************************************************************************
 8. re-visit problems: 
