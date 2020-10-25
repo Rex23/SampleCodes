@@ -122,6 +122,7 @@
 621. Task Scheduler (The solution is unique!!! The trick is to find the max count letters' taking space, and the compare with the task size to find the maximum!!! High freq. Did not figure it out. re-do!!!!!!!!!!!!!!!!)
 34. Find First and Last Position of Element in Sorted Array (Classic!!! can re-do. Binary search, first use lower bound and then find the right most ele.)
 362. Design Hit Counter (Very good design question. Classic!!! Made too many mistakes. Re-do or get familiar with the solution. Key: find an element <= threshhold, first use upper bound, and if the iter = a_vec.begin(), it means that the element cannot be found. This is different from finding an element which >= threshhold.)
+957. Prison Cells After N Days (Definitly re-do!!!!!!!!!!!! Mado so many mistakes and high freq. hash map. The main issue was that when reminder == 0, it needs to obtain the last ele, however, through the equation it got the previous last, which is out of bound!!!)
 
 *********************************************************************************
 8. re-visit problems: 
