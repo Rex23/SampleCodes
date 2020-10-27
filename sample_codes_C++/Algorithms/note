@@ -124,6 +124,7 @@
 362. Design Hit Counter (Very good design question. Classic!!! Made too many mistakes. Re-do or get familiar with the solution. Key: find an element <= threshhold, first use upper bound, and if the iter = a_vec.begin(), it means that the element cannot be found. This is different from finding an element which >= threshhold.)
 957. Prison Cells After N Days (Definitly re-do!!!!!!!!!!!! Mado so many mistakes and high freq. hash map. The main issue was that when reminder == 0, it needs to obtain the last ele, however, through the equation it got the previous last, which is out of bound!!!)
 134. Gas Station (High frequency!!! I did not figure out the solution at all. Will forget. Have to re-do!!!!!!)
+1197. Minimum Knight Moves (Classic! Highest priority! Have to re-do!!!!!! Very very very important!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
