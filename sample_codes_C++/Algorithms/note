@@ -125,7 +125,7 @@
 957. Prison Cells After N Days (Definitly re-do!!!!!!!!!!!! Mado so many mistakes and high freq. hash map. The main issue was that when reminder == 0, it needs to obtain the last ele, however, through the equation it got the previous last, which is out of bound!!!)
 134. Gas Station (High frequency!!! I did not figure out the solution at all. Will forget. Have to re-do!!!!!!)
 1197. Minimum Knight Moves (Classic! Highest priority! Have to re-do!!!!!! Very very very important!!!!!!)
-179. Largest Number (Classic and high frequency!!!!!! Have to re-do, re-do, re-do!!!!!!)
+179. Largest Number (Classic and high frequency!!!!!! Very very very important!!!!!! Have to re-do, re-do, re-do!!!!!!)
 
 *********************************************************************************
 8. re-visit problems: 
