@@ -173,7 +173,21 @@ case when count(distinct(Salary)) > 1 then min(Salary) else null
 Example:
 SELECT CAST(1 AS float) / CAST(3 AS float)
 
+36. Create function
+Example:
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+    DECLARE M INT;
+    SET M=N-1;
+    RETURN (
+      # Write your MySQL query statement below.
+      
+      SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC LIMIT M, 1
+  );
+END
+
 **********************************************************************************************************************************************
+177. Nth Highest Salary (have to re-do!!!!!! Not familiar with the syntax)
 1294. Weather Type in Each Country (a very very good practise!!!)
 1113. Reported Posts (a very good practise)
 1543. Fix Product Name Format (what a classic solution!!!!!! re-do!!!!!!!!)
