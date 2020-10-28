@@ -28,6 +28,12 @@
 
 287 + 222 + 201 + 186 + 133 + 101 + 91 + 63 + 63 + 61 + 58 + 54 + 39 + 25 = 1584 (there are overlapping problems!)
 
+************Have to re-do!***************
+240. Search a 2D Matrix II (search space reduction method. Have to re-do!!!!!! High freq and classic!)
+406. Queue Reconstruction by Height (The solution is excellent!!!!!! Did not figure out the solution! Have to re-do!!!!!!!!! Very important!!!!!!!!! sort first by h and then by k)
+348. Design Tic-Tac-Toe (classic high freq and very very important!!!!!! did not figure out the solution. Have to re-do!!!!!!)
+************Have to re-do!***************
+
 8. very important re-visit problems:
 767. Reorganize String (a very important problem! Did not figure out the solution at the beginning at all. Have to re-do!!! trick: from 1 to ..., and then from 0 to ... if a char is larger than (N + 1) / 2. no such solution...)
 1062. Longest Repeating Substring (the current solution is pretty slow although can pass. Re-do! Reference the given solution.)
@@ -126,9 +132,7 @@
 134. Gas Station (High frequency!!! I did not figure out the solution at all. Will forget. Have to re-do!!!!!!)
 1197. Minimum Knight Moves (Classic! Highest priority! Have to re-do!!!!!! Very very very important!!!!!!)
 179. Largest Number (Classic and high frequency!!!!!! Very very very important!!!!!! Have to re-do, re-do, re-do!!!!!!)
-348. Design Tic-Tac-Toe (classic high freq and very very important!!!!!! did not figure out the solution. Have to re-do!!!!!!)
 98. Validate Binary Search Tree (good practise. use return && && to solve the in-order problem.)
-406. Queue Reconstruction by Height (The solution is excellent!!!!!! Did not figure out the solution! Have to re-do!!!!!!!!! Very important!!!!!!!!! sort first by h and then by k)
 
 *********************************************************************************
 8. re-visit problems: 
