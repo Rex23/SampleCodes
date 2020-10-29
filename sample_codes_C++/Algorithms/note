@@ -42,6 +42,7 @@
 152. Maximum Product Subarray (High frequency. dynamic programming. Look at recommended similar quesitons. O(n) to solve it!!! very important. Can be reviewed together with problem 53 Maximum Subarray. The key here is that for any element, the maximum can either be current, or min * cur, or max * cur. re-do!!!!!!!!!!!)
 105. Construct Binary Tree from Preorder and Inorder Traversal (This is a classic and important question!!!!!! Note that pre-order, in-order, and post-order corresponds to DFS concept, which is different from BFS. Note that in-order can naturally split the array into left portion and right portion. Have to re-do!!!!!!)
 33. Search in Rotated Sorted Array (This is a classic problem!!!!!! Have to re-do!!!!!! And see the solution in the discussions!!!!!!)
+402. Remove K Digits (This problem is very hard to me! Have to re-do!!!!!! Very important!!!!!! Several things: 1. reverse the stack. 2. remove the leading zeros 3. remove more from the end if k is not reached. 4. become "0" if the return is empty.)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
