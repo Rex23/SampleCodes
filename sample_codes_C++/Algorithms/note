@@ -318,6 +318,7 @@ This is an important problem. Should try doing later several times.)
 987. Vertical Order Traversal of a Binary Tree (High frequency. The requirement is not clear. Actually for the same x, the layer close to root goes first, and the if same layer, the value smaller goes first.)
 103. Binary Tree Zigzag Level Order Traversal (BFS and adjust sequence.)
 1209. Remove All Adjacent Duplicates in String II (High freq. Use stack can solve it. At beginning, push {'\0', 0})
+946. Validate Stack Sequences (very good practise. Two pointers can solve this!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
