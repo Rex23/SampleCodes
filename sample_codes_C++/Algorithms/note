@@ -136,6 +136,14 @@
 1283. Find the Smallest Divisor Given a Threshold (High frequency and very good practise. A binary search problem. Find the left most solution.)
 34. Find First and Last Position of Element in Sorted Array (Classic!!! can re-do. Binary search, first use lower bound and then find the right most ele.)
 98. Validate Binary Search Tree (good practise. use return && && to solve the in-order problem.)
+738. Monotone Increasing Digits (Re-do!!!!!! Be familiar with the logic.
+        //The idea: compare the current digit with previous
+        //if it is smaller, -1 on previous digit, and add all 9
+        //if it is greater, add current digit
+        //if it is the same, three conditions:
+        //1. if the next non equal is greater, add current digit
+        //2. if the next non equal is smaller, -1 on previous digit, and add all remaining 9
+        //3. if the next non equal is always the same, return N directly.)
 
 *********************************************************************************
 8. re-visit problems: 
