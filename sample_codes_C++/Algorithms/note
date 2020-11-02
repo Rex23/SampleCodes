@@ -45,6 +45,7 @@
 33. Search in Rotated Sorted Array (This is a classic problem!!!!!! Have to re-do!!!!!! And see the solution in the discussions!!!!!!)
 402. Remove K Digits (This problem is very hard to me! Have to re-do!!!!!! Very important!!!!!! Several things: 1. reverse the stack. 2. remove the leading zeros 3. remove more from the end if k is not reached. 4. become "0" if the return is empty.)
 636. Exclusive Time of Functions (Did not figure out the solution!!! Definitely re-do!!!!!! The key is to substract the adjacent internal one. It is assumed that end and start corresponds to the same func!)
+200. Number of Islands (Have to re-do. Did not figure out. DFS)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
