@@ -1,4 +1,9 @@
-200. Number of Islands (DFS, BFS, or Union find! A classic problem.)
+Union find (or disjoint set) tutorial:
+https://www.youtube.com/watch?v=wU6udHRIkcc
+
+684. Redundant Connection
+200. Number of Islands (DFS, BFS, or Union find! A classic problem. Classic. Have to re-do.)
+Solution:
 
 class UnionFind {
 public:
