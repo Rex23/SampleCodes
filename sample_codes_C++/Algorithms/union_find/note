@@ -1,7 +1,7 @@
 Union find (or disjoint set) tutorial:
 https://www.youtube.com/watch?v=wU6udHRIkcc
 
-684. Redundant Connection
+684. Redundant Connection (A very important union find question. Find the edge which can make a cycle. Maybe see the DFS solution later?)
 200. Number of Islands (DFS, BFS, or Union find! A classic problem. Classic. Have to re-do.)
 Solution:
 
