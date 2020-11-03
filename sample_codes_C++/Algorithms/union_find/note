@@ -1,6 +1,7 @@
 Union find (or disjoint set) tutorial:
 https://www.youtube.com/watch?v=wU6udHRIkcc
 
+547. Friend Circles (a classic union find problem!)
 1101. The Earliest Moment When Everyone Become Friends
 Solution:
 class unionfind
