@@ -1,7 +1,162 @@
 Union find (or disjoint set) tutorial:
 https://www.youtube.com/watch?v=wU6udHRIkcc
 
+1101. The Earliest Moment When Everyone Become Friends
+Solution:
+class unionfind
+{
+public:
+    unionfind(int N)
+    {
+        parent.resize(N);
+        rank.resize(N);
+        
+        for (int i = 0; i < N; ++i)
+        {
+            parent[i] = i;
+            count++;
+        }
+    }
+    
+    int find(int i)
+    {
+        if (parent[i] != i) parent[i] = find(parent[i]);
+        
+        return parent[i];
+    }
+    
+    bool conduct_union(int i, int j)
+    {
+        int root_i = find(i);
+        int root_j = find(j);
+        
+        if (root_i == root_j)
+        {
+            return false;
+        }
+        else if (rank[root_i] < rank[root_j])
+        {
+            parent[root_i] = root_j;
+        }
+        else if (rank[root_i] > rank[root_j])
+        {
+            parent[root_j] = root_i;
+        }
+        else
+        {
+            parent[root_j] = root_i;
+            rank[root_i]++;
+        }
+        
+        count--;
+        
+        return true;
+    }
+    
+    int count = 0;
+
+private:
+    std::vector <int> parent;
+    std::vector <int> rank;
+};
+
+
+class Solution {
+public:
+    int earliestAcq(vector<vector<int>>& logs, int N) {
+        
+        std::map <int, std::vector <int> > map_time_log;
+        
+        for (int i = 0; i < logs.size(); ++i)
+        {
+            map_time_log[logs[i][0]] = {logs[i][1], logs[i][2]};
+        }
+        
+        unionfind test(N);
+        
+        for (auto item : map_time_log)
+        {
+            test.conduct_union(item.second[0], item.second[1]);
+            
+            if (test.count == 1) return item.first;
+        }
+        
+        return -1;
+    }
+};
+
 684. Redundant Connection (A very important union find question. Find the edge which can make a cycle. Maybe see the DFS solution later?)
+Solution:
+class union_find
+{
+public:
+    union_find(int N)
+    {
+        parent.resize(N);
+        for (int i = 1; i <= N; ++i) parent[i - 1] = i - 1;
+        rank.resize(N);
+    }
+    
+    int find(int i)
+    {
+        if (parent[i] != i) parent[i] = find(parent[i]);
+        return parent[i];
+    }
+    
+    bool a_union(int i, int j)
+    {
+        int root_i = find(i - 1);
+        int root_j = find(j - 1);
+        
+        if (root_i == root_j) 
+        {
+            return false;
+        }
+        else if (rank[root_i] < rank[root_j]) 
+        {
+            parent[root_i] = root_j;
+        }
+        else if (rank[root_i] > rank[root_j])
+        {
+            parent[root_j] = root_i;
+        }
+        else
+        {
+            parent[root_j] = root_i;
+            rank[root_i]++;
+        }
+        
+        return true;
+    }
+
+private:
+    std::vector <int> parent;
+    std::vector <int> rank;
+};
+
+class Solution {
+public:
+    vector<int> findRedundantConnection(vector<vector<int>>& edges) 
+    {   
+        //a very important union find question. Find the edge which can make a cycle. Maybe see the DFS solution later?
+        int N = 0;
+        
+        for (int i = 0; i < edges.size(); ++i)
+        {
+            N = max({N, edges[i][0], edges[i][1]});
+        }
+        
+        union_find test(N);
+        
+        for (int i = 0; i < edges.size(); ++i)
+        {
+            if (!test.a_union(edges[i][0], edges[i][1])) return edges[i];
+        }
+        
+        return {};
+    }
+};
+
 200. Number of Islands (DFS, BFS, or Union find! A classic problem. Classic. Have to re-do.)
 Solution:
 
