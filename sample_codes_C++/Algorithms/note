@@ -48,6 +48,7 @@
 200. Number of Islands (Have to re-do. Did not figure out. DFS, BFS, and Union Find. Get familiar with all the methods and the complexities.)
 684. Redundant Connection (A very important union find question. Find the edge which can make a cycle. Maybe see the DFS solution later? Similar to problem 200.)
 146. LRU Cache (Very easy to make mistakes. Highest priority. Use list and hash. Re-do!!!!!!)
+829. Consecutive Numbers Sum (It is math! Remember and re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
