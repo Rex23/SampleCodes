@@ -50,6 +50,15 @@
 146. LRU Cache (Very easy to make mistakes. Highest priority. Use list and hash. Re-do!!!!!!)
 829. Consecutive Numbers Sum (It is math! Remember and re-do!!!)
 23. Merge k Sorted Lists (A very important question. hard. use priority queue. Definitely re-do and see the last solution!!!!!!)
+
+76. Minimum Window Substring (classic. have to re-do!!!!!! sliding window. first keep l and r at 0, and then slide r, after satisfication, slide l.)
+Similar questions:
+Substring with Concatenation of All Words (Hard)
+Minimum Size Subarray Sum (Medium)
+Sliding Window Maximum (Hard)
+Permutation in String (Medium)
+Smallest Range Covering Elements from K Lists (Hard)
+Minimum Window Subsequence (Hard)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
