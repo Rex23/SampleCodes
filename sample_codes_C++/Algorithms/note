@@ -49,6 +49,7 @@
 684. Redundant Connection (A very important union find question. Find the edge which can make a cycle. Maybe see the DFS solution later? Similar to problem 200.)
 146. LRU Cache (Very easy to make mistakes. Highest priority. Use list and hash. Re-do!!!!!!)
 829. Consecutive Numbers Sum (It is math! Remember and re-do!!!)
+23. Merge k Sorted Lists (A very important question. hard. use priority queue. Definitely re-do and see the last solution!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
