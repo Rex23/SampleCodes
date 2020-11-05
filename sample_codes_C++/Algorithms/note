@@ -903,4 +903,9 @@ int main()
 *string concatenation time complexity in C++:
 https://stackoverflow.com/questions/15400508/string-concatenation-complexity-in-c-and-java
 
+*priority_queue (reverse)
+Example:
+https://en.cppreference.com/w/cpp/container/priority_queue
+std::priority_queue<int, std::vector<int>, std::greater<int> > q2;
+
 
