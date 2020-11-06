@@ -160,8 +160,9 @@ Minimum Window Subsequence (Hard)
         //1. if the next non equal is greater, add current digit
         //2. if the next non equal is smaller, -1 on previous digit, and add all remaining 9
         //3. if the next non equal is always the same, return N directly.)
-
+215. Kth Largest Element in an Array (I used priority_queue to solve the problem. Note that last given solution. Re-do.)
 *********************************************************************************
+
 8. re-visit problems: 
 1004. (sliding window) 
 1237.
