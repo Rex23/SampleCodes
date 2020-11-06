@@ -61,6 +61,7 @@ Smallest Range Covering Elements from K Lists (Hard)
 Minimum Window Subsequence (Hard)
 
 273. Integer to English Words (High freq. Very good practise. Re-do!)
+227. Basic Calculator II (strategy: seperate first based on "+-", and then based on "*/". Note that for "*/", it needs to go from back to front! It is slow! Look at the given solution!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
