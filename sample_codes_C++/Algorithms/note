@@ -171,6 +171,7 @@ Minimum Window Subsequence (Hard)
         //3. if the next non equal is always the same, return N directly.)
 215. Kth Largest Element in an Array (I used priority_queue to solve the problem. Note that last given solution. Re-do.)
 833. Find And Replace in String (A good practise. Know the idea. Get time then re-do! Relatively important because it is a Google problem.)
+1423. Maximum Points You Can Obtain from Cards (A google problem. Just choose m and n from left and right respectively. And find the maximum among all the options.)
 *********************************************************************************
 
 8. re-visit problems: 
