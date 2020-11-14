@@ -177,6 +177,7 @@ Minimum Window Subsequence (Hard)
 1376. Time Needed to Inform All Employees (A very good problem which is solved by a tree like concept! A Google problem. re-think at least! The solution in the discussion is interesting, review.)
 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum (This is one of the most important problem!!!!! Have to re-do several times!!!!!)
 721. Accounts Merge (This is a very important union find problem! Got some other faster solutions! See the C++ solution. Definitely re-do!)
+934. Shortest Bridge (A very good problem! My strategy: first identify one of the island using DFS. And then use BFS to find the minimal layers! Can re-do!)
 *********************************************************************************
 
 8. re-visit problems: 
