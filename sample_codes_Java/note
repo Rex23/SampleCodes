@@ -1,1 +1,25 @@
+1. public, private
 
+2. Map <String, String> parent = new HashMap<>();
+
+3. Map <String, TreeSet <String> > unions = new HashMap<>();
+4. if (!unions.containsKey(first_parent)) unions.put(first_parent, new TreeSet<>());
+
+5. 
+List<List<String>> accounts;
+for (List <String> account : accounts)
+{
+    for (int i = 1; i < account.size(); ++i)
+    {
+        parent.put(account.get(i), account.get(i));
+        owner.put(account.get(i), account.get(0));
+    }
+}
+
+6. keySet()
+for (String p : unions.keySet())
+{
+    List <String> temp = new ArrayList(unions.get(p));
+    temp.add(0, owner.get(p));
+    result.add(temp);
+}
