@@ -176,6 +176,7 @@ Minimum Window Subsequence (Hard)
 1146. Snapshot Array (A Google problem. a very very good practise for implementing bound on map directly. map can do iteration like iter--! map insert will not conduct if the key is already available! Re-do!)
 1376. Time Needed to Inform All Employees (A very good problem which is solved by a tree like concept! A Google problem. re-think at least! The solution in the discussion is interesting, review.)
 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum (This is one of the most important problem!!!!! Have to re-do several times!!!!!)
+721. Accounts Merge (This is a very important union find problem! Got some other faster solutions! See the C++ solution. Definitely re-do!)
 *********************************************************************************
 
 8. re-visit problems: 
