@@ -70,6 +70,7 @@ Minimum Window Subsequence (Hard)
 722. Remove Comments (A very important problem. Did not figure out the solution. Re-do!!!)
 752. Open the Lock (Breadth-First Search. Have to re-do!!! Made so many mistakes!)
 417. Pacific Atlantic Water Flow (It is a very hard and classic problem!!! Highest priority. Re-do!!! The trick is from edges to inner land! Adjacent cells have to be same or higher than current.)
+388. Longest Absolute File Path (This problem is pretty hard and very important! Made so many mistakes! The key is to use stack! Definitely re-do!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
