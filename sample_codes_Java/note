@@ -58,6 +58,9 @@ Example:
       this.visitBitmap.put(entry.getKey(), new boolean[entry.getValue().size()]);
     }
 
+*Remove last element:
+https://www.geeksforgeeks.org/removing-last-element-from-arraylist-in-java/
+
 11. Deque
 https://www.geeksforgeeks.org/deque-interface-java-example/
 add(element)	This method is used to add an element at the tail of the queue. If the Deque is capacity restricted and no space is left for insertion, it returns an IllegalStateException. The function returns true on successful insertion.
