@@ -51,6 +51,13 @@ getValue()
 10. Java packages:
 https://www.geeksforgeeks.org/packages-in-java/
 
+*Map.Entry and .entrySet():
+Example:
+    for (Map.Entry<String, List<String>> entry : this.flightMap.entrySet()) {
+      Collections.sort(entry.getValue());
+      this.visitBitmap.put(entry.getKey(), new boolean[entry.getValue().size()]);
+    }
+
 11. Deque
 https://www.geeksforgeeks.org/deque-interface-java-example/
 add(element)	This method is used to add an element at the tail of the queue. If the Deque is capacity restricted and no space is left for insertion, it returns an IllegalStateException. The function returns true on successful insertion.
