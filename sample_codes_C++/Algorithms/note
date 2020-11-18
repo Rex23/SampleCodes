@@ -182,6 +182,7 @@ Minimum Window Subsequence (Hard)
 721. Accounts Merge (This is a very important union find problem! Got some other faster solutions! See the C++ solution. Definitely re-do!)
 934. Shortest Bridge (A very good problem! My strategy: first identify one of the island using DFS. And then use BFS to find the minimal layers! Can re-do!)
 399. Evaluate Division (backtracking can solve it. A very good practise.)
+526. Beautiful Arrangement (Backtracking can solve it. High frequency.)
 *********************************************************************************
 
 8. re-visit problems: 
