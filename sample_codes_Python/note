@@ -1,3 +1,11 @@
+*args and kwargs
+Example:
+def viking_chorus(myfunc):
+    def inner_func(*args, **kwargs):
+        for i in range(8):
+            myfunc(*args, **kwargs)
+    return inner_func
+    
 *reverse a list:
 solution.reverse()
 or
