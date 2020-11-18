@@ -271,7 +271,7 @@ Example:
 if a == True and \
    b == False
    
-*Python tutorial:
+*Python inheritance tutorial:
 https://www.w3schools.com/python/python_inheritance.asp
 https://www.python-course.eu/python3_inheritance.php
 
@@ -280,8 +280,8 @@ https://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators
 https://wiki.python.org/moin/PythonDecorators
 https://www.python.org/dev/peps/pep-0318/
 
-
-
+*Python formatted output tutorial:
+https://www.python-course.eu/python3_formatted_output.php
 
 
 
