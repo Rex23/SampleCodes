@@ -1,11 +1,14 @@
-1. public, private
+*keyword: null (In Python it is None; In C++ it is NULL or nullptr)
 
-2. Map <String, String> parent = new HashMap<>();
+*public, private
 
-3. Map <String, TreeSet <String> > unions = new HashMap<>();
-4. if (!unions.containsKey(first_parent)) unions.put(first_parent, new TreeSet<>());
+*Map <String, String> parent = new HashMap<>();
 
-5. 
+*Map <String, TreeSet <String> > unions = new HashMap<>();
+
+*if (!unions.containsKey(first_parent)) unions.put(first_parent, new TreeSet<>());
+
+* 
 List<List<String>> accounts;
 for (List <String> account : accounts)
 {
@@ -16,7 +19,7 @@ for (List <String> account : accounts)
     }
 }
 
-6. keySet()
+*keySet()
 for (String p : unions.keySet())
 {
     List <String> temp = new ArrayList(unions.get(p));
@@ -24,7 +27,7 @@ for (String p : unions.keySet())
     result.add(temp);
 }
 
-7. Access modifiler classifications:
+*Access modifiler classifications:
 https://stackoverflow.com/questions/16164902/what-is-the-default-access-modifier-in-java
 Access Levels
 Modifier        Class    Package    Subclass    World
@@ -34,7 +37,7 @@ protected        Y        Y          Y           N
 (Default)        Y        Y          N           N
 private          Y        N          N           N
 
-8. Queue:
+*Queue:
 https://www.geeksforgeeks.org/queue-interface-java/
 add(element)	This method is used to add elements at the tail of queue. More specifically, at the last of linked-list if it is used, or according to the priority in case of priority queue implementation.
 element()	This method is similar to peek(). It throws NoSuchElementException when the queue is empty.
@@ -43,12 +46,12 @@ peek()	This method is used to view the head of queue without removing it. It ret
 poll()	This method removes and returns the head of the queue. It returns null if the queue is empty.
 remove()	This method removes and returns the head of the queue. It throws NoSuchElementException when the queue is empty.
 
-9. Pair:
+*Pair:
 https://www.geeksforgeeks.org/pair-class-in-java/
 getKey()
 getValue()
 
-10. Java packages:
+*Java packages:
 https://www.geeksforgeeks.org/packages-in-java/
 
 *Map.Entry and .entrySet():
@@ -80,7 +83,7 @@ an_array_list.set(i, some_new_value)
 *C++ resize correspondence:!!!
 webpages.subList(cur + 1, webpages.size()).clear(); //corresponds to C++ resize!
 
-11. Deque
+*Deque
 https://www.geeksforgeeks.org/deque-interface-java-example/
 add(element)	This method is used to add an element at the tail of the queue. If the Deque is capacity restricted and no space is left for insertion, it returns an IllegalStateException. The function returns true on successful insertion.
 addFirst(element)	This method is used to add an element at the head of the queue. If the Deque is capacity restricted and no space is left for insertion, it returns an IllegalStateException. The function returns true on successful insertion.
