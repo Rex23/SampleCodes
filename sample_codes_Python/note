@@ -1,3 +1,10 @@
+*__init__.py
+
+*class
+class QCLoad(object):
+ def __init__(self):
+  self.label = "something"
+
 *What is the difference between dict and collections.defaultdict?
 https://stackoverflow.com/questions/6589814/what-is-the-difference-between-dict-and-collections-defaultdict
 The difference is that a defaultdict will "default" a value if that key has not been set yet. If you didn't use a defaultdict you'd have to check to see if that key exists, and if it doesn't, set it to what you want.
