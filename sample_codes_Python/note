@@ -1,4 +1,18 @@
-*args and kwargs
+*slice (similar to C++ resize)
+Example:
+    def visit(self, url: str) -> None:
+        self.webpage = self.webpage[:self.cur + 1]
+        self.webpage.append(url)
+        self.cur = len(self.webpage) - 1
+
+*return None value:
+Example:
+    def visit(self, url: str) -> None:
+        self.webpage = self.webpage[:self.cur + 1]
+        self.webpage.append(url)
+        self.cur = len(self.webpage) - 1
+
+**args and **kwargs
 Example:
 def viking_chorus(myfunc):
     def inner_func(*args, **kwargs):
