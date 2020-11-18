@@ -1,3 +1,11 @@
+*Initialize a list with zeros:
+Example:
+course_status = [0] * numCourses #[0 for k in range(numCourses)]
+
+*Negate a bool:
+if not flag:
+ dosomething...
+
 *__init__.py
 https://stackoverflow.com/questions/448271/what-is-init-py-for
 
