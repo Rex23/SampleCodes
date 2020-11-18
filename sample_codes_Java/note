@@ -61,6 +61,14 @@ Example:
 *Remove last element:
 https://www.geeksforgeeks.org/removing-last-element-from-arraylist-in-java/
 
+*String comparison methods (two ways):
+1. a.equals(b)
+2. a.compareTo(b) (-1, 0, +1)
+
+*HashSet
+Check whether have an element (some_set.contains(an_element))
+Remove an element (some_set.remove(an_element))
+
 11. Deque
 https://www.geeksforgeeks.org/deque-interface-java-example/
 add(element)	This method is used to add an element at the tail of the queue. If the Deque is capacity restricted and no space is left for insertion, it returns an IllegalStateException. The function returns true on successful insertion.
