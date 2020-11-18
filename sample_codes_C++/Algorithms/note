@@ -73,6 +73,7 @@ Minimum Window Subsequence (Hard)
 388. Longest Absolute File Path (This problem is pretty hard and very important! Made so many mistakes! The key is to use stack! Definitely re-do!)
 332. Reconstruct Itinerary (This is a very important and classic problem. Highest priority. The key is to sort the destinations and once found the result, directly return. Definitely re-do! Get familiar with two methods!)
 210. Course Schedule II (This is one of the most important graph questions. Here DFS is used. The ordering is "Topological Sorted Order". Try to figure out the complexities. And try to understand another solution. Definitely re-do!!!)
+207. Course Schedule (The same idea as 210 but simpler since it does not require to get the order.)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
