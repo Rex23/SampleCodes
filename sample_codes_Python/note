@@ -230,6 +230,13 @@ list(my_counter.elements()) #in list() it is the iterator
 *namedtuple
 from collections import namedtuple
 
+*How can I do a line break (line continuation) in Python?
+https://stackoverflow.com/questions/53162/how-can-i-do-a-line-break-line-continuation-in-python
+Only use when necessary!
+Example:
+if a == True and \
+   b == False
+   
 *Python tutorial:
 https://www.w3schools.com/python/python_inheritance.asp
 https://www.python-course.eu/python3_inheritance.php
