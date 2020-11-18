@@ -1,5 +1,7 @@
 1472. Design Browser History
 
+*keyword: None (In Java it is null; In C++ it is NULL or nullptr)
+
 *Does a slicing operation give me a deep or shallow copy? (important)
 https://stackoverflow.com/questions/19068707/does-a-slicing-operation-give-me-a-deep-or-shallow-copy
 Example:
