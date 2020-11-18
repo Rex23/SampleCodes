@@ -73,6 +73,10 @@ Remove an element (some_set.remove(an_element))
 *How to pass by reference in Java:
 https://www.educative.io/edpresso/how-to-pass-by-reference-in-java
 
+*Change an element of a list
+Example:
+an_array_list.set(i, some_new_value)
+
 11. Deque
 https://www.geeksforgeeks.org/deque-interface-java-example/
 add(element)	This method is used to add an element at the tail of the queue. If the Deque is capacity restricted and no space is left for insertion, it returns an IllegalStateException. The function returns true on successful insertion.
