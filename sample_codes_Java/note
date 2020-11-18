@@ -62,12 +62,16 @@ Example:
 https://www.geeksforgeeks.org/removing-last-element-from-arraylist-in-java/
 
 *String comparison methods (two ways):
+https://www.geeksforgeeks.org/compare-two-strings-in-java/
 1. a.equals(b)
 2. a.compareTo(b) (-1, 0, +1)
 
 *HashSet
 Check whether have an element (some_set.contains(an_element))
 Remove an element (some_set.remove(an_element))
+
+*How to pass by reference in Java:
+https://www.educative.io/edpresso/how-to-pass-by-reference-in-java
 
 11. Deque
 https://www.geeksforgeeks.org/deque-interface-java-example/
