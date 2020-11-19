@@ -370,6 +370,7 @@ This is an important problem. Should try doing later several times.)
 1209. Remove All Adjacent Duplicates in String II (High freq. Use stack can solve it. At beginning, push {'\0', 0})
 946. Validate Stack Sequences (very good practise. Two pointers can solve this!)
 163. Missing Ranges (Two main conditions. Either nums.size() == 0 or nums.size() != 0.)
+1557. Minimum Number of Vertices to Reach All Nodes (The idea is that if there is incoming edge, the nodal flag will increase. After all, find all the nodes which do not have incoming edges. The idea is obtained from the problem '210. Course Schedule II' second solution.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
