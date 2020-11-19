@@ -1,5 +1,8 @@
 1472. Design Browser History
 93. Restore IP Addresses
+1557. Minimum Number of Vertices to Reach All Nodes
+
+*set is a hash set in Python
 
 *Ternary operator:
 Example:
