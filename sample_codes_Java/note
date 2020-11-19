@@ -5,6 +5,8 @@ Example:
 another_string = a_string.substring(begin_pos, end_pos);
 the_length = a_string.length();
 char a = a_string.charAt(0);
+int pos_next = path.indexOf("/", pos); //similar to C++ find
+next_dir.equals(".") //if used ==, it was wrong
 
 *Integer class:
 Integer.max(a, b);
