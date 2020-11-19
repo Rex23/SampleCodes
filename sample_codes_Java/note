@@ -6,7 +6,11 @@ Example:
 another_string = a_string.substring(begin_pos, end_pos);
 the_length = a_string.length();
 char a = a_string.charAt(0);
+
 int pos_next = path.indexOf("/", pos); //similar to C++ find
+See:
+https://stackabuse.com/java-check-if-string-contains-a-substring/
+
 next_dir.equals(".") //if used ==, it was wrong
 
 *Integer class:
