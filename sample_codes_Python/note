@@ -1,5 +1,9 @@
 1472. Design Browser History
 
+*Ternary operator:
+Example:
+max_size = min(pre_loc + 4, len(s)) if num_dots != 3 else len(s)
+
 *keyword: None (In Java it is null; In C++ it is NULL or nullptr)
 
 *Does a slicing operation give me a deep or shallow copy? (important)
