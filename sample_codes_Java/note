@@ -4,6 +4,7 @@
 Example:
 another_string = a_string.substring(begin_pos, end_pos);
 the_length = a_string.length();
+char a = a_string.charAt(0);
 
 *Integer class:
 Integer.max(a, b);
