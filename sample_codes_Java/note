@@ -1,3 +1,12 @@
+*String class:
+Example:
+another_string = a_string.substring(begin_pos, end_pos);
+the_length = a_string.length();
+
+*Integer class:
+Integer.max(a, b);
+Integer.parseInt(a_string);
+
 *keyword: null (In Python it is None; In C++ it is NULL or nullptr)
 
 *public, private
