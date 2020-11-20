@@ -31,11 +31,15 @@ class GFG {
     } 
 }
 
+*bit manipulation
+int a = 10; if (a == 0b01001){ flag = true;}
+
 *String class:
 Example:
 another_string = a_string.substring(begin_pos, end_pos);
 the_length = a_string.length();
 char a = a_string.charAt(0);
+String binRep = Integer.toBinaryString(data[i]); //In solution of 393. UTF-8 Validation
 
 int pos_next = path.indexOf("/", pos); //similar to C++ find
 See:
