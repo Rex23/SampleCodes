@@ -1007,3 +1007,7 @@ However, iter = iter + 1 is wrong!!!!!!
 
 *count on a char in a string (notice the single quote!!!)
 std::count(input.begin() + loc, input.begin() + loc_next, '\t');
+
+*bitset
+https://www.geeksforgeeks.org/c-bitset-and-its-application/
+bitset index is reversed!
