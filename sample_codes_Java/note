@@ -1,6 +1,31 @@
 93. Restore IP Addresses
 71. Simplify Path
 
+*toArray():
+Example:
+https://www.geeksforgeeks.org/arraylist-array-conversion-java-toarray-methods/
+
+import java.io.*; 
+import java.util.List; 
+import java.util.ArrayList; 
+  
+class GFG { 
+    public static void main(String[] args) 
+    { 
+        List<Integer> al = new ArrayList<Integer>(); 
+        al.add(10); 
+        al.add(20); 
+        al.add(30); 
+        al.add(40); 
+  
+        // ArrayList to Array Conversion 
+        int[] arr = al.stream().mapToInt(i -> i).toArray(); 
+  
+        for (int x : arr) 
+            System.out.print(x + " "); 
+    } 
+}
+
 *String class:
 Example:
 another_string = a_string.substring(begin_pos, end_pos);
