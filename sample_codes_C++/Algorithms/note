@@ -188,6 +188,7 @@ Minimum Window Subsequence (Hard)
 1472. Design Browser History (use vector, all the operations are constant. (No! resize is not constant. Re-do!))
 93. Restore IP Addresses (Backtracking. Be careful not to make mistakes. The last section needs to go all the way to the end.)
 71. Simplify Path (Be careful not to make so many mistakes. while(pos < path.length()) is the key. If use while(pos != path.length()), pos may be greater than path.length. Worth Re-do!)
+393. UTF-8 Validation (A very good big manipulation problem. C++ and Java are consistent in terms of binary representations!!! (e.g. 0b01101). Worth re-do!!!)
 *********************************************************************************
 
 8. re-visit problems: 
