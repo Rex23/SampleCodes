@@ -5,6 +5,9 @@
 210. Course Schedule II (indegree mehtod)
 133. Clone Graph
 
+*Pass by reference:
+All parameters (arguments) in the Python language are passed by reference. It means if you change what a parameter refers to within a function, the change also reflects back in the calling function.
+
 *Queue in Python:
 https://www.geeksforgeeks.org/queue-in-python/
 Method 1:
