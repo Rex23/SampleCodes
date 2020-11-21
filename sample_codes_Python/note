@@ -7,6 +7,7 @@
 393. UTF-8 Validation
 
 *format:
+https://stackoverflow.com/questions/16926130/convert-to-binary-and-keep-leading-zeros-in-python
 Example:
 format(14, '#010b')
 '0b00001110'
