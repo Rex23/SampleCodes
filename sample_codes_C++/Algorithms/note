@@ -4,6 +4,7 @@ Java and Python:
 55. Jump Game
 846. Hand of Straights
 777. Swap Adjacent in LR String
+652. Find Duplicate Subtrees
 
 *Remembered problems:
 
@@ -386,6 +387,7 @@ This is an important problem. Should try doing later several times.)
 1557. Minimum Number of Vertices to Reach All Nodes (The idea is that if there is incoming edge, the nodal flag will increase. After all, find all the nodes which do not have incoming edges. The idea is obtained from the problem '210. Course Schedule II' second solution.)
 785. Is Graph Bipartite? (A very good practise. I used DFS. Mark one as 1, then next is 2. If there is conflict. Return false.)
 74. Search a 2D Matrix (Be careful. The bound measures the elements corresponds to the target. Binary search.)
+652. Find Duplicate Subtrees (A Google problem. post order solves the problem. The algorithm is that each node is represented by a sequence from post order.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
