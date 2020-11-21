@@ -5,6 +5,11 @@
 210. Course Schedule II (indegree mehtod)
 133. Clone Graph
 
+*format:
+Example:
+format(14, '#010b')
+'0b00001110'
+
 *Pass by reference:
 No
 https://realpython.com/python-pass-by-reference/
