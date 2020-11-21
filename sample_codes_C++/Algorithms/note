@@ -2,6 +2,7 @@ Java and Python:
 785. Is Graph Bipartite?
 74. Search a 2D Matrix
 55. Jump Game
+846. Hand of Straights
 
 *Remembered problems:
 
@@ -80,6 +81,7 @@ Minimum Window Subsequence (Hard)
 210. Course Schedule II (This is one of the most important graph questions. Here DFS is used. The ordering is "Topological Sorted Order". Try to figure out the complexities. And try to understand another solution. Definitely re-do!!!)
 210. Course Schedule II (Method 2: Node Indegree (BFS))
 207. Course Schedule (The same idea as 210 but simpler since it does not require to get the order.)
+846. Hand of Straights (A Google problem. Very Important and Very good Practise on iterating through the container at the same time deleting elements. Needs to do it well on C++, Java, and Python! Re-do!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
