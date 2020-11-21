@@ -72,7 +72,7 @@ Example:
             auto middle = left + (right - left) / 2;
             if (nums[middle] < target) left = middle + 1;
             else if (nums[middle] == target) return middle;
-            else right = middle - 1; //right = middle works even better
+            else right = middle - 1; //right = middle works even better (but might got convergence issues......)
         }
         
         return -1;
