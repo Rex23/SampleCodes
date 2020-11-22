@@ -6,6 +6,7 @@ Java and Python:
 777. Swap Adjacent in LR String
 652. Find Duplicate Subtrees
 444. Sequence Reconstruction
+1202. Smallest String With Swaps
 
 *Remembered problems:
 
@@ -87,6 +88,7 @@ Minimum Window Subsequence (Hard)
 846. Hand of Straights (A Google problem. Very Important and Very good Practise on iterating through the container at the same time deleting elements. Needs to do it well on C++, Java, and Python! Re-do!)
 777. Swap Adjacent in LR String (A Google problem. High frequency. Very important! Re-do!!! First check: Without X, the number and relative sequence of X and R cannot change. Second check: L can only go left, and R can only go right. If L in start is smaller than L in end, it will fail. Similarly, if R in start is bigger than R in end, it will fail.)
 444. Sequence Reconstruction (This is a hard and one of the most important questions related to graph and indegree method. Definitely re-do!!!!!!)
+1202. Smallest String With Swaps (This is one of the most important questions for union find! Using graph is slow because it uses set! Re-do! Note the C++ optimized solution!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
