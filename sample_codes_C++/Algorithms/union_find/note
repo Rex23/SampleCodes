@@ -24,6 +24,8 @@ public:
         if (parent[i] != i) parent[i] = find(parent[i]);
         
         return parent[i];
+        
+        //return parent[i] == i ? i : parent[i] = find(parent[i]); //it is also Ok!!!
     }
     
     bool conduct_union(int i, int j)
