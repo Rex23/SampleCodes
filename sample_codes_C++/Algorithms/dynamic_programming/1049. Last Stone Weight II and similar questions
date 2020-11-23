@@ -31,3 +31,38 @@ public:
         return 0;
     }
 };
+
+Solution 2: (Same idea, but slow!)
+class Solution {
+public:
+    int lastStoneWeightII(vector<int>& stones) {
+        
+        //This is one of the most important questions! Get familiar of this one and similar questions. See the independent post I generate. Do not need to say more. Re-do!!!!!!
+        
+        unordered_set <int> possible_sum {0};
+        
+        int sum = 0;
+        
+        for (int i = 0; i < stones.size(); ++i)
+        {
+            sum += stones[i];
+            
+            unordered_set <int> new_pos;
+            
+            for (auto & item : possible_sum) new_pos.insert(item + stones[i]);
+            
+            possible_sum.insert(new_pos.begin(), new_pos.end());
+        }
+        
+        //cout << possible_sum.size() << endl;
+        
+        set <int> set_pos(possible_sum.begin(), possible_sum.end());
+        
+        for (auto iter = set_pos.rbegin(); iter != set_pos.rend(); ++iter)
+        {
+            if (*iter <= sum / 2) return sum - *iter - *iter;
+        }
+        
+        return 0;
+    }
+};
