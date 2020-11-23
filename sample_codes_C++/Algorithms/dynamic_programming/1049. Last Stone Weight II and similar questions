@@ -1,5 +1,8 @@
 1046. Last Stone Weight
+
 1049. Last Stone Weight II
+https://leetcode.com/problems/last-stone-weight-ii/discuss/294888/JavaC%2B%2BPython-Easy-Knapsacks-DP
+
 Solution:
 class Solution {
 public:
