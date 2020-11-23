@@ -1,1 +1,33 @@
-
+1049. Last Stone Weight II
+Solution:
+class Solution {
+public:
+    int lastStoneWeightII(vector<int>& stones) {
+        
+        //This is one of the most important questions! Get familiar of this one and similar questions. See the independent post I generate. Do not need to say more. Re-do!!!!!!
+        
+        bool dp[1501];
+        for (int i = 0; i <= 1500; ++i) dp[i] = false;
+        
+        int sum = 0;
+        
+        dp[0] = true;
+        
+        for (int i = 0; i < stones.size(); ++i)
+        {
+            sum += stones[i];
+            
+            for (int j = min(1500, sum); j >= stones[i]; j--)
+            {
+                dp[j] |= dp[j - stones[i]];
+            }
+        }
+        
+        for (int i = sum / 2; i >= 0; --i)
+        {
+            if (dp[i]) return sum - i - i;
+        }
+        
+        return 0;
+    }
+};
