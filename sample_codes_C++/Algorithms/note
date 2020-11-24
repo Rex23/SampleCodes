@@ -13,6 +13,7 @@ Java and Python:
 113. Path Sum II
 779. K-th Symbol in Grammar
 959. Regions Cut By Slashes
+861. Score After Flipping Matrix
 
 *Remembered problems:
 
@@ -216,6 +217,7 @@ Minimum Window Subsequence (Hard)
 113. Path Sum II (Very important because first, when it goes back, the vector can pop_back so it is faster, and second, note that Java alwasy pass by value. But, reference is copied but it points to the same memory!!!!!!)
 779. K-th Symbol in Grammar (The trick is to trace back the locations at each row, and then trace forward the number.)
 959. Regions Cut By Slashes (DFS solves the problem. The trick is to split the element into four sub regions.)
+861. Score After Flipping Matrix (Greedy. First change all rows' first element to 1, and then change the remaining columns.)
 *********************************************************************************
 
 8. re-visit problems: 
