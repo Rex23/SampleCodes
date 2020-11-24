@@ -14,6 +14,7 @@ Java and Python:
 779. K-th Symbol in Grammar
 959. Regions Cut By Slashes
 861. Score After Flipping Matrix
+457. Circular Array Loop
 
 *Remembered problems:
 
@@ -99,6 +100,7 @@ Minimum Window Subsequence (Hard)
 901. Online Stock Span (A very important question. Use stack and did not figure it out. Re-do!!!!!!)
 1049. Last Stone Weight II (This is one of the most important questions! Get familiar of this one and similar questions. See the independent post I generate. Do not need to say more. Re-do!!!!!!)
 241. Different Ways to Add Parentheses (what a classic and important problem! Highest priority. Did not figure it out. Re-do!!!)
+457. Circular Array Loop (this problem is extremely hard for me. I give the elements flags. Each time I increment the flags for different loops. I cannot get O(1) extra space though! Look at the given solution later. It is slow/fast pointer!!! Definitely re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
