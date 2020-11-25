@@ -1107,3 +1107,7 @@ public:
         return flags[n];
     }
 };
+
+*sizeof reference:
+When applied to a reference or a reference type, the result is the size of the referenced type.
+https://stackoverflow.com/questions/10446907/why-reference-size-is-always-4-bytes-c
