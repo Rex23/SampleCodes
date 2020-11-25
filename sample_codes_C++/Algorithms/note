@@ -16,6 +16,7 @@ Java and Python:
 861. Score After Flipping Matrix
 457. Circular Array Loop
 1578. Minimum Deletion Cost to Avoid Repeating Letters
+222. Count Complete Tree Nodes
 
 *Remembered problems:
 
@@ -102,6 +103,7 @@ Minimum Window Subsequence (Hard)
 1049. Last Stone Weight II (This is one of the most important questions! Get familiar of this one and similar questions. See the independent post I generate. Do not need to say more. Re-do!!!!!!)
 241. Different Ways to Add Parentheses (what a classic and important problem! Highest priority. Did not figure it out. Re-do!!!)
 457. Circular Array Loop (this problem is extremely hard for me. I give the elements flags. Each time I increment the flags for different loops. I cannot get O(1) extra space though! Look at the given solution later. It is slow/fast pointer!!! Definitely re-do!!!!!!)
+222 (*****). Count Complete Tree Nodes (This is one of the most important problem! And hard! It uses two binary searches. One is to identify the right most node (right most binary search), and the other is to identify whether the node is available in the tree (general binary search). Note the use of binary tree to see whether the node is there!!! Definitely re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
