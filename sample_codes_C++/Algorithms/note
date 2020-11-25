@@ -15,6 +15,7 @@ Java and Python:
 959. Regions Cut By Slashes
 861. Score After Flipping Matrix
 457. Circular Array Loop
+1578. Minimum Deletion Cost to Avoid Repeating Letters
 
 *Remembered problems:
 
@@ -220,6 +221,7 @@ Minimum Window Subsequence (Hard)
 779. K-th Symbol in Grammar (The trick is to trace back the locations at each row, and then trace forward the number.)
 959. Regions Cut By Slashes (DFS solves the problem. The trick is to split the element into four sub regions.)
 861. Score After Flipping Matrix (Greedy. First change all rows' first element to 1, and then change the remaining columns.)
+1578. Minimum Deletion Cost to Avoid Repeating Letters (a stack based algorithm solves this. Keep track of previous char and compare the costs.)
 *********************************************************************************
 
 8. re-visit problems: 
