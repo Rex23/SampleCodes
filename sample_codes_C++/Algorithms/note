@@ -108,7 +108,7 @@ Minimum Window Subsequence (Hard)
 222 (*****). Count Complete Tree Nodes (This is one of the most important problem! And hard! It uses two binary searches. One is to identify the right most node (right most binary search), and the other is to identify whether the node is available in the tree (general binary search). Note the use of binary tree to see whether the node is there!!! Definitely re-do!!!!!!)
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold (One of the most important problems. 2D presum and then right most binary search. A Google problem. Definitely re-do!!!)
 
-40. Combination Sum II (A very very important backtracking problem. The line 'if(i > index && candidates[i] == candidates[i-1]) continue;' is the key!!!!!!)
+40. Combination Sum II (A very very important backtracking problem. The line 'if(i > index && candidates[i] == candidates[i-1]) continue;' is the key!!!!!! Re-do!!!!!! Time complexity is O(2^n). Space complexity O(n). Basically, for each num you have two choices, pick it or not.)
 https://leetcode.com/problems/combination-sum-ii/discuss/16878/Combination-Sum-I-II-and-III-Java-solution-(see-the-similarities-yourself)
 All the similar problems are introduced in the thread above. Re-do!!!!!!
 ************Have to re-do!***************
