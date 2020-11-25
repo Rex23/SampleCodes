@@ -18,6 +18,7 @@ Java and Python:
 1578. Minimum Deletion Cost to Avoid Repeating Letters
 222. Count Complete Tree Nodes
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
+40. Combination Sum II
 
 *Remembered problems:
 
@@ -106,6 +107,7 @@ Minimum Window Subsequence (Hard)
 457. Circular Array Loop (this problem is extremely hard for me. I give the elements flags. Each time I increment the flags for different loops. I cannot get O(1) extra space though! Look at the given solution later. It is slow/fast pointer!!! Definitely re-do!!!!!!)
 222 (*****). Count Complete Tree Nodes (This is one of the most important problem! And hard! It uses two binary searches. One is to identify the right most node (right most binary search), and the other is to identify whether the node is available in the tree (general binary search). Note the use of binary tree to see whether the node is there!!! Definitely re-do!!!!!!)
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold (One of the most important problems. 2D presum and then right most binary search. A Google problem. Definitely re-do!!!)
+40. Combination Sum II (A very very important backtracking problem. The line 'if(i > index && candidates[i] == candidates[i-1]) continue;' is the key!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
