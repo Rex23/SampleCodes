@@ -22,6 +22,7 @@ Java and Python:
 843. Guess the Word
 373. Find K Pairs with Smallest Sums
 23. Merge k Sorted Lists
+767. Reorganize String
 
 *Remembered problems:
 
@@ -117,11 +118,11 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 843. Guess the Word (This problem is an interactive problem. My solution was gotten kind out of luck. The correct way is to find the word with least number of 0 matches and every round choose that! Re-do!)
 373. Find K Pairs with Smallest Sums (This is one of the most important problems. The idea is from 23. Merge k Sorted Lists. For priority_queue, the complexity for push and pop is in log scale. Definitely re-do!!!)
 23. Merge k Sorted Lists (This is one of the most important questions. Notice the way to generate a new list!!!!!! And notice the use of priority_queue to solve the problem! Re-do! Similar to 373.)
+767. Reorganize String (This is a very important problem! I did it the second time and did not figure it out again! Re-do! Previous comment: 767. Reorganize String (a very important problem! Did not figure out the solution at the beginning at all. Have to re-do!!! trick: from 1 to ..., and then from 0 to ... if a char is larger than (N + 1) / 2. no such solution...))
 ************Have to re-do!***************
 
 8. very important re-visit problems:
 1042. Flower Planting With No Adjacent (The problem is not easy! Did not figure out the solution. re-do!!! The logic is go through the gardens, and see what colors its neighbors have already chosen. After that, just choose the remainging one!)
-767. Reorganize String (a very important problem! Did not figure out the solution at the beginning at all. Have to re-do!!! trick: from 1 to ..., and then from 0 to ... if a char is larger than (N + 1) / 2. no such solution...)
 1062. Longest Repeating Substring (the current solution is pretty slow although can pass. Re-do! Reference the given solution.)
 1023. Camelcase Matching (string and trie?????)
 357. Count Numbers with Unique Digits (failed to solve. Two approaches. Re-do!!!!)
