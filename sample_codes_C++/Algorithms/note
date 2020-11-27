@@ -113,6 +113,7 @@ Minimum Window Subsequence (Hard)
 https://leetcode.com/problems/combination-sum-ii/discuss/16878/Combination-Sum-I-II-and-III-Java-solution-(see-the-similarities-yourself)
 All the similar problems are introduced in the thread above. Re-do!!!!!!
 843. Guess the Word (This problem is an interactive problem. My solution was gotten kind out of luck. The correct way is to find the word with least number of 0 matches and every round choose that! Re-do!)
+373. Find K Pairs with Smallest Sums (This is one of the most important problems. The idea is from 23. Merge k Sorted Lists. For priority_queue, the complexity for push and pop is in log scale. Definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
