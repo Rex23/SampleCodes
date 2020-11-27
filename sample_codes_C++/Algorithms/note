@@ -23,6 +23,7 @@ Java and Python:
 373. Find K Pairs with Smallest Sums
 23. Merge k Sorted Lists
 767. Reorganize String
+727. Minimum Window Subsequence
 
 *Remembered problems:
 
@@ -238,6 +239,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 959. Regions Cut By Slashes (DFS solves the problem. The trick is to split the element into four sub regions.)
 861. Score After Flipping Matrix (Greedy. First change all rows' first element to 1, and then change the remaining columns.)
 1578. Minimum Deletion Cost to Avoid Repeating Letters (a stack based algorithm solves this. Keep track of previous char and compare the costs.)
+727. Minimum Window Subsequence (One of the most important problems! Definitely re-do! Two pointers or DP.)
 *********************************************************************************
 
 8. re-visit problems: 
