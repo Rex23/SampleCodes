@@ -24,6 +24,7 @@ Java and Python:
 23. Merge k Sorted Lists
 767. Reorganize String
 727. Minimum Window Subsequence
+841. Keys and Rooms
 
 *Remembered problems:
 
@@ -428,6 +429,7 @@ This is an important problem. Should try doing later several times.)
 785. Is Graph Bipartite? (A very good practise. I used DFS. Mark one as 1, then next is 2. If there is conflict. Return false.)
 74. Search a 2D Matrix (Be careful. The bound measures the elements corresponds to the target. Binary search.)
 652. Find Duplicate Subtrees (A Google problem. post order solves the problem. The algorithm is that each node is represented by a sequence from post order.)
+841. Keys and Rooms (Method 1: DFS. Start from room 0 and if not all rooms are entered, false.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
