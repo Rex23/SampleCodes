@@ -29,6 +29,7 @@ Java and Python:
 1153. String Transforms Into Another String
 68. Text Justification
 323. Number of Connected Components in an Undirected Graph
+1615. Maximal Network Rank
 
 *Remembered problems:
 
@@ -257,6 +258,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
           2. One word, condition 2
           3. More than one word, condition 2.1 common lines, and condition 2.2 last line
           Very good practise.)
+1615. Maximal Network Rank (Note the use of vector <vector <int> > flag(n, vector <int>(n)) to judge whether the edge is there.)
 *********************************************************************************
 
 8. re-visit problems: 
