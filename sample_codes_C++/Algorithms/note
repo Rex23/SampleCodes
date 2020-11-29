@@ -28,6 +28,7 @@ Java and Python:
 1135. Connecting Cities With Minimum Cost
 1153. String Transforms Into Another String
 68. Text Justification
+323. Number of Connected Components in an Undirected Graph
 
 *Remembered problems:
 
@@ -445,6 +446,7 @@ This is an important problem. Should try doing later several times.)
 74. Search a 2D Matrix (Be careful. The bound measures the elements corresponds to the target. Binary search.)
 652. Find Duplicate Subtrees (A Google problem. post order solves the problem. The algorithm is that each node is represented by a sequence from post order.)
 841. Keys and Rooms (Method 1: DFS. Start from room 0 and if not all rooms are entered, false.)
+323. Number of Connected Components in an Undirected Graph (union find should solve this problem)
 
 *Problem 392: one string is a substring of another, re-visit.
 
