@@ -26,6 +26,7 @@ Java and Python:
 727. Minimum Window Subsequence
 841. Keys and Rooms
 1135. Connecting Cities With Minimum Cost
+1153. String Transforms Into Another String
 
 *Remembered problems:
 
@@ -124,6 +125,12 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 767. Reorganize String (This is a very important problem! I did it the second time and did not figure it out again! Re-do! Previous comment: 767. Reorganize String (a very important problem! Did not figure out the solution at the beginning at all. Have to re-do!!! trick: from 1 to ..., and then from 0 to ... if a char is larger than (N + 1) / 2. no such solution...))
 727. Minimum Window Subsequence (One of the most important problems! Definitely re-do! Two pointers or DP. I did not get the DP solution.)
 1135. Connecting Cities With Minimum Cost (Krushkal's algorithm implemented by sorting and union find. Very important. Did not see this kind of graph problem before. Re-do!!! Note that for sort, give reference in lambda function can significantly improve speed!)
+1153. String Transforms Into Another String (Hard! The idea is to see whether a spare letter can be found. 
+        If found, a->b->c->d, it is OK, as we can start from d.
+        If found, a->b->c->b, it is also Ok, as we can first change a -> c, and then c -> a.
+        The key is that there is one letter which does not have incoming edge!!!
+        Also, one letter cannot be changed to two different letters!!!
+        Remember and re-do!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
