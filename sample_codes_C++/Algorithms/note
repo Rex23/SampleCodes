@@ -30,6 +30,7 @@ Java and Python:
 68. Text Justification
 323. Number of Connected Components in an Undirected Graph
 1615. Maximal Network Rank
+1192. Critical Connections in a Network
 
 *Remembered problems:
 
@@ -134,6 +135,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
         The key is that there is one letter which does not have incoming edge!!!
         Also, one letter cannot be changed to two different letters!!!
         Remember and re-do!)
+1192. Critical Connections in a Network (The method is slow... Altough it works fine and I like the solution! Maybe re-visit to see better solutions? It increments the depth of the nodes, and if found the ada depth is smaller than current node, erase the edge. The depth is obtained by the returned value.)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
