@@ -34,6 +34,7 @@ Java and Python:
 1102. Path With Maximum Minimum Value (note the python solutions in the discussion!)
 260. Single Number III
 137. Single Number II
+780. Reaching Points
 
 *Remembered problems:
 
@@ -150,6 +151,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
         //Bit manipulation. Definitely re-do!!! Highest priority.
 )
 137. Single Number II (see https://lenchen.medium.com/leetcode-137-single-number-ii-31af98b0f462 and the derivations in my solution. Very important!)
+780. Reaching Points (back track the numbers from target to source. Did not figure out the solution. Re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
