@@ -125,4 +125,10 @@ note that:
  
  *X[L] ^ X[L + 1] ^ ... ^ X[R]:
  pre_sum solution, X[L] ^ X[L + 1] ^ ... X[R] = pre_sum[L - 1] ^ pre_sum[R] for L > 0 || pre_sum[R] for L == 0)
+ 
+*a ^ b will keep the difference.
+
+*a & (-a) will keep the right most bit
+
+*(a ^ b) ^ a = b or (a ^ b) ^ b = a
 
