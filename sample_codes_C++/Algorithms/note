@@ -31,6 +31,7 @@ Java and Python:
 323. Number of Connected Components in an Undirected Graph
 1615. Maximal Network Rank
 1192. Critical Connections in a Network
+1102. Path With Maximum Minimum Value (note the python solutions in the discussion!)
 
 *Remembered problems:
 
@@ -136,6 +137,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
         Also, one letter cannot be changed to two different letters!!!
         Remember and re-do!)
 1192. Critical Connections in a Network (The method is slow... Altough it works fine and I like the solution! Maybe re-visit to see better solutions? It increments the depth of the nodes, and if found the ada depth is smaller than current node, erase the edge. The depth is obtained by the returned value.)
+1102. Path With Maximum Minimum Value (union find. What a great problem and solution! Go through the elements from higher value to lower value. When both are there, connect them. Stop until 0 and m*n - 1 are connected. Did not figure out. Dijkstra's method has to be understood also. The Python solutions in the Discuss is awsome!!!!!! Have to re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
