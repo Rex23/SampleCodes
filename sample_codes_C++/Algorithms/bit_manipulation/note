@@ -133,3 +133,8 @@ note that:
 
 *(a ^ b) ^ a = b or (a ^ b) ^ b = a
 
+*hexadecimal number example:
+https://stackoverflow.com/questions/10493411/what-is-bit-masking
+uint8_t mask = 0x0f;   // 00001111b
+uint8_t value = 0x55;  // 01010101b
+
