@@ -5,6 +5,7 @@
 342. Power of Four (note the without loop solution)
 1310. XOR Queries of a Subarray (pre_sum solution, X[L] ^ X[L + 1] ^ ... X[R] = pre_sum[L - 1] ^ pre_sum[R] for L > 0 || pre_sum[R] for L == 0)
 260. Single Number III (did not solve it... re-do and understand the solution.)
+137. Single Number II (very important! See the derivations!)
 
 *In C++ octal numbers are denoted by beginning always with a 0 digit.
 http://www.cplusplus.com/doc/hex/
