@@ -38,6 +38,7 @@ Java and Python:
 1368. Minimum Cost to Make at Least One Valid Path in a Grid
 735. Asteroid Collision
 301. Remove Invalid Parentheses
+19. Remove Nth Node From End of List
 
 *Remembered problems:
 
@@ -157,6 +158,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 780. Reaching Points (back track the numbers from target to source. Did not figure out the solution. Re-do!!!!!!)
 1368. Minimum Cost to Make at Least One Valid Path in a Grid (Quite slow. Not a satisifying solution. Review 1102 Dijkstra and then this!!! Re-do!!!)
 301. Remove Invalid Parentheses (Top priority!!!!!! Can understand the solution. It is extremely hard! Definitely re-do and re-do!!!!!! Can do backtracking later.)
+19. Remove Nth Node From End of List (Method 1: two pass: from left to right, it is L - n + 1. OMG. This is a very very very import linked list problem!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
