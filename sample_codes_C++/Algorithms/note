@@ -37,6 +37,7 @@ Java and Python:
 780. Reaching Points
 1368. Minimum Cost to Make at Least One Valid Path in a Grid
 735. Asteroid Collision
+301. Remove Invalid Parentheses
 
 *Remembered problems:
 
@@ -155,6 +156,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 137. Single Number II (see https://lenchen.medium.com/leetcode-137-single-number-ii-31af98b0f462 and the derivations in my solution. Very important!)
 780. Reaching Points (back track the numbers from target to source. Did not figure out the solution. Re-do!!!!!!)
 1368. Minimum Cost to Make at Least One Valid Path in a Grid (Quite slow. Not a satisifying solution. Review 1102 Dijkstra and then this!!! Re-do!!!)
+301. Remove Invalid Parentheses (Do not understand the solution!!!!!! I do not think that I can solve it in an interview using this. Do backtracking later!!!!!! Top priority!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
