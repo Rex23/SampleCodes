@@ -39,6 +39,7 @@ Java and Python:
 735. Asteroid Collision
 301. Remove Invalid Parentheses
 19. Remove Nth Node From End of List
+749. Contain Virus
 
 *Remembered problems:
 
@@ -159,6 +160,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 1368. Minimum Cost to Make at Least One Valid Path in a Grid (Quite slow. Not a satisifying solution. Review 1102 Dijkstra and then this!!! Re-do!!!)
 301. Remove Invalid Parentheses (Top priority!!!!!! Can understand the solution. It is extremely hard! Definitely re-do and re-do!!!!!! Can do backtracking later.)
 19. Remove Nth Node From End of List (Method 1: two pass: from left to right, it is L - n + 1. OMG. This is a very very very import linked list problem!!! Method 2: Fake one pass solution:) Get familiar with both solutions! Very good practise!)
+749. Contain Virus (Several key points: 1. The most dangerous one is the one with most adjacent cells instead of walls! 2. My algorithm is quite slow. Next time, I can obtain the cells in danger and regions simultaneously to speedup!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
