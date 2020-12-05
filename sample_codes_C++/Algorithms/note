@@ -40,6 +40,7 @@ Java and Python:
 301. Remove Invalid Parentheses
 19. Remove Nth Node From End of List
 749. Contain Virus
+128. Longest Consecutive Sequence
 
 *Remembered problems:
 
@@ -161,6 +162,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 301. Remove Invalid Parentheses (Top priority!!!!!! Can understand the solution. It is extremely hard! Definitely re-do and re-do!!!!!! Can do backtracking later.)
 19. Remove Nth Node From End of List (Method 1: two pass: from left to right, it is L - n + 1. OMG. This is a very very very import linked list problem!!! Method 2: Fake one pass solution:) Get familiar with both solutions! Very good practise!)
 749. Contain Virus (Several key points: 1. The most dangerous one is the one with most adjacent cells instead of walls! 2. My algorithm is quite slow. Next time, I can obtain the cells in danger and regions simultaneously to speedup!!!)
+128. Longest Consecutive Sequence (bravo. Just use hash and for each streak head keep on finding. Did not figure it out. Re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
