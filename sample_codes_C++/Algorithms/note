@@ -44,6 +44,7 @@ Java and Python:
 825. Friends Of Appropriate Ages
 536. Construct Binary Tree from String
 802. Find Eventual Safe States
+1335. Minimum Difficulty of a Job Schedule
 
 *Remembered problems:
 
@@ -294,6 +295,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
           3. More than one word, condition 2.1 common lines, and condition 2.2 last line
           Very good practise.)
 1615. Maximal Network Rank (Note the use of vector <vector <int> > flag(n, vector <int>(n)) to judge whether the edge is there.)
+1335. Minimum Difficulty of a Job Schedule (This is a dynamic programming (dp) hard problem!!! I only used the first solution in https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/discuss/490316/JavaC%2B%2BPython3-DP-O(nd)-Solution to solve it. Definitely re-do!!! Very important!!!)
 *********************************************************************************
 
 8. re-visit problems: 
