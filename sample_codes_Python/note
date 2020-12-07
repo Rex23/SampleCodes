@@ -1,3 +1,7 @@
+*inf and maxsize
+https://stackoverflow.com/questions/7781260/how-can-i-represent-an-infinite-number-in-python
+https://stackoverflow.com/questions/7604966/maximum-and-minimum-values-for-ints
+
 *Initialize a 2D array:
 dp = [[1000000] * d for i in range(n)] 
 dp = [[1000000] * d] * n #wrong!!!!!!!!!!!!!!!!!!!!!! (don't know why!!!)
