@@ -4,6 +4,17 @@
 133. Clone Graph
 1042. Flower Planting With No Adjacent
 
+*Arrays fill
+https://www.baeldung.com/java-initialize-array
+https://stackoverflow.com/questions/7118178/arrays-fill-with-multidimensional-array-in-java
+*example:
+import java.util.Arrays;
+for (int [] row : dp)
+  Arrays.fill(row, large_num);
+
+*Arrays stream
+Arrays.stream(jobDifficulty + i).max().getAsInt();
+
 *How to pass by reference in Java:
 https://www.educative.io/edpresso/how-to-pass-by-reference-in-java
 
