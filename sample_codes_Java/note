@@ -97,6 +97,10 @@ protected        Y        Y          Y           N
 (Default)        Y        Y          N           N
 private          Y        N          N           N
 
+*PriorityQueue with Pair:
+Example:
+Queue <Pair<Integer, Integer>> a_q = new PriorityQueue <>(Comparator.comparing(Pair::getKey)); //Note Comparator.comparing(Pair::getKey)!!!
+
 *Queue:
 https://www.geeksforgeeks.org/queue-interface-java/
 add(element)	This method is used to add elements at the tail of queue. More specifically, at the last of linked-list if it is used, or according to the priority in case of priority queue implementation.
