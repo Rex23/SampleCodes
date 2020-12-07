@@ -7,6 +7,10 @@
 393. UTF-8 Validation
 1042. Flower Planting With No Adjacent
 
+*Initialize a 2D array:
+dp = [[1000000] * d for i in range(n)] 
+dp = [[1000000] * d] * n #wrong!!!!!!!!!!!!!!!!!!!!!! (don't know why!!!)
+
 *format:
 https://stackoverflow.com/questions/16926130/convert-to-binary-and-keep-leading-zeros-in-python
 Example:
