@@ -53,6 +53,7 @@ Java and Python:
 536. Construct Binary Tree from String
 802. Find Eventual Safe States (Java and Python)
 1335. Minimum Difficulty of a Job Schedule (Java and Python)
+1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
 
 *Remembered problems:
 
@@ -178,6 +179,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 825. Friends Of Appropriate Ages (I used sort which is pretty slow. Another solution is using presum and some math like B > 0.5 * A + 7 and B <= A -> ... A Facebook high frequency problem. Re-do!!!!!!)
 536. Construct Binary Tree from String (my solution is slow!!! Look at the given C++ solution which is very clean and one pass! Definitely re-do!!!!!! A very important tree and string problem!!!!!!)
 802. Find Eventual Safe States (my strategy: 0: not evaluated; 1: already given a flag; 2: end; -1: already judged to be unsafe!!! Took too long to finish. Very important!!! Re-do!!!)
+1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance (used Dijkstra's algorithm to find the shortest path to one source, and then repeat n times. very slow and a lot of repeated work. See the Floyd-Warshall's algorithm and re-do!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
