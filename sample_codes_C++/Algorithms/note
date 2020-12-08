@@ -63,6 +63,7 @@ Java and Python:
 990. Satisfiability of Equality Equations
 743. Network Delay Time
 886. Possible Bipartition
+1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 
 *Remembered problems:
 
@@ -510,6 +511,7 @@ This is an important problem. Should try doing later several times.)
 735. Asteroid Collision (Use stack to solve it.)
 990. Satisfiability of Equality Equations (Just use union find to solve it. Seems worked pretty well.)
 743. Network Delay Time (Dijkstra's algorithm can solve it.)
+1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree (My strategy: pre-order original and cloned at the same time.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
