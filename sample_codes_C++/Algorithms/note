@@ -60,6 +60,7 @@ Java and Python:
 1335. Minimum Difficulty of a Job Schedule (Java and Python)
 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance (Java and Python)
 295. Find Median from Data Stream (Java and Python (Good practise of heap))
+990. Satisfiability of Equality Equations
 
 *Remembered problems:
 
@@ -504,6 +505,7 @@ This is an important problem. Should try doing later several times.)
 841. Keys and Rooms (Method 1: DFS. Start from room 0 and if not all rooms are entered, false.)
 323. Number of Connected Components in an Undirected Graph (union find should solve this problem)
 735. Asteroid Collision (Use stack to solve it.)
+990. Satisfiability of Equality Equations (Just use union find to solve it. Seems worked pretty well.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
