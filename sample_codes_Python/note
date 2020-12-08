@@ -1,4 +1,4 @@
-*******************************************************************************
+***********************************topics**************************************
 Topics:
 *lambda function:
 https://realpython.com/python-lambda/
@@ -9,7 +9,23 @@ https://www.geeksforgeeks.org/args-kwargs-python/
 
 *heapq:
 https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/
-*******************************************************************************
+***********************************topics**************************************
+***********************************tutorials***********************************
+*Python inheritance tutorial:
+https://www.w3schools.com/python/python_inheritance.asp
+https://www.python-course.eu/python3_inheritance.php
+
+*Decorator:
+https://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators
+https://wiki.python.org/moin/PythonDecorators
+https://www.python.org/dev/peps/pep-0318/
+
+*Python formatted output tutorial:
+https://www.python-course.eu/python3_formatted_output.php
+
+*Python tutorials:
+https://www.geeksforgeeks.org/args-kwargs-python/
+***********************************tutorials***********************************
 
 Python knowledge test:
 https://realpython.com/quizzes/
@@ -372,21 +388,6 @@ Only use when necessary!
 Example:
 if a == True and \
    b == False
-   
-*Python inheritance tutorial:
-https://www.w3schools.com/python/python_inheritance.asp
-https://www.python-course.eu/python3_inheritance.php
-
-*Decorator:
-https://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators
-https://wiki.python.org/moin/PythonDecorators
-https://www.python.org/dev/peps/pep-0318/
-
-*Python formatted output tutorial:
-https://www.python-course.eu/python3_formatted_output.php
-
-*Python tutorials:
-https://www.geeksforgeeks.org/args-kwargs-python/
 
 
 
