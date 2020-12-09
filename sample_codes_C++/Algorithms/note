@@ -67,6 +67,7 @@ Java and Python:
 1641. Count Sorted Vowel Strings
 980. Unique Paths III
 1273. Delete Tree Nodes
+1664. Ways to Make a Fair Array
 
 *Remembered problems:
 
@@ -518,6 +519,7 @@ This is an important problem. Should try doing later several times.)
 990. Satisfiability of Equality Equations (Just use union find to solve it. Seems worked pretty well.)
 743. Network Delay Time (Dijkstra's algorithm can solve it.)
 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree (My strategy: pre-order original and cloned at the same time.)
+1664. Ways to Make a Fair Array (DP. The trick is to record the pre_sum and odd and even respectively. And after some index, they will flip. Go through the indexes to check whether the sum are equal.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
