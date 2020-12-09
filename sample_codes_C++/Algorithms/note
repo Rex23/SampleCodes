@@ -66,6 +66,7 @@ Java and Python:
 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 1641. Count Sorted Vowel Strings
 980. Unique Paths III
+1273. Delete Tree Nodes
 
 *Remembered problems:
 
@@ -322,6 +323,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 1335. Minimum Difficulty of a Job Schedule (This is a dynamic programming (dp) hard problem!!! I only used the first solution in https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/discuss/490316/JavaC%2B%2BPython3-DP-O(nd)-Solution to solve it. Definitely re-do!!! Very important!!!)
 1641. Count Sorted Vowel Strings (Given the words, add the letters alphabetically. For example, "aa" can add 'a', 'e', 'i', 'o', and 'u', and 'ae' can add 'e', 'i', 'o', 'u'. So that the last letter of the word matters. Re-do.)
 980. Unique Paths III (Designated as hard. I use dfs and backtracking to solve it. Note that the time complexity is 3^N because in the worst case, we have to try 3 directions except for the source!)
+1273. Delete Tree Nodes (Very good tree like practise!)
 *********************************************************************************
 
 8. re-visit problems: 
