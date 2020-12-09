@@ -68,6 +68,7 @@ Java and Python:
 980. Unique Paths III
 1273. Delete Tree Nodes
 1664. Ways to Make a Fair Array
+712. Minimum ASCII Delete Sum for Two Strings
 
 *Remembered problems:
 
@@ -196,6 +197,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance (used Dijkstra's algorithm to find the shortest path to one source, and then repeat n times. very slow and a lot of repeated work. See the Floyd-Warshall's algorithm and re-do!)
 295. Find Median from Data Stream (I did not figure out the solution at all! By using two heaps. Note that for C++ it is maxheap. Also, it is possible that the interviewer will ask for other solutions! See the other binary search solution. Definitely re-do!!!!!!)
 886. Possible Bipartition (A very good question! Did not figure it out in the first place. DFS. With depth change, the flag is alternating. If found conflict, return false! Can re-do or get familiar with the algorithm!)
+*****712. Minimum ASCII Delete Sum for Two Strings (Very classic!!! One of the most important DP questions! Do not need to say more. Re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
