@@ -71,6 +71,7 @@ Java and Python:
 1273. Delete Tree Nodes
 1664. Ways to Make a Fair Array
 712. Minimum ASCII Delete Sum for Two Strings
+1143. Longest Common Subsequence
 
 *Remembered problems:
 
@@ -200,6 +201,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 295. Find Median from Data Stream (I did not figure out the solution at all! By using two heaps. Note that for C++ it is maxheap. Also, it is possible that the interviewer will ask for other solutions! See the other binary search solution. Definitely re-do!!!!!!)
 886. Possible Bipartition (A very good question! Did not figure it out in the first place. DFS. With depth change, the flag is alternating. If found conflict, return false! Can re-do or get familiar with the algorithm!)
 *****712. Minimum ASCII Delete Sum for Two Strings (Very classic!!! One of the most important DP questions! Do not need to say more. Re-do!!!!!!)
+1143. Longest Common Subsequence (Also very classic. But a little easier than 712. Very good practise!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
