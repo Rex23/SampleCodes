@@ -72,6 +72,7 @@ Java and Python:
 1664. Ways to Make a Fair Array
 712. Minimum ASCII Delete Sum for Two Strings
 1143. Longest Common Subsequence
+1328. Break a Palindrome
 
 *Remembered problems:
 
@@ -526,6 +527,7 @@ This is an important problem. Should try doing later several times.)
 743. Network Delay Time (Dijkstra's algorithm can solve it.)
 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree (My strategy: pre-order original and cloned at the same time.)
 1664. Ways to Make a Fair Array (DP. The trick is to record the pre_sum and odd and even respectively. And after some index, they will flip. Go through the indexes to check whether the sum are equal.)
+1328. Break a Palindrome (Strategy: if only one letter, return ""; if found first non 'a' letter, replace it with 'a'. if not found non 'a' letter, replace the last with 'b'.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
