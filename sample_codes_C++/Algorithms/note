@@ -74,6 +74,7 @@ Java and Python:
 1143. Longest Common Subsequence
 1328. Break a Palindrome
 1105. Filling Bookcase Shelves
+904. Fruit Into Baskets
 
 *Remembered problems:
 
@@ -204,6 +205,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 886. Possible Bipartition (A very good question! Did not figure it out in the first place. DFS. With depth change, the flag is alternating. If found conflict, return false! Can re-do or get familiar with the algorithm!)
 *****712. Minimum ASCII Delete Sum for Two Strings (Very classic!!! One of the most important DP questions! Do not need to say more. Re-do!!!!!!)
 1143. Longest Common Subsequence (Also very classic. But a little easier than 712. Very good practise!!!!!!)
+*****904. Fruit Into Baskets (One of the most important two pointers problem!!!!!! Longest sub-array with K different types of numbers!!!!!! Re-do!!!!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
