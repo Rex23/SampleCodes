@@ -76,6 +76,7 @@ Java and Python:
 1105. Filling Bookcase Shelves
 904. Fruit Into Baskets
 1402. Reducing Dishes
+1055. Shortest Way to Form String
 
 *Remembered problems:
 
@@ -207,6 +208,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 *****712. Minimum ASCII Delete Sum for Two Strings (Very classic!!! One of the most important DP questions! Do not need to say more. Re-do!!!!!!)
 1143. Longest Common Subsequence (Also very classic. But a little easier than 712. Very good practise!!!!!!)
 *****904. Fruit Into Baskets (One of the most important two pointers problem!!!!!! Longest sub-array with K different types of numbers!!!!!! Re-do!!!!!!!!!)
+*****1055. Shortest Way to Form String (My top-down DP method is pretty awkward and slow! The greedy method is hard to me!!! Top-Priority. Have to re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
