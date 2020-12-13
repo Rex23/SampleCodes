@@ -78,6 +78,7 @@ Java and Python:
 1402. Reducing Dishes
 1055. Shortest Way to Form String
 1504. Count Submatrices With All Ones
+759. Employee Free Time (The given Jave solution has to be figured out!)
 
 *Remembered problems:
 
@@ -211,6 +212,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 *****904. Fruit Into Baskets (One of the most important two pointers problem!!!!!! Longest sub-array with K different types of numbers!!!!!! Re-do!!!!!!!!!)
 *****1055. Shortest Way to Form String (My top-down DP method is pretty awkward and slow! The greedy method is hard to me!!! Top-Priority. Have to re-do!!!!!!)
 ****1504. Count Submatrices With All Ones (The brute force way works pretty well!!! Get familiar with this! I failed it during mock interview. Re-do!!!!!!)
+759. Employee Free Time (A very good heap question. Designated as hard. I did not figure it out at all! The trick is to use heap to save all the intervals. and then get the free time one by one by heap pop. Re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
