@@ -82,6 +82,7 @@ Java and Python:
 516. Longest Palindromic Subsequence
 1372. Longest ZigZag Path in a Binary Tree
 1255. Maximum Score Words Formed by Letters
+1066. Campus Bikes II
 
 *Remembered problems:
 
@@ -364,6 +365,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 1105. Filling Bookcase Shelves (I used memoization (top-down) to solve it. Maybe look at the bottom-up method later.)
 1402. Reducing Dishes (Designated as hard. The strategy is that first find the index for the element with value >= 0, and then go backward to the beginning. Do not make mistakes!)
 1372. Longest ZigZag Path in a Binary Tree (Almost did not work out. The trick is to track the max length for all nodes instead of only the root!!! Can re-do!!!)
+1066. Campus Bikes II (This is a great question! Combination of backtracking and DP. Note that for DP, the state can be (1 << M)!!! Can re-do!!!)
 *********************************************************************************
 
 8. re-visit problems: 
