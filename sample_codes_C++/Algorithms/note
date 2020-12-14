@@ -81,6 +81,7 @@ Java and Python:
 759. Employee Free Time (The given Jave solution has to be figured out!)
 516. Longest Palindromic Subsequence
 1372. Longest ZigZag Path in a Binary Tree
+1255. Maximum Score Words Formed by Letters
 
 *Remembered problems:
 
@@ -223,6 +224,13 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
   else
         dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
   Re-do!!!!!!        
+)
+****1255. Maximum Score Words Formed by Letters
+(
+        Hard! One of the most important backtracking problems! The time complexity is 2^words.size(). There are two places confused me:
+        1. The time complexity should not be factorial of words.size(), i.e. workds.size()!. The reason is that the factorial is for permutation of all the possibilities of words, and the sequence matters! The 2^words.size() is to decide whether choose a word or not!
+        2. For backtracking, the implementation is:
+          for (int i = index; i < words.length; i++){, in which index increments in every recursive call! Remember the pattern!
 )
 ************Have to re-do!***************
 
