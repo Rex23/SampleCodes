@@ -84,6 +84,7 @@ Java and Python:
 1255. Maximum Score Words Formed by Letters
 1066. Campus Bikes II
 96. Unique Binary Search Trees
+1274. Number of Ships in a Rectangle
 
 *Remembered problems:
 
@@ -234,6 +235,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
         2. For backtracking, the implementation is:
           for (int i = index; i < words.length; i++){, in which index increments in every recursive call! Remember the pattern!
 )
+1274. Number of Ships in a Rectangle (Designated as hard. Note that the assertion below needs to be added. The time complexity is max(log(M), log(N))?)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
