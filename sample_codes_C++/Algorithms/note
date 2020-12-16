@@ -88,6 +88,7 @@ Java and Python:
 646. Maximum Length of Pair Chain (Practise Java!)
 1463. Cherry Pickup II
 669. Trim a Binary Search Tree
+431. Encode N-ary Tree to Binary Tree
 
 *Remembered problems:
 
@@ -242,6 +243,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 646. Maximum Length of Pair Chain (greedy! Great! I thought out DP solution based on first element sort. It is O(n^2). The greedy approach first sort the array based on the second element and it is O(nlog(n))! Re-do!!!)
 *****1463. Cherry Pickup II (This is hard!!!!!! Two tricky parts: 1. The states should be [m][n][n]. 2. The state should accumulate from the last row back to the first row, and the returned state should be dp[0][0][n - 1] as the starting locations have to be at col 0 and n - 1 respectively!!! Did not work it out at all. One of the most important questions. Re-do!!!!!!)
 *****669. Trim a Binary Search Tree (This is designated as easy but it is not! Re-do!!!)
+431. Encode N-ary Tree to Binary Tree (This is a hard tree problem!!! Did not figure it out! Made so many mistakes!!! Re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
