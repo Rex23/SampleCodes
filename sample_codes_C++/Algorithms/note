@@ -1340,3 +1340,9 @@ public:
 *sizeof reference:
 When applied to a reference or a reference type, the result is the size of the referenced type.
 https://stackoverflow.com/questions/10446907/why-reference-size-is-always-4-bytes-c
+
+*****Store return value of function in reference C++
+https://stackoverflow.com/questions/2822243/store-return-value-of-function-in-reference-c
+It is not allowed to bind the temporary to a non-const reference, but if you make your reference const you will extend the lifetime of the temporary to the reference, see this Danny Kalev post about it.
+In short:
+const A& mySecondObject = myFunction();
