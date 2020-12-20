@@ -96,6 +96,7 @@ Java and Python:
 1140. Stone Game II
 1028. Recover a Tree From Preorder Traversal
 85. Maximal Rectangle
+1026. Maximum Difference Between Node and Ancestor
 
 *Remembered problems:
 
@@ -257,6 +258,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 ********337. House Robber III (One of the most important tree problems!!! The tree should concentrate on the current root!!! There is another way which returns a single max value with memoization! Re-do!!!!!!)
 *****1140. Stone Game II (This is a very classic top-down DP problem. Did not figure it out. Re-do!!!!!!)
 ********1028. Recover a Tree From Preorder Traversal (Hard!!! What a great solution!!!!!! Highest priority!!!!!! It uses stack to generate the tree!!!!!! Did not figure out the solution at all!!! The most important stack and tree problem!!!)
+1026. Maximum Difference Between Node and Ancestor (I used bottom-up approach. The given solution used top-down approach. The trick is the max min it can get either from bottom up or top down.)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
