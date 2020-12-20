@@ -266,7 +266,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 (R) 1062. Longest Repeating Substring (the current solution is pretty slow although can pass. Re-do! Reference the given solution.)
 1023. Camelcase Matching (string and trie?????)
 357. Count Numbers with Unique Digits (failed to solve. Two approaches. Re-do!!!!)
-279. Perfect Squares (dynamic programming! do not make mistakes. re-do!)
+(R (second time did not work out)) 279. Perfect Squares (dynamic programming! do not make mistakes. re-do! Time complexity is O(n * sqrt(n)). I did not work it out the second time! The reason is that I only need to consider the previous ones which are squares!)
 729. My Calendar I (my lord. I had no clue at all! very hard to me! use set and lower_bound. re-do!!!!)
 991. Broken Calculator (failed to work it out. very important. re-do!!!)
 313. Super Ugly Number (had no clue at all!!!)
