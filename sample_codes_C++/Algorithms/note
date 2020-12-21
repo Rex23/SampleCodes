@@ -99,6 +99,7 @@ Java and Python:
 1026. Maximum Difference Between Node and Ancestor
 1235. Maximum Profit in Job Scheduling
 616. Add Bold Tag in String (Java to do)
+407. Trapping Rain Water II (Java to do)
 
 *Remembered problems:
 
@@ -397,6 +398,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 1372. Longest ZigZag Path in a Binary Tree (Almost did not work out. The trick is to track the max length for all nodes instead of only the root!!! Can re-do!!!)
 1066. Campus Bikes II (This is a great question! Combination of backtracking and DP. Note that for DP, the state can be (1 << M)!!! Can re-do!!! See the priority solution later!)
 85. Maximal Rectangle (Designated as hard. Used the "number of rectanges" solution to solve it. May re-visit for the DP solution.)
+407. Trapping Rain Water II (https://leetcode.com/problems/trapping-rain-water-ii/discuss/89461/Java-solution-using-PriorityQueue. See the above explanation again. Have to re-visit.)
 *********************************************************************************
 
 8. re-visit problems: 
