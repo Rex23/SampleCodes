@@ -100,6 +100,7 @@ Java and Python:
 1235. Maximum Profit in Job Scheduling
 616. Add Bold Tag in String (Java to do)
 407. Trapping Rain Water II (Java to do)
+384. Shuffle an Array
 
 *Remembered problems:
 
@@ -264,6 +265,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 1026. Maximum Difference Between Node and Ancestor (I used bottom-up approach. The given solution used top-down approach. The trick is the max min it can get either from bottom up or top down.)
 1235. Maximum Profit in Job Scheduling (This problem is hard and the solution really rocks. One of the most important questions!!!!!! It is DP and uses map. Re-do!!!!!!)
 616. Add Bold Tag in String (The problem needs attention! Would have been failed!!!!!! Same as 758! It uses flag to mark the bold indexes!!! The time complexity is O(n * m). Re-do!!!!!!)
+384. Shuffle an Array (this is the interview random reshuffle problem which I failed in the interview.)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
