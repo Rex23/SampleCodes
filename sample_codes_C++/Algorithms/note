@@ -102,6 +102,7 @@ Java and Python:
 407. Trapping Rain Water II (Java to do)
 384. Shuffle an Array
 277. Find the Celebrity
+726. Number of Atoms (Java and Python to do)
 
 *Remembered problems:
 
@@ -268,6 +269,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 616. Add Bold Tag in String (The problem needs attention! Would have been failed!!!!!! Same as 758! It uses flag to mark the bold indexes!!! The time complexity is O(n * m). Re-do!!!!!!)
 384. Shuffle an Array (this is the interview random reshuffle problem which I failed in the interview.)
 277. Find the Celebrity (My way of solving it is brute-force with some kind of optimizations. There is a O(n) way. One pass check and we know whether it is a potential candidate. Needs to Re-do, Re-do, and Re-do!!!!!!)
+726. Number of Atoms (Designated as hard. Just be careful and do not make mistakes! Recursively solve it. For each recursion, it can either start with '(' or letter. Each upper case letter starts a new atom.)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
