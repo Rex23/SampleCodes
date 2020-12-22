@@ -103,6 +103,7 @@ Java and Python:
 384. Shuffle an Array
 277. Find the Celebrity
 726. Number of Atoms (Java and Python to do)
+428. Serialize and Deserialize N-ary Tree (Java and Python to do)
 
 *Remembered problems:
 
@@ -270,6 +271,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 384. Shuffle an Array (this is the interview random reshuffle problem which I failed in the interview.)
 277. Find the Celebrity (My way of solving it is brute-force with some kind of optimizations. There is a O(n) way. One pass check and we know whether it is a potential candidate. Needs to Re-do, Re-do, and Re-do!!!!!!)
 726. Number of Atoms (Designated as hard. Just be careful and do not make mistakes! Recursively solve it. For each recursion, it can either start with '(' or letter. Each upper case letter starts a new atom.)
+428. Serialize and Deserialize N-ary Tree (Hard and Fun!!! This is a great question! I used DFS pre-order to serialize the nodes, and then I used stack to de-serialize it! Definitely study the other methods!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
