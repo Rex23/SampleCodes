@@ -110,6 +110,7 @@ Java and Python:
 297. Serialize and Deserialize Binary Tree
 403. Frog Jump
 124. Binary Tree Maximum Path Sum
+435. Non-overlapping Intervals
 
 *Remembered problems:
 
@@ -280,6 +281,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 428. Serialize and Deserialize N-ary Tree (Hard and Fun!!! This is a great question! I used DFS pre-order to serialize the nodes, and then I used stack to de-serialize it! Definitely study the other methods!!!!!!)
 297. Serialize and Deserialize Binary Tree (This problem is not the same as the N-ary tree problem!!! The reason is that we need to know whether the node belongs to the left or the right sub node! As such, I introduced one more degree to output whether it is left or right, i.e. (val, dir, depth). I again used pre-order DFS to do it and it is kind of slow. Check out the solutions and re-do!!!!!!)
 403. Frog Jump (Designated as hard. I used priority_queue. It works well! And I believe the time complexity is O(n * 3) = O(n).)
+435. Non-overlapping Intervals (Very important!!! Same algorithm as in 1235. Maximum Profit in Job Scheduling. One of the most important interval problems. Re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
