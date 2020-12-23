@@ -106,6 +106,7 @@ Java and Python:
 428. Serialize and Deserialize N-ary Tree (Java and Python to do)
 187. Repeated DNA Sequences
 228. Summary Ranges
+993. Cousins in Binary Tree
 
 *Remembered problems:
 
@@ -608,6 +609,7 @@ This is an important problem. Should try doing later several times.)
 96. Unique Binary Search Trees (The strategy: iterate the root number, and the left and right are sub trees. If one of the sub tree is 0, just add the other. If both are non-zero, add the combinations of the two sub-trees.)
 187. Repeated DNA Sequences (Should be easy...)
 228. Summary Ranges (Just go through the elements to find continuous range.)
+993. Cousins in Binary Tree (Just pre-order DFS with parent val as input and find x, y can solve the problem.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
