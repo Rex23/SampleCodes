@@ -108,6 +108,7 @@ Java and Python:
 228. Summary Ranges
 993. Cousins in Binary Tree
 297. Serialize and Deserialize Binary Tree
+403. Frog Jump
 
 *Remembered problems:
 
@@ -277,6 +278,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 726. Number of Atoms (Designated as hard. Just be careful and do not make mistakes! Recursively solve it. For each recursion, it can either start with '(' or letter. Each upper case letter starts a new atom.)
 428. Serialize and Deserialize N-ary Tree (Hard and Fun!!! This is a great question! I used DFS pre-order to serialize the nodes, and then I used stack to de-serialize it! Definitely study the other methods!!!!!!)
 297. Serialize and Deserialize Binary Tree (This problem is not the same as the N-ary tree problem!!! The reason is that we need to know whether the node belongs to the left or the right sub node! As such, I introduced one more degree to output whether it is left or right, i.e. (val, dir, depth). I again used pre-order DFS to do it and it is kind of slow. Check out the solutions and re-do!!!!!!)
+403. Frog Jump (Designated as hard. I used priority_queue. It works well! And the time complexity is O(n).)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
