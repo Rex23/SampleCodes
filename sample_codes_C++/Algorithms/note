@@ -113,6 +113,7 @@ Java and Python:
 435. Non-overlapping Intervals
 834. Sum of Distances in Tree (Java and Python to do)
 1672. Richest Customer Wealth (Python to do)
+286. Walls and Gates
 
 *Remembered problems:
 
@@ -421,6 +422,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 85. Maximal Rectangle (Designated as hard. Used the "number of rectanges" solution to solve it. May re-visit for the DP solution.)
 407. Trapping Rain Water II (https://leetcode.com/problems/trapping-rain-water-ii/discuss/89461/Java-solution-using-PriorityQueue. See the above explanation again. Have to re-visit.)
 124. Binary Tree Maximum Path Sum (designated as hard. For each node, return the max of (l + root -> val, r + root -> val, root -> val). The max_val is: max({max_val, l + root->val + r, l + root -> val, r + root->val, root->val}). As the number can be negative, so that the max can either be sub tree plus itself or just the value of the node itself.)
+286. Walls and Gates (A very classic BFS problem. Use the gates as starting points to find the closest distance! Worth re-do!)
 *********************************************************************************
 
 8. re-visit problems: 
