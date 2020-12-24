@@ -283,6 +283,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 297. Serialize and Deserialize Binary Tree (This problem is not the same as the N-ary tree problem!!! The reason is that we need to know whether the node belongs to the left or the right sub node! As such, I introduced one more degree to output whether it is left or right, i.e. (val, dir, depth). I again used pre-order DFS to do it and it is kind of slow. Check out the solutions and re-do!!!!!!)
 403. Frog Jump (Designated as hard. I used priority_queue. It works well! And I believe the time complexity is O(n * 3) = O(n).)
 435. Non-overlapping Intervals (Very important!!! Same algorithm as in 1235. Maximum Profit in Job Scheduling. One of the most important interval problems. Also, see the one in the discussions!!! Re-do!!!)
+********834. Sum of Distances in Tree (This is hard and one of the most important problems!!!!!!! I did not figure out the solution!!!!!!!! It is unconventional tree, and the problem is solved by post order first to get the sum based on the chosen root. And then it uses pre-order to get the sum of the children!!!!!!!! Amazing!!!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
@@ -419,7 +420,6 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 85. Maximal Rectangle (Designated as hard. Used the "number of rectanges" solution to solve it. May re-visit for the DP solution.)
 407. Trapping Rain Water II (https://leetcode.com/problems/trapping-rain-water-ii/discuss/89461/Java-solution-using-PriorityQueue. See the above explanation again. Have to re-visit.)
 124. Binary Tree Maximum Path Sum (designated as hard. For each node, return the max of (l + root -> val, r + root -> val, root -> val). The max_val is: max({max_val, l + root->val + r, l + root -> val, r + root->val, root->val}). As the number can be negative, so that the max can either be sub tree plus itself or just the value of the node itself.)
-834. Sum of Distances in Tree (This is hard and one of the most important problems!!!!!!! I did not figure out the solution!!!!!!!! It is unconventional tree, and the problem is solved by post order first to get the sum based on the chosen root. And then it uses pre-order to get the sum of the children!!!!!!!! Amazing!!!!!!!!)
 *********************************************************************************
 
 8. re-visit problems: 
