@@ -112,6 +112,7 @@ Java and Python:
 124. Binary Tree Maximum Path Sum
 435. Non-overlapping Intervals
 834. Sum of Distances in Tree (Java and Python to do)
+1672. Richest Customer Wealth (Python to do)
 
 *Remembered problems:
 
@@ -620,6 +621,7 @@ This is an important problem. Should try doing later several times.)
 187. Repeated DNA Sequences (Should be easy...)
 228. Summary Ranges (Just go through the elements to find continuous range.)
 993. Cousins in Binary Tree (Just pre-order DFS with parent val as input and find x, y can solve the problem.)
+1672. Richest Customer Wealth (Easy. Python to do.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
