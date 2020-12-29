@@ -115,6 +115,7 @@ Java and Python:
 1672. Richest Customer Wealth (Python to do)
 286. Walls and Gates
 471. Encode String with Shortest Length
+1326. Minimum Number of Taps to Open to Water a Garden
 
 *Remembered problems:
 
@@ -288,6 +289,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 435. Non-overlapping Intervals (Very important!!! Same algorithm as in 1235. Maximum Profit in Job Scheduling. One of the most important interval problems. Also, see the one in the discussions!!! Re-do!!!)
 ********834. Sum of Distances in Tree (This is hard and one of the most important problems!!!!!!! I did not figure out the solution!!!!!!!! It is unconventional tree, and the problem is solved by post order first to get the sum based on the chosen root. And then it uses pre-order to get the sum of the children!!!!!!!! Amazing!!!!!!!!)
 ********471. Encode String with Shortest Length （There are two reasonings: 1. dp[i][j] = dp[i][k] + dp[k+1][j] in which k = i to j - 1 2. dp[i][j] can be represented by some repeated pattern which can be shorter. It is very tricky here! The repeated pattern corresponds to the original substring, and if repeated pattern is found, the substring is replaced by the dp. Oh my goodness!!!!!! This is one of the most important dp and string problem!!!!!! Re-do!!!!!!）
+********1326. Minimum Number of Taps to Open to Water a Garden (Hard!!! One of the most important DP problems!!!!!! Re-do!!! Basically it initialize the dp with big number and go through 0 to n to see whether can find smaller numbers.)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
