@@ -122,6 +122,7 @@ Java and Python:
 239. Sliding Window Maximum (Java to do!)
 1239. Maximum Length of a Concatenated String with Unique Characters
 920. Number of Music Playlists
+43. Multiply Strings
 
 *Remembered problems:
 
@@ -301,6 +302,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 239. Sliding Window Maximum (Hard. Use a deque to save the indexes. If the previous indexes are out of range, pop_front the previous indexes. And if the previous elements are smaller than the current elements, pop_back them. Therefore, the front of the deque always keeps the max element!!!!!! And the amortized time complexity is O(n)!!!!!! I only figured out a O(nlog(k)) solution and did not figure out this solution. Definitely get familiar with this and Re-do!!!!!!)
 1239. Maximum Length of a Concatenated String with Unique Characters (Backtracking solves this. Time complexity: O(2^arr.size()). Do not make indexing errors (e.g. do not mistakenly use index + 1 for i + 1). Lee's solution is amazing. A classic example of bit manipulation and dp. This dp algorithm achieves the same effect of backtracking for all 2^arr.size() cases. Re-do following Lee's algorithm!!!!!!)
 ********920. Number of Music Playlists (Hard!!!!!! Top priority. One of the most important questions. It is extremely hard for me to derive the DP relationships!!! Definitely re-do!!!!!!)
+****43. Multiply Strings (My solution uses map which is slow. Definitely try the one in the discussions!!! Re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
