@@ -123,6 +123,7 @@ Java and Python:
 1239. Maximum Length of a Concatenated String with Unique Characters
 920. Number of Music Playlists
 43. Multiply Strings
+741. Cherry Pickup
 
 *Remembered problems:
 
@@ -303,6 +304,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 1239. Maximum Length of a Concatenated String with Unique Characters (Backtracking solves this. Time complexity: O(2^arr.size()). Do not make indexing errors (e.g. do not mistakenly use index + 1 for i + 1). Lee's solution is amazing. A classic example of bit manipulation and dp. This dp algorithm achieves the same effect of backtracking for all 2^arr.size() cases. Re-do following Lee's algorithm!!!!!!)
 ********920. Number of Music Playlists (Hard!!!!!! Top priority. One of the most important questions. It is extremely hard for me to derive the DP relationships!!! Definitely re-do!!!!!!)
 ****43. Multiply Strings (My solution uses map which is slow. Definitely try the one in the discussions!!! Re-do!!!!!!)
+*********741. Cherry Pickup (This is extremely hard. One of the hardest problem!!! Defintely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
