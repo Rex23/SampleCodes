@@ -444,7 +444,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 124. Binary Tree Maximum Path Sum (designated as hard. For each node, return the max of (l + root -> val, r + root -> val, root -> val). The max_val is: max({max_val, l + root->val + r, l + root -> val, r + root->val, root->val}). As the number can be negative, so that the max can either be sub tree plus itself or just the value of the node itself.)
 286. Walls and Gates (A very classic BFS problem. Use the gates as starting points to find the closest distance! Worth re-do!)
 1229. Meeting Scheduler (For one array's each start point, find the closest end point of another array and see whether it can last the duration. It also needs to check another way around! Worth re-do!)
-863. All Nodes Distance K in Binary Tree (First set up relationship between the node and its parent for all nodes. And then for the target node, the distance K is either for the nodes below the target or between the target and anyone below one of the parent of the target. The problem is tricky and it uses a hashmap. Definitely get familiar and re-do!!!!!!)
+863. All Nodes Distance K in Binary Tree (First set up relationship between the node and its parent for all nodes. And then for the target node, the distance K is either for the nodes below the target or between the target and anyone below one of the parent of the target. The problem is tricky and it uses a hashmap. See the one in the discussions also! Definitely get familiar and re-do!!!!!!)
 *********************************************************************************
 
 8. re-visit problems: 
