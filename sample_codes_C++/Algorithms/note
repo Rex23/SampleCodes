@@ -128,6 +128,7 @@ Java and Python:
 468. Validate IP Address
 1091. Shortest Path in Binary Matrix
 140. Word Break II
+314. Binary Tree Vertical Order Traversal
 
 *Remembered problems:
 
@@ -451,6 +452,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 863. All Nodes Distance K in Binary Tree (First set up relationship between the node and its parent for all nodes. And then for the target node, the distance K is either for the nodes below the target or between the target and anyone below one of the parent of the target. The problem is tricky and it uses a hashmap. See the one in the discussions also! Definitely get familiar and re-do!!!!!!)
 468. Validate IP Address (Very good string manipulation practise!!!)
 1091. Shortest Path in Binary Matrix (DP and Dijkstra's algorithm solve this problem! Note that DFS cannot pass as it is very time consuming. Very good practise. Worth re-do!)
+314. Binary Tree Vertical Order Traversal (Indexing col and depth when do pre-order DFS can solve the problem. Look at maybe better solutions later.)
 *********************************************************************************
 
 8. re-visit problems: 
