@@ -126,6 +126,7 @@ Java and Python:
 741. Cherry Pickup
 863. All Nodes Distance K in Binary Tree
 468. Validate IP Address
+1091. Shortest Path in Binary Matrix
 
 *Remembered problems:
 
@@ -447,6 +448,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 1229. Meeting Scheduler (For one array's each start point, find the closest end point of another array and see whether it can last the duration. It also needs to check another way around! Worth re-do!)
 863. All Nodes Distance K in Binary Tree (First set up relationship between the node and its parent for all nodes. And then for the target node, the distance K is either for the nodes below the target or between the target and anyone below one of the parent of the target. The problem is tricky and it uses a hashmap. See the one in the discussions also! Definitely get familiar and re-do!!!!!!)
 468. Validate IP Address (Very good string manipulation practise!!!)
+1091. Shortest Path in Binary Matrix (DP and Dijkstra's algorithm solve this problem! Note that DFS cannot pass as it is very time consuming. Very good practise. Worth re-do!)
 *********************************************************************************
 
 8. re-visit problems: 
