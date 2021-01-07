@@ -129,6 +129,7 @@ Java and Python:
 1091. Shortest Path in Binary Matrix
 140. Word Break II
 314. Binary Tree Vertical Order Traversal
+1163. Last Substring in Lexicographical Order
 
 *Remembered problems:
 
@@ -311,6 +312,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 ****43. Multiply Strings (My solution uses map which is slow. Definitely try the one in the discussions!!! Re-do!!!!!!)
 *********741. Cherry Pickup (This is extremely hard. One of the hardest problem!!! Defintely re-do!!!)
 *********140. Word Break II (This is one of the hardest problems I encountered!!! The main reason is that a lot of my previous submissions are TLE. It has to use DP and it uses unordered_map to save the dp. Definitely re-do!!!!!! And get familiar with the complexities !!!!!! (Time: N^2 + 2^N + W; Space: 2^N * N + N^2 + W))
+****1163. Last Substring in Lexicographical Order (Hard. My idea is to only check the positions with the largest char and also the longest following length of the largest char. It is kind of slow. The solution in the discussion is amazing! But I don't think I can remember the solution!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
