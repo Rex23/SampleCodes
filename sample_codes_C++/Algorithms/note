@@ -130,6 +130,7 @@ Java and Python:
 140. Word Break II
 314. Binary Tree Vertical Order Traversal
 1163. Last Substring in Lexicographical Order
+102. Binary Tree Level Order Traversal (Java)
 
 *Remembered problems:
 
@@ -455,6 +456,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 468. Validate IP Address (Very good string manipulation practise!!!)
 1091. Shortest Path in Binary Matrix (DP and Dijkstra's algorithm solve this problem! Note that DFS cannot pass as it is very time consuming. Very good practise. Worth re-do!)
 314. Binary Tree Vertical Order Traversal (Indexing col and depth when do pre-order DFS can solve the problem. Look at maybe better solutions later.)
+102. Binary Tree Level Order Traversal (I used BFS to solve it. Get familiar with both BFS and recursion solutions! Not familiar with Java syntax. Very slow. Should practise Java more and more.)
 *********************************************************************************
 
 8. re-visit problems: 
