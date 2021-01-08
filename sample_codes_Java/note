@@ -64,6 +64,16 @@ https://stackabuse.com/java-check-if-string-contains-a-substring/
 
 next_dir.equals(".") //if used ==, it was wrong
 
+Example:
+                if (tokens[i].equals("+")) result = pre1 + pre2;
+                else if (tokens[i].equals("-")) result = pre2 - pre1;
+                else if (tokens[i].equals("*")) result = pre1 * pre2;
+                else if (tokens[i].equals("/")) result = pre2 / pre1;
+ //If used ==, it was wrong!!! equals only compares the values
+ 
+ Example for indexOf:
+ tokens[i].indexOf('+') != -1
+
 *Integer class:
 Integer.max(a, b);
 Integer.parseInt(a_string);
