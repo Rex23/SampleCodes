@@ -1426,3 +1426,6 @@ https://stackoverflow.com/questions/2822243/store-return-value-of-function-in-re
 It is not allowed to bind the temporary to a non-const reference, but if you make your reference const you will extend the lifetime of the temporary to the reference, see this Danny Kalev post about it.
 In short:
 const A& mySecondObject = myFunction();
+
+*find_last_not_of or find_last_of
+find_last_not_of (const string& str, size_t pos = npos) const; //note that pos is the last position to be considered of!!!!!!
