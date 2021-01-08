@@ -131,6 +131,7 @@ Java and Python:
 314. Binary Tree Vertical Order Traversal
 1163. Last Substring in Lexicographical Order
 102. Binary Tree Level Order Traversal (Java and Python)
+150. Evaluate Reverse Polish Notation (Java and Python)
 
 *Remembered problems:
 
@@ -658,6 +659,7 @@ This is an important problem. Should try doing later several times.)
 228. Summary Ranges (Just go through the elements to find continuous range.)
 993. Cousins in Binary Tree (Just pre-order DFS with parent val as input and find x, y can solve the problem.)
 1672. Richest Customer Wealth (Easy. Python to do.)
+150. Evaluate Reverse Polish Notation (Python: Divide two integers always do floor division, fixed by using int(float(a) / b); Java: equals compares the content and == compares the reference)
 
 *Problem 392: one string is a substring of another, re-visit.
 
