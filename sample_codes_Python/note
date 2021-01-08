@@ -48,6 +48,9 @@ https://stackoverflow.com/questions/7604966/maximum-and-minimum-values-for-ints
 dp = [[1000000] * d for i in range(n)] 
 dp = [[1000000] * d] * n #wrong!!!!!!!!!!!!!!!!!!!!!! (don't know why!!!)
 
+*Divide two integers always do floor division, e.g. 1 / -10 = -1
+fixed by using int(float(a) / b)!!!!!!
+
 *format:
 https://stackoverflow.com/questions/16926130/convert-to-binary-and-keep-leading-zeros-in-python
 Example:
