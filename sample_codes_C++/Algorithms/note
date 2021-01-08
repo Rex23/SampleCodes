@@ -316,6 +316,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 *********741. Cherry Pickup (This is extremely hard. One of the hardest problem!!! Defintely re-do!!!)
 *********140. Word Break II (This is one of the hardest problems I encountered!!! The main reason is that a lot of my previous submissions are TLE. It has to use DP and it uses unordered_map to save the dp. Definitely re-do!!!!!! And get familiar with the complexities !!!!!! (Time: N^2 + 2^N + W; Space: 2^N * N + N^2 + W))
 ****1163. Last Substring in Lexicographical Order (Hard. My idea is to only check the positions with the largest char and also the longest following length of the largest char. It is kind of slow. The solution in the discussion is amazing! But I don't think I can remember the solution!!!)
+****151. Reverse Words in a String (If the solution should be in-place and O(1) extra space. It is hard! This is a very good problem to implement insert on a string. The time complexity is O(N) where N is the length of the new string. It seems "result.insert(0, token + " ");" and "result = token + " " + result;" are of the same time complexity, but the former is faster!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
@@ -661,7 +662,6 @@ This is an important problem. Should try doing later several times.)
 993. Cousins in Binary Tree (Just pre-order DFS with parent val as input and find x, y can solve the problem.)
 1672. Richest Customer Wealth (Easy. Python to do.)
 150. Evaluate Reverse Polish Notation (Python: Divide two integers always do floor division, fixed by using int(float(a) / b); Java: equals compares the content and == compares the reference)
-151. Reverse Words in a String (This is a very good problem to implement insert on a string. The time complexity is O(N) where N is the length of the new string. It seems "result.insert(0, token + " ");" and "result = token + " " + result;" are of the same time complexity, but the former is faster!)
 
 *Problem 392: one string is a substring of another, re-visit.
 
