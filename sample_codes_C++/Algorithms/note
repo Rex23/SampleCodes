@@ -133,6 +133,7 @@ Java and Python:
 102. Binary Tree Level Order Traversal (Java and Python)
 150. Evaluate Reverse Polish Notation (Java and Python)
 151. Reverse Words in a String
+494. Target Sum
 
 *Remembered problems:
 
@@ -317,6 +318,9 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 *********140. Word Break II (This is one of the hardest problems I encountered!!! The main reason is that a lot of my previous submissions are TLE. It has to use DP and it uses unordered_map to save the dp. Definitely re-do!!!!!! And get familiar with the complexities !!!!!! (Time: N^2 + 2^N + W; Space: 2^N * N + N^2 + W))
 ****1163. Last Substring in Lexicographical Order (Hard. My idea is to only check the positions with the largest char and also the longest following length of the largest char. It is kind of slow. The solution in the discussion is amazing! But I don't think I can remember the solution!!!)
 ****151. Reverse Words in a String (If the solution should be in-place and O(1) extra space. It is hard! This is a very good problem to implement insert on a string. The time complexity is O(N) where N is the length of the new string. It seems "result.insert(0, token + " ");" and "result = token + " " + result;" are of the same time complexity, but the former is faster!)
+*********494. Target Sum (Highest priority!!! A classic 0/1 Knapsack DP problem!!! Definitely re-do!!! The way of handling 2^n possibility is great!!!!!! In addition, the explanation in the discussion is great!!! Also, note the time and space complexities!!!!!!
+Time complexity: O(l * n). l referes to the range of sum and n refers to the size of nums array.
+Space complexity: O(l * n). The depth of recursion can go upto n. The dp array contains l * n elements. )
 ************Have to re-do!***************
 
 8. very important re-visit problems:
