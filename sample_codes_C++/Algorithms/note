@@ -136,6 +136,7 @@ Java and Python:
 494. Target Sum
 542. 01 Matrix
 1383. Maximum Performance of a Team
+1722. Minimize Hamming Distance After Swap Operations
 
 *Remembered problems:
 
@@ -467,6 +468,7 @@ Space complexity: O(l * n). The depth of recursion can go upto n. The dp array c
 1091. Shortest Path in Binary Matrix (DP and Dijkstra's algorithm solve this problem! Note that DFS cannot pass as it is very time consuming. Very good practise. Worth re-do!)
 314. Binary Tree Vertical Order Traversal (Indexing col and depth when do pre-order DFS can solve the problem. Look at maybe better solutions later.)
 102. Binary Tree Level Order Traversal (I used BFS to solve it. Get familiar with both BFS and recursion solutions! Not familiar with Java syntax. Very slow. Should practise Java more and more.)
+1722. Minimize Hamming Distance After Swap Operations (The problem is encountered in the contest. I solved it using union find and multiset. However, the solution in the discussion can reduce it to unordered_multiset. The trick is to loop through the ones in the target, and if it is found in the unordered_set, it will erase it. In the contest, I was not familiar with parent stuff and set_difference. Get familiar with those knowledge again!!! Worth re-do!!!!!!)
 *********************************************************************************
 
 8. re-visit problems: 
