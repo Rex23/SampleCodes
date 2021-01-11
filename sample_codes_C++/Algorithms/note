@@ -137,6 +137,7 @@ Java and Python:
 542. 01 Matrix
 1383. Maximum Performance of a Team
 1722. Minimize Hamming Distance After Swap Operations
+1723. Find Minimum Time to Finish All Jobs
 
 *Remembered problems:
 
@@ -325,6 +326,7 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 Time complexity: O(l * n). l referes to the range of sum and n refers to the size of nums array.
 Space complexity: O(l * n). The depth of recursion can go upto n. The dp array contains l * n elements. )
 *****1383. Maximum Performance of a Team (Hard!!! First sort it based on efficiency, and then maintain a priority q of length up to k. A very good question. Did not figure it out. Definitely re-do!!!)
+********1723. Find Minimum Time to Finish All Jobs (Hard. Failed in the contest. Re-do!!!!!! DFS with branch cuttings. Maybe see other solutions.)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
