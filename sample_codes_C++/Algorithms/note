@@ -1458,3 +1458,6 @@ const A& mySecondObject = myFunction();
 
 *find_last_not_of or find_last_of
 find_last_not_of (const string& str, size_t pos = npos) const; //note that pos is the last position to be considered of!!!!!!
+
+*inplace_merge
+http://www.cplusplus.com/reference/algorithm/inplace_merge/
