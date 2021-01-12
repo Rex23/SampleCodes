@@ -139,6 +139,8 @@ Java and Python:
 1722. Minimize Hamming Distance After Swap Operations
 1723. Find Minimum Time to Finish All Jobs
 315. Count of Smaller Numbers After Self
+698. Partition to K Equal Sum Subsets
+416. Partition Equal Subset Sum
 
 *Remembered problems:
 
@@ -339,7 +341,7 @@ https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 ********416. Partition Equal Subset Sum (It uses dfs, branch cutting, pre-sort (seems not very effective), and dynamic programming. It is only two buckets so that dp is easier. However, it seems it is a kind of knapsack problem. Get familiar with other solutions and definitely re-do!!!)
 //A similar problem bundle
 
-********315. Count of Smaller Numbers After Self (Hard. It used merge sort. One of the most important questions. I did not figure out the solution and I don't think I can re-produce the succuess. Definitely re-do!!!!!!)
+*********315. Count of Smaller Numbers After Self (Hard. It used merge sort. One of the most important questions. I did not figure out the solution and I don't think I can re-produce the succuess. Definitely re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
