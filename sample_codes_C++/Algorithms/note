@@ -327,10 +327,18 @@ All the similar problems are introduced in the thread above. Re-do!!!!!!
 Time complexity: O(l * n). l referes to the range of sum and n refers to the size of nums array.
 Space complexity: O(l * n). The depth of recursion can go upto n. The dp array contains l * n elements. )
 *****1383. Maximum Performance of a Team (Hard!!! First sort it based on efficiency, and then maintain a priority q of length up to k. A very good question. Did not figure it out. Definitely re-do!!!)
+
+//A similar problem bundle
 ********1723. Find Minimum Time to Finish All Jobs (Hard. Failed in the contest. Re-do!!!!!! DFS with branch cuttings. Maybe see other solutions. As seen in the discussion, 
 Two other similar questions are
 https://leetcode.com/problems/matchsticks-to-square/
 https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+********698. Partition to K Equal Sum Subsets (This problem is very very important!!! It has two ways of solving: The first is that at each depth, we go through the nums to fill a bucket of size sum(nums) / k. The time complexity is k * 2^nums.size().
+        //The second solution is that at each depth (fixed nums index), we go through the k buckets to see whether we can find k equal buckets. The time complexity is k^nums.size(). As it is of higher computational demanding, it definitely needs pre-sort and some branch cutting!!!
+        //Definitely re-do and get familiar with such kind of problems!!!!!!)
+********416. Partition Equal Subset Sum (It uses dfs, branch cutting, pre-sort (seems not very effective), and dynamic programming. It is only two buckets so that dp is easier.)
+//A similar problem bundle
+
 ********315. Count of Smaller Numbers After Self (Hard. It used merge sort. One of the most important questions. I did not figure out the solution and I don't think I can re-produce the succuess. Definitely re-do!!!!!!)
 ************Have to re-do!***************
 
