@@ -138,6 +138,7 @@ Java and Python:
 1383. Maximum Performance of a Team
 1722. Minimize Hamming Distance After Swap Operations
 1723. Find Minimum Time to Finish All Jobs
+315. Count of Smaller Numbers After Self
 
 *Remembered problems:
 
@@ -330,6 +331,7 @@ Space complexity: O(l * n). The depth of recursion can go upto n. The dp array c
 Two other similar questions are
 https://leetcode.com/problems/matchsticks-to-square/
 https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+********315. Count of Smaller Numbers After Self (Hard. It used merge sort. One of the most important questions. I did not figure out the solution and I don't think I can re-produce the succuess. Definitely re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
