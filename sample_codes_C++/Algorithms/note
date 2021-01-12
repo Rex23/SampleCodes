@@ -141,6 +141,7 @@ Java and Python:
 315. Count of Smaller Numbers After Self
 698. Partition to K Equal Sum Subsets
 416. Partition Equal Subset Sum
+114. Flatten Binary Tree to Linked List
 
 *Remembered problems:
 
@@ -344,6 +345,7 @@ https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 //A similar problem bundle
 
 *********315. Count of Smaller Numbers After Self (Hard. It used merge sort. One of the most important questions. I did not figure out the solution and I don't think I can re-produce the succuess. Definitely re-do!!!!!!)
+*****114. Flatten Binary Tree to Linked List (I used queue to solve the problem. It was more time consuming and needs more space. The given solution is amazing! It reversed the pre-order and then assign the root's right with the previous root. The concept is great! Definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
