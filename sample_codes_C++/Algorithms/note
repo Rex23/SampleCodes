@@ -145,6 +145,7 @@ Java and Python:
 218. The Skyline Problem
 622. Design Circular Queue
 912. Sort an Array
+658. Find K Closest Elements
 
 *Remembered problems:
 
@@ -711,6 +712,7 @@ This is an important problem. Should try doing later several times.)
 1672. Richest Customer Wealth (Easy. Python to do.)
 150. Evaluate Reverse Polish Notation (Python: Divide two integers always do floor division, fixed by using int(float(a) / b); Java: equals compares the content and == compares the reference)
 542. 01 Matrix (A good BFS problem. Once the method is determined, it is easy to solve. Note that there are some other variations of problems which require other methods!)
+658. Find K Closest Elements (Two pointers solve the problem.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
