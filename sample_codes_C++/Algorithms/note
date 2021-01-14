@@ -147,6 +147,7 @@ Java and Python:
 912. Sort an Array
 658. Find K Closest Elements
 567. Permutation in String
+165. Compare Version Numbers (Java and Python to do)
 
 *Remembered problems:
 
@@ -715,6 +716,7 @@ This is an important problem. Should try doing later several times.)
 150. Evaluate Reverse Polish Notation (Python: Divide two integers always do floor division, fixed by using int(float(a) / b); Java: equals compares the content and == compares the reference)
 542. 01 Matrix (A good BFS problem. Once the method is determined, it is easy to solve. Note that there are some other variations of problems which require other methods!)
 658. Find K Closest Elements (Two pointers solve the problem.)
+165. Compare Version Numbers (A string problem. Give a pointer of each string solved the problem. Just be careful.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
