@@ -146,6 +146,7 @@ Java and Python:
 622. Design Circular Queue
 912. Sort an Array
 658. Find K Closest Elements
+567. Permutation in String
 
 *Remembered problems:
 
@@ -362,6 +363,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
         //Definitely re-do by using other algorithms!!!
 )
 //sort!!!
+******567. Permutation in String(Two pointers solve the problem!!! Only after I saw related topics I figured out the two pointers solution. This problem is very important. Have to re-do and re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
