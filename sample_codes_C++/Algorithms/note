@@ -148,6 +148,7 @@ Java and Python:
 658. Find K Closest Elements
 567. Permutation in String
 165. Compare Version Numbers (Java and Python to do)
+1220. Count Vowels Permutation
 
 *Remembered problems:
 
@@ -364,7 +365,8 @@ Merge Sort is a stable sort which means that the same element in an array mainta
         //Definitely re-do by using other algorithms!!!
 )
 //sort!!!
-******567. Permutation in String(Two pointers solve the problem!!! Only after I saw related topics I figured out the two pointers solution. This problem is very important. Have to re-do and re-do!!!)
+******567. Permutation in String (Two pointers solve the problem!!! Only after I saw related topics I figured out the two pointers solution. This problem is very important. Have to re-do and re-do!!!)
+**********312. Burst Balloons (This is a super hard problem!!! Did not figure out the solution at all and did not even write the solution!!! Definitely re-do!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
@@ -512,6 +514,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 622. Design Circular Queue (A good problem. The purpose of the problem is to implement array with changing first and last indexes. Worth re-do!!! Also note that using unique_ptr to initialize an array is:
         unique_ptr <int[]> array;
         array = unique_ptr <int[]>(new int[k]);)
+1220. Count Vowels Permutation (Designated as hard. Just use bottom up DP which is straitforward to solve.)
 ********************************************************************************
 
 8. re-visit problems: 
