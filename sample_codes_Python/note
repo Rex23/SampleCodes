@@ -1,3 +1,26 @@
+***********************************tutorials***********************************
+*Python tutorials:
+https://www.geeksforgeeks.org/python-programming-language/?ref=lbp
+
+*Python inheritance tutorial:
+https://www.w3schools.com/python/python_inheritance.asp
+https://www.python-course.eu/python3_inheritance.php
+
+*Decorator:
+https://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators
+https://wiki.python.org/moin/PythonDecorators
+https://www.python.org/dev/peps/pep-0318/
+
+*Python formatted output tutorial:
+https://www.python-course.eu/python3_formatted_output.php
+
+*Videos:
+Intermediate Python Programming Course:
+https://www.youtube.com/watch?v=HGOBQPFzWKo&t=5116s
+Object Oriented Programming (OOP) in Python:
+https://www.youtube.com/watch?v=MikphENIrOo
+***********************************tutorials***********************************
+
 ***********************************topics**************************************
 Topics:
 *lambda function:
@@ -18,28 +41,6 @@ Example:
 *heapq:
 https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/
 ***********************************topics**************************************
-***********************************tutorials***********************************
-*Videos:
-Intermediate Python Programming Course:
-https://www.youtube.com/watch?v=HGOBQPFzWKo&t=5116s
-Object Oriented Programming (OOP) in Python:
-https://www.youtube.com/watch?v=MikphENIrOo
-
-*Python inheritance tutorial:
-https://www.w3schools.com/python/python_inheritance.asp
-https://www.python-course.eu/python3_inheritance.php
-
-*Decorator:
-https://en.wikipedia.org/wiki/Python_syntax_and_semantics#Decorators
-https://wiki.python.org/moin/PythonDecorators
-https://www.python.org/dev/peps/pep-0318/
-
-*Python formatted output tutorial:
-https://www.python-course.eu/python3_formatted_output.php
-
-*Python tutorials:
-https://www.geeksforgeeks.org/args-kwargs-python/
-***********************************tutorials***********************************
 
 *integer max:
 https://stackoverflow.com/questions/13795758/what-is-sys-maxint-in-python-3
