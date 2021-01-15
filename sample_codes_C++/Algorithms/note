@@ -149,6 +149,7 @@ Java and Python:
 567. Permutation in String
 165. Compare Version Numbers (Java and Python to do)
 1220. Count Vowels Permutation
+845. Longest Mountain in Array
 
 *Remembered problems:
 
@@ -515,6 +516,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
         unique_ptr <int[]> array;
         array = unique_ptr <int[]>(new int[k]);)
 1220. Count Vowels Permutation (Designated as hard. Just use bottom up DP which is straitforward to solve.)
+845. Longest Mountain in Array (I solved it based on pointer technique. The trick is to identify the peak along the way and once found the peak the left and right most indexes are identified separately. It should be O(n). Very good question.)
 ********************************************************************************
 
 8. re-visit problems: 
