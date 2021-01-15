@@ -33,6 +33,13 @@ https://www.python-course.eu/python3_formatted_output.php
 https://www.geeksforgeeks.org/args-kwargs-python/
 ***********************************tutorials***********************************
 
+*integer max:
+import sys
+sys.maxsize
+
+*float max:
+float("inf")
+
 Python knowledge test:
 https://realpython.com/quizzes/
 
