@@ -6,6 +6,14 @@ https://www.w3schools.com/python/python_lambda.asp
 
 *(*args and **kwargs)
 https://www.geeksforgeeks.org/args-kwargs-python/
+Example:
+    def func2(*args, **kwargs):
+        for item in args:
+            print("args: ", item)
+        for key, value in kwargs.items():
+            print("kwargs: ", key, value)
+
+    func2("a", "b", m = "item1", n = "item2")
 
 *heapq:
 https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/
