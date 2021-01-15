@@ -151,6 +151,7 @@ Java and Python:
 1220. Count Vowels Permutation
 845. Longest Mountain in Array
 1155. Number of Dice Rolls With Target Sum
+316. Remove Duplicate Letters
 
 *Remembered problems:
 
@@ -369,6 +370,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 //sort!!!
 ******567. Permutation in String (Two pointers solve the problem!!! Only after I saw related topics I figured out the two pointers solution. This problem is very important. Have to re-do and re-do!!!)
 **********312. Burst Balloons (This is a super hard problem!!! Did not figure out the solution at all and did not even write the solution!!! Definitely re-do!!)
+********316. Remove Duplicate Letters (This problem is hard! Highest priority. Did not figure out the solution! Altough it is designated as medium. Definitely re-do and re-do. Also, the trick is that if the char has alreay been visited, do not consider it any longer!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
