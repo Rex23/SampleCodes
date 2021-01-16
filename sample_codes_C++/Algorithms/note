@@ -1503,3 +1503,7 @@ http://www.cplusplus.com/reference/algorithm/inplace_merge/
 Example:
 unique_ptr <int[]> array; //note the use of brackets!!!
 array = unique_ptr <int[]>(new int[k]);
+
+*lower_bound on vector of vector!!!
+Example:
+auto iter = lower_bound(a.begin(), a.end(), 4, [&](vector <int>& a1, int value){ return a1[0] < value;}); //without the lambda function it will be erroneous!!!
