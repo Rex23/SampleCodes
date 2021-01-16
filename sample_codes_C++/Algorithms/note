@@ -153,6 +153,7 @@ Java and Python:
 1155. Number of Dice Rolls With Target Sum
 316. Remove Duplicate Letters (Python and Jave to do)
 472. Concatenated Words
+436. Find Right Interval
 
 *Remembered problems:
 
@@ -523,6 +524,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 845. Longest Mountain in Array (I solved it based on pointer technique. The trick is to identify the peak along the way and once found the peak the left and right most indexes are identified separately. It should be O(n). Very good question.)
 1155. Number of Dice Rolls With Target Sum (dfs with memoization (top-down dp) solves the problem. Good practise. Worth re-do.)
 472. Concatenated Words (Designated as hard. For each word, I used dfs with memoization to solve the problem. Be careful to not consider "" as it is not a word, although it is not clearly stated in the requirement. Worth re-do.)
+436. Find Right Interval (binary search solves the problem. Note the use of lower_bound on vector of vector! May re-do for lower_bound on vector of vector.)
 ********************************************************************************
 
 8. re-visit problems: 
