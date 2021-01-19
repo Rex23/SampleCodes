@@ -157,6 +157,7 @@ Java and Python:
 1727. Largest Submatrix With Rearrangements
 1728. Cat and Mouse II
 1027. Longest Arithmetic Subsequence
+1685. Sum of Absolute Differences in a Sorted Array
 
 *Remembered problems:
 
@@ -736,6 +737,7 @@ This is an important problem. Should try doing later several times.)
 542. 01 Matrix (A good BFS problem. Once the method is determined, it is easy to solve. Note that there are some other variations of problems which require other methods!)
 658. Find K Closest Elements (Two pointers solve the problem.)
 165. Compare Version Numbers (A string problem. Give a pointer of each string solved the problem. Just be careful.)
+1685. Sum of Absolute Differences in a Sorted Array (It is first based on the sum corresponding to the first element, and then it goes through the array and update each element. The time complexity is O(n).)
 
 *Problem 392: one string is a substring of another, re-visit.
 
