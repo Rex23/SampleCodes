@@ -156,6 +156,7 @@ Java and Python:
 436. Find Right Interval
 1727. Largest Submatrix With Rearrangements
 1728. Cat and Mouse II
+1027. Longest Arithmetic Subsequence
 
 *Remembered problems:
 
@@ -377,6 +378,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 ********316. Remove Duplicate Letters (This problem is hard! Highest priority. Did not figure out the solution! Altough it is designated as medium. Definitely re-do and re-do. Also, the trick is that if the char has alreay been visited, do not consider it any longer!)
 ********1727. Largest Submatrix With Rearrangements (I failed it in the contest. Designated as medium but I think it is pretty hard! One of the most important questions. Definitely re-do!!!)
 **********1728. Cat and Mouse II (This is the hardest problem I have ever encountered. In addition to that I think the time limit is too strict! Definitely re-do!!!!!!)
+******1027. Longest Arithmetic Subsequence (I did not figure out the solution. Very important. Definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
