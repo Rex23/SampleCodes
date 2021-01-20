@@ -158,6 +158,7 @@ Java and Python:
 1728. Cat and Mouse II
 1027. Longest Arithmetic Subsequence
 1685. Sum of Absolute Differences in a Sorted Array
+679. 24 Game
 
 *Remembered problems:
 
@@ -380,6 +381,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 ********1727. Largest Submatrix With Rearrangements (I failed it in the contest. Designated as medium but I think it is pretty hard! One of the most important questions. Definitely re-do!!!)
 **********1728. Cat and Mouse II (This is the hardest problem I have ever encountered. In addition to that I think the time limit is too strict! Definitely re-do!!!!!!)
 ******1027. Longest Arithmetic Subsequence (I did not figure out the solution. Very important. Definitely re-do!!!)
+********679. 24 Game (Hard!!! A very important problem!!! Did not figure out the solution. In each recursive call, a new list is generated and the length of the list keeps on decreasing!!! Re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
