@@ -159,6 +159,7 @@ Java and Python:
 1027. Longest Arithmetic Subsequence
 1685. Sum of Absolute Differences in a Sorted Array
 679. 24 Game
+130. Surrounded Regions
 
 *Remembered problems:
 
@@ -740,6 +741,7 @@ This is an important problem. Should try doing later several times.)
 658. Find K Closest Elements (Two pointers solve the problem.)
 165. Compare Version Numbers (A string problem. Give a pointer of each string solved the problem. Just be careful.)
 1685. Sum of Absolute Differences in a Sorted Array (It is first based on the sum corresponding to the first element, and then it goes through the array and update each element. The time complexity is O(n).)
+130. Surrounded Regions (The boundary 'O' and their connections can be easily identified.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
