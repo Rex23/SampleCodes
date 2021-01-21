@@ -163,6 +163,7 @@ Java and Python:
 41. First Missing Positive
 386. Lexicographical Numbers
 935. Knight Dialer
+363. Max Sum of Rectangle No Larger Than K
 
 *Remembered problems:
 
@@ -387,6 +388,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 ******1027. Longest Arithmetic Subsequence (I did not figure out the solution. Very important. Definitely re-do!!!)
 ********679. 24 Game (Hard!!! A very important problem!!! Did not figure out the solution. In each recursive call, a new list is generated and the length of the list keeps on decreasing!!! Re-do!!!)
 ****386. Lexicographical Numbers (The solution in the discussion is amazing!!! I did not figure it out!!! The problem is important!!! Have to re-do!!!)
+****363. Max Sum of Rectangle No Larger Than K (Hard. A brute force way was used and accepted. Will see the solution later! Defintely re-do!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
