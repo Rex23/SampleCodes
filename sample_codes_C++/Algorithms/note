@@ -162,6 +162,7 @@ Java and Python:
 130. Surrounded Regions
 41. First Missing Positive
 386. Lexicographical Numbers
+935. Knight Dialer
 
 *Remembered problems:
 
@@ -746,6 +747,7 @@ This is an important problem. Should try doing later several times.)
 165. Compare Version Numbers (A string problem. Give a pointer of each string solved the problem. Just be careful.)
 1685. Sum of Absolute Differences in a Sorted Array (It is first based on the sum corresponding to the first element, and then it goes through the array and update each element. The time complexity is O(n).)
 130. Surrounded Regions (The boundary 'O' and their connections can be easily identified.)
+935. Knight Dialer (DP. Just be careful.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
