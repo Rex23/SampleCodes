@@ -161,6 +161,7 @@ Java and Python:
 679. 24 Game
 130. Surrounded Regions
 41. First Missing Positive
+386. Lexicographical Numbers
 
 *Remembered problems:
 
@@ -384,6 +385,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 **********1728. Cat and Mouse II (This is the hardest problem I have ever encountered. In addition to that I think the time limit is too strict! Definitely re-do!!!!!!)
 ******1027. Longest Arithmetic Subsequence (I did not figure out the solution. Very important. Definitely re-do!!!)
 ********679. 24 Game (Hard!!! A very important problem!!! Did not figure out the solution. In each recursive call, a new list is generated and the length of the list keeps on decreasing!!! Re-do!!!)
+****386. Lexicographical Numbers (The solution in the discussion is amazing!!! I did not figure it out!!! The problem is important!!! Have to re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
