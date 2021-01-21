@@ -164,6 +164,7 @@ Java and Python:
 386. Lexicographical Numbers
 935. Knight Dialer
 363. Max Sum of Rectangle No Larger Than K
+678. Valid Parenthesis String
 
 *Remembered problems:
 
@@ -389,6 +390,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 ********679. 24 Game (Hard!!! A very important problem!!! Did not figure out the solution. In each recursive call, a new list is generated and the length of the list keeps on decreasing!!! Re-do!!!)
 ****386. Lexicographical Numbers (The solution in the discussion is amazing!!! I did not figure it out!!! The problem is important!!! Have to re-do!!!)
 ****363. Max Sum of Rectangle No Larger Than K (Hard. A brute force way was used and accepted. Will see the solution later! Defintely re-do!)
+****678. Valid Parenthesis String (My solution was quite slow!!! See the given solution and re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
