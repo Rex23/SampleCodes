@@ -168,6 +168,7 @@ Java and Python:
 173. Binary Search Tree Iterator
 1684. Count the Number of Consistent Strings (Python)
 545. Boundary of Binary Tree
+341. Flatten Nested List Iterator (Python and Jave to do)
 
 *Remembered problems:
 
@@ -396,6 +397,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 ****678. Valid Parenthesis String (My solution was quite slow!!! See the given solution and re-do!!!)
 ****173. Binary Search Tree Iterator (The stack solution is amazing for iterating through the BST. I did not figure out the solution!!! Re-do!!!)
 ******545. Boundary of Binary Tree (This is one of the most important tree problem. Did not figure out the solution. Definitely re-do!!!)
+********341. Flatten Nested List Iterator (I believe it is one of the most important iterator problems!!! I failed to solve it. Definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
