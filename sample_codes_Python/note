@@ -28,6 +28,25 @@ https://www.youtube.com/watch?v=MikphENIrOo
 
 ***********************************topics**************************************
 Topics:
+*How to get the ASCII value of a character
+https://stackoverflow.com/questions/227459/how-to-get-the-ascii-value-of-a-character
+Example:
+>>> ord('a')
+97
+>>> chr(97)
+'a'
+>>> chr(ord('a') + 3)
+'d'
+>>>
+
+*all function:
+Example:
+Check if all items in a list are True:
+mylist = [True, True, True]
+x = all(mylist)
+Output:
+True
+
 *lambda function:
 https://realpython.com/python-lambda/
 https://www.w3schools.com/python/python_lambda.asp
