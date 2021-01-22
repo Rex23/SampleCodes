@@ -166,6 +166,7 @@ Java and Python:
 363. Max Sum of Rectangle No Larger Than K
 678. Valid Parenthesis String
 173. Binary Search Tree Iterator
+1684. Count the Number of Consistent Strings (Python)
 
 *Remembered problems:
 
@@ -754,6 +755,7 @@ This is an important problem. Should try doing later several times.)
 1685. Sum of Absolute Differences in a Sorted Array (It is first based on the sum corresponding to the first element, and then it goes through the array and update each element. The time complexity is O(n).)
 130. Surrounded Regions (The boundary 'O' and their connections can be easily identified.)
 935. Knight Dialer (DP. Just be careful.)
+1684. Count the Number of Consistent Strings (Easy)
 
 *Problem 392: one string is a substring of another, re-visit.
 
