@@ -169,6 +169,7 @@ Java and Python:
 1684. Count the Number of Consistent Strings (Python)
 545. Boundary of Binary Tree
 341. Flatten Nested List Iterator (Python and Jave to do)
+269. Alien Dictionary (Python and Jave to do)
 
 *Remembered problems:
 
@@ -398,6 +399,14 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 ****173. Binary Search Tree Iterator (The stack solution is amazing for iterating through the BST. I did not figure out the solution!!! Re-do!!!)
 ******545. Boundary of Binary Tree (This is one of the most important tree problem. Did not figure out the solution. Definitely re-do!!!)
 ********341. Flatten Nested List Iterator (I believe it is one of the most important iterator problems!!! I failed to solve it. Definitely re-do!!!)
+********269. Alien Dictionary 
+(
+        //Very hard. This problem is amazing. My solution is also pretty good! This is one of the most important graph problems. Keep on practise. It used union find and graph theory. Definitely re-do!
+        //The key: give each node a flag (initial 0). Once a zero flag is found, increase 1 on it, and based on connectivity increase the children of flag with 0.
+        //If the childern have non-zero flag:
+        //  if the flag is bigger than current, jump this child.
+        //  if the flag is smaller than current, a loop is found!         
+)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
