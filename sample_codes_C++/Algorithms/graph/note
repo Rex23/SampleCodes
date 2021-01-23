@@ -3,6 +3,14 @@ Classic problems:
 797. All Paths From Source to Target (This is very important! Back tracking. Re-do!!!!!!)
 1135. Connecting Cities With Minimum Cost (Krushkal's algorithm implemented by sorting and union find. Very important. Did not see this kind of graph problem before. Re-do!!! Note that for sort, give reference in lambda function can significantly improve speed!)
 1102. Path With Maximum Minimum Value (The multiple solutions in the discussion are very important!!!)
+********269. Alien Dictionary
+(
+        //Very hard. This problem is amazing. My solution is also pretty good! This is one of the most important graph problems. Keep on practise. It used union find and graph theory. Definitely re-do!
+        //The key: give each node a flag (initial 0). Once a zero flag is found, increase 1 on it, and based on connectivity increase the children of flag with 0.
+        //If the childern have non-zero flag:
+        //  if the flag is bigger than current, jump this child.
+        //  if the flag is smaller than current, a loop is found!         
+)
 
 Krushkal's algorithm:
 https://www.youtube.com/watch?v=71UQH7Pr9kU
