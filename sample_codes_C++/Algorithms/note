@@ -170,6 +170,7 @@ Java and Python:
 545. Boundary of Binary Tree
 341. Flatten Nested List Iterator (Python and Jave to do)
 269. Alien Dictionary (Python and Jave to do)
+356. Line Reflection
 
 *Remembered problems:
 
@@ -769,6 +770,7 @@ This is an important problem. Should try doing later several times.)
 130. Surrounded Regions (The boundary 'O' and their connections can be easily identified.)
 935. Knight Dialer (DP. Just be careful.)
 1684. Count the Number of Consistent Strings (Easy)
+356. Line Reflection (Find the average of X of non-repeating points and for each point see whether the set got the reflection. Not hard.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
