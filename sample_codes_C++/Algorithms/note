@@ -172,6 +172,7 @@ Java and Python:
 269. Alien Dictionary (Python and Jave to do)
 356. Line Reflection
 1739. Building Boxes
+1737. Change Minimum Characters to Satisfy One of Three Conditions
 
 *Remembered problems:
 
@@ -410,6 +411,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
         //  if the flag is smaller than current, a loop is found!         
 )
 ****1739. Building Boxes (My solution is great!!! What a pity that I did not have enough time to solve it in the contest!)
+****1737. Change Minimum Characters to Satisfy One of Three Conditions (My solution time complexity is O(m * n). The solution in the discussion is O(m + n), which is amazing. I failed to solve the problem in the contest. Also, the description is confusing for condition 3. Definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
