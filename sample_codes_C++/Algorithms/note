@@ -171,6 +171,7 @@ Java and Python:
 341. Flatten Nested List Iterator (Python and Jave to do)
 269. Alien Dictionary (Python and Jave to do)
 356. Line Reflection
+1739. Building Boxes
 
 *Remembered problems:
 
@@ -408,6 +409,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
         //  if the flag is bigger than current, jump this child.
         //  if the flag is smaller than current, a loop is found!         
 )
+****1739. Building Boxes (My solution is great!!! What a pity that I did not have enough time to solve it in the contest!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
