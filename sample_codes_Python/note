@@ -439,6 +439,33 @@ Example:
 if a == True and \
    b == False
 
+*Example practise:
+
+*************Example heapq:*************
+    import heapq
+
+    a = [1, 2, 7, 12, 3, 5, 4]
+
+    heapq.heapify(a)
+
+    print(list(a))
+
+    heapq.heappush(a, 17)
+
+    print(a)
+
+    while len(a) > 0:
+        print(heapq.heappop(a))
+    
+*************Example defaultdict:*************
+    from collections import defaultdict
+
+    a = defaultdict(int)
+
+    a[1] = 2
+    a[2] = 3
+
+    print(a[3])
 
 
  
