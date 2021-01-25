@@ -466,6 +466,18 @@ if a == True and \
     a[2] = 3
 
     print(a[3])
+    
+*************Example queue:*************
+    from queue import Queue
+
+    a = Queue()
+
+    a.put(1)
+    a.put(2)
+    a.put(3)
+
+    while not a.empty():
+        print(a.get())
 
 
  
