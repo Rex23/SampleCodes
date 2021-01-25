@@ -66,6 +66,13 @@ Example:
 https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/
 ***********************************topics**************************************
 
+*collections.deque:
+https://www.geeksforgeeks.org/deque-in-python/
+append() :- This function is used to insert the value in its argument to the right end of deque.
+appendleft() :- This function is used to insert the value in its argument to the left end of deque.
+pop() :- This function is used to delete an argument from the right end of deque.
+popleft() :- This function is used to delete an argument from the left end of deque.
+
 *integer max:
 https://stackoverflow.com/questions/13795758/what-is-sys-maxint-in-python-3
 import sys
