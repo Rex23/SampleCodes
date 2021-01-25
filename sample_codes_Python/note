@@ -28,8 +28,32 @@ https://www.youtube.com/watch?v=MikphENIrOo
 
 ***********************************topics**************************************
 Topics:
-https://docs.python.org/3/library/functions.html#zip
+*sorted and sort and functools.cmp_to_key(compare)
+Example:
+    nums = []
+
+    for i, item in enumerate(matrix):
+        for j, num in enumerate(item):
+            nums.append([num, i, j])
+
+    def compare(a, b):
+
+        if a[1] + a[2] < b[1] + b[2]:
+            return 1
+        elif a[1] + a[2] == b[1] + b[2]:
+            if (a[1] + a[2]) % 2 == 0:
+                if a[1] > b[1]:
+                    return 1
+            else:
+                if a[1] < b[1]:
+                    return 1       
+
+        return -1
+
+    nums.sort(key = functools.cmp_to_key(compare), reverse = True)
+
 *zip:
+https://docs.python.org/3/library/functions.html#zip
     zip(*iterables)
     Make an iterator that aggregates elements from each of the iterables.
     Returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the argument sequences or iterables. The iterator stops when the shortest input iterable is exhausted. With a single iterable argument, it returns an iterator of 1-tuples. With no arguments, it returns an empty iterator. Equivalent to:
