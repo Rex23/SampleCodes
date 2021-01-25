@@ -174,6 +174,7 @@ Java and Python:
 1739. Building Boxes
 1737. Change Minimum Characters to Satisfy One of Three Conditions
 117. Populating Next Right Pointers in Each Node II
+498. Diagonal Traverse (Python)
 
 *Remembered problems:
 
@@ -777,6 +778,7 @@ This is an important problem. Should try doing later several times.)
 935. Knight Dialer (DP. Just be careful.)
 1684. Count the Number of Consistent Strings (Easy)
 356. Line Reflection (Find the average of X of non-repeating points and for each point see whether the set got the reflection. Not hard.)
+498. Diagonal Traverse (I used lambda sort to solve the problem. A snake pattern can also be used which should be quicker and linear. Not hard. The python code took me a while since I am not familiar with the sort syntax.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
