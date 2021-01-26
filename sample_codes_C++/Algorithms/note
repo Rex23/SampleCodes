@@ -175,6 +175,7 @@ Java and Python:
 1737. Change Minimum Characters to Satisfy One of Three Conditions
 117. Populating Next Right Pointers in Each Node II
 498. Diagonal Traverse (Python)
+115. Distinct Subsequences (Python)
 
 *Remembered problems:
 
@@ -568,6 +569,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 436. Find Right Interval (binary search solves the problem. Note the use of lower_bound on vector of vector! May re-do for lower_bound on vector of vector.)
 41. First Missing Positive (Designated as hard. Assign all the negative numbers to be 0. The logic is as follows: if the min pos number is not 1, return 1; if the min pos number is 1, go through all the nums, for the num within the element, go to the index of (num - 1), if the num is pos, change it to neg, and if the num is 0, change it to INT_MIN. And then go through the nums again, if the num is >=0, return index + 1. If it is not found, return nums.size() + 1.)
 117. Populating Next Right Pointers in Each Node II (The iterative solution should get the desired requirement. Also, the solution seems pretty good. Definitely re-do by using these!!! I used a recursive reverse in-order algorithm. Very pround of myself.)
+115. Distinct Subsequences (Designated as hard. The top-down DP solves this problem. Python is very handy for this by using lru_cache.)
 ********************************************************************************
 
 8. re-visit problems: 
