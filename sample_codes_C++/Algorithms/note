@@ -179,6 +179,7 @@ Java and Python:
 688. Knight Probability in Chessboard (Python)
 1177. Can Make Palindrome from Substring (Python)
 390. Elimination Game (Python)
+72. Edit Distance (Python)
 
 *Remembered problems:
 
@@ -418,6 +419,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 )
 ****1739. Building Boxes (My solution is great!!! What a pity that I did not have enough time to solve it in the contest!)
 ****1737. Change Minimum Characters to Satisfy One of Three Conditions (My solution time complexity is O(m * n). The solution in the discussion is O(m + n), which is amazing. I failed to solve the problem in the contest. Also, the description is confusing for condition 3. Definitely re-do!!!)
+****72. Edit Distance (Definitely hard, but I solved it!!! classic dp problem. I used top-down approach and python lru_cache to solve it. Definitely worth re-do (even though I solved it!!!))
 ************Have to re-do!***************
 
 8. very important re-visit problems:
