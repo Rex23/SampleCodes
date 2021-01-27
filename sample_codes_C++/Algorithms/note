@@ -180,6 +180,7 @@ Java and Python:
 1177. Can Make Palindrome from Substring (Python)
 390. Elimination Game (Python)
 72. Edit Distance (Python)
+1262. Greatest Sum Divisible by Three (Python)
 
 *Remembered problems:
 
@@ -789,6 +790,7 @@ This is an important problem. Should try doing later several times.)
 356. Line Reflection (Find the average of X of non-repeating points and for each point see whether the set got the reflection. Not hard.)
 498. Diagonal Traverse (I used lambda sort to solve the problem. A snake pattern can also be used which should be quicker and linear. Not hard. The python code took me a while since I am not familiar with the sort syntax.)
 390. Elimination Game (The trick is to track the sequence start, end and step at each recursive call. Probably use iterative call will be much faster.)
+1262. Greatest Sum Divisible by Three (sum up the nums and then minus the minimal elements get the solution.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
