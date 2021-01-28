@@ -184,6 +184,7 @@ Java and Python:
 662. Maximum Width of Binary Tree (Python)
 515. Find Largest Value in Each Tree Row (Python)
 907. Sum of Subarray Minimums (Python)
+761. Special Binary String (Python)
 
 *Remembered problems:
 
@@ -426,6 +427,13 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 ****72. Edit Distance (Definitely hard, but I solved it!!! classic dp problem. I used top-down approach and python lru_cache to solve it. Definitely worth re-do (even though I solved it!!!))
 *****662. Maximum Width of Binary Tree (This tree problem is very important. It introduces the way of converting a tree to an array. For any node with index of i, the left and right child has numbers of 2 * i + 1 and 2 * i + 2 respectively. I did not figure out the solution. Defintely re-do!!!)
 ******907. Sum of Subarray Minimums (A very important stack problem. I did not figure out the solution. It uses the concept of monotone stack. By using it, we can get the previous less element and next less element!!! And with those, we can further get the number of sub-arrays with the minimal number of i. Definitely re-do!!!)
+********761. Special Binary String 
+(
+Hard. Very difficult to approach the question. The given solution is that:
+Find different pieces of special string, once found, set start is 1, and end is 0, and recursively re-arrange the middle part based on lexicographical order.
+I did not figure out the solution at all and I did not write the solution!!!
+Definitely re-do!
+)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
