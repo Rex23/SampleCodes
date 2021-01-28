@@ -182,6 +182,7 @@ Java and Python:
 72. Edit Distance (Python)
 1262. Greatest Sum Divisible by Three (Python)
 662. Maximum Width of Binary Tree (Python)
+515. Find Largest Value in Each Tree Row (Python)
 
 *Remembered problems:
 
@@ -793,6 +794,7 @@ This is an important problem. Should try doing later several times.)
 356. Line Reflection (Find the average of X of non-repeating points and for each point see whether the set got the reflection. Not hard.)
 498. Diagonal Traverse (I used lambda sort to solve the problem. A snake pattern can also be used which should be quicker and linear. Not hard. The python code took me a while since I am not familiar with the sort syntax.)
 390. Elimination Game (The trick is to track the sequence start, end and step at each recursive call. Probably use iterative call will be much faster.)
+515. Find Largest Value in Each Tree Row (easy)
 
 *Problem 392: one string is a substring of another, re-visit.
 
