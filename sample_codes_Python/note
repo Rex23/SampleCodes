@@ -149,8 +149,26 @@ format(14, '#010b')
 '0b00001110'
 
 *Pass by reference:
+https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-python/
+https://www.geeksforgeeks.org/is-python-call-by-reference-or-call-by-value/
 No
 https://realpython.com/python-pass-by-reference/
+Answer:
+pass by object reference:
+Python utilizes a system, which is known as “Call by Object Reference” or “Call by assignment”. In the event that you pass arguments like whole numbers, strings or tuples to a function, the passing is like call-by-value because you can not change the value of the immutable objects being passed to the function. Whereas passing mutable objects can be considered as call by reference because when their values are changed inside the function, then it will also be reflected outside the function.
+However, the caveat is that when you assign a new value to the object within the function, the object will be different from the one outside of the function!!!
+Example:
+    def set_list(list): 
+        list = ["A", "B", "C"]
+        return list
+    def add(list): 
+        list.append("D") 
+        return list
+    my_list = ["E"] 
+    print(set_list(my_list)) 
+    print(my_list)
+    print(add(my_list))
+    print(my_list)
 
 *Queue in Python:
 https://www.geeksforgeeks.org/queue-in-python/
