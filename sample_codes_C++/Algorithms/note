@@ -181,6 +181,7 @@ Java and Python:
 390. Elimination Game (Python)
 72. Edit Distance (Python)
 1262. Greatest Sum Divisible by Three (Python)
+662. Maximum Width of Binary Tree (Python)
 
 *Remembered problems:
 
@@ -421,6 +422,7 @@ Merge Sort is a stable sort which means that the same element in an array mainta
 ****1739. Building Boxes (My solution is great!!! What a pity that I did not have enough time to solve it in the contest!)
 ****1737. Change Minimum Characters to Satisfy One of Three Conditions (My solution time complexity is O(m * n). The solution in the discussion is O(m + n), which is amazing. I failed to solve the problem in the contest. Also, the description is confusing for condition 3. Definitely re-do!!!)
 ****72. Edit Distance (Definitely hard, but I solved it!!! classic dp problem. I used top-down approach and python lru_cache to solve it. Definitely worth re-do (even though I solved it!!!))
+*****662. Maximum Width of Binary Tree (This tree problem is very important. It introduces the way of converting a tree to an array. For any node with index of i, the left and right child has numbers of 2 * i + 1 and 2 * i + 2 respectively. I did not figure out the solution. Defintely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
