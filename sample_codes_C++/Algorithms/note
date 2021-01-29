@@ -186,6 +186,7 @@ Java and Python:
 907. Sum of Subarray Minimums (Python)
 761. Special Binary String (Python)
 465. Optimal Account Balancing
+1348. Tweet Counts Per Frequency
 
 *Remembered problems:
 
@@ -594,6 +595,7 @@ Definitely re-do!
 688. Knight Probability in Chessboard (The recursive call solves this. The lru_cache is very convenient to use! In Python, the self statement needs to be there when the class method is used. Worth re-do!)
 1177. Can Make Palindrome from Substring (The given solution is amazing. Use list comprehensions as much as possible to speedup! Very worth re-do!!!)
 1262. Greatest Sum Divisible by Three (sum up the nums and then minus the minimal elements get the solution. The dp solution is amazing!!! Definitely worth re-do using the dp solution!)
+1348. Tweet Counts Per Frequency (Pre-assign the buckets and assign the time into them. Just be careful. Do not make mistakes.)
 ********************************************************************************
 
 8. re-visit problems: 
