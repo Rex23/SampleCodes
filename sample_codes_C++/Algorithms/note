@@ -188,6 +188,7 @@ Java and Python:
 465. Optimal Account Balancing
 1348. Tweet Counts Per Frequency
 773. Sliding Puzzle (Python)
+1254. Number of Closed Islands (Python)
 
 *Remembered problems:
 
@@ -438,6 +439,11 @@ I did not figure out the solution at all and I did not write the solution!!!
 Definitely re-do!
 )
 *********465. Optimal Account Balancing (Hard!!!!!! one of the hardest problem!!! I did not figure out the solution at all and I did not write the solution! It used dfs to solve it. Definitely have to re-do!!!!!!!!!)
+**1254. Number of Closed Islands (
+    #The problem is classic. My solution is pretty good. I use flags to track the elements. If 0, check, if -1, already not an enclave, and if > 0, already checked.
+    #The given solution in the discussions is also clear and good. It first grow the elements connected to the boundaries and give them 1. And then, it goes through the inner 0 elements, and grow them, once done, update the number of islands.
+    #Worth re-do as the problem is classic!
+)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
