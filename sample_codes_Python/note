@@ -28,6 +28,10 @@ https://www.youtube.com/watch?v=MikphENIrOo
 
 ***********************************topics**************************************
 Topics:
+*copy.deepcopy()
+Example:
+next_board = copy.deepcopy(cur_board_2D) #cur_board_2D and next_board are List[List[int]], if deepcopy is not used, they reference the same object.
+
 *sorted and sort and functools.cmp_to_key(compare)
 Example:
     nums = []
