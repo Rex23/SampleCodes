@@ -7,6 +7,10 @@ https://docs.python.org/3/tutorial/ (Seems good)
 https://realpython.com/
 https://www.w3schools.com/python/ (Just so so)
 
+
+*Python knowledge test:
+https://realpython.com/quizzes/
+
 *Python inheritance tutorial:
 https://www.w3schools.com/python/python_inheritance.asp
 https://www.python-course.eu/python3_inheritance.php
@@ -151,9 +155,6 @@ sys.maxsize
 
 *float max:
 float("inf")
-
-Python knowledge test:
-https://realpython.com/quizzes/
 
 *PriorityQueue
 https://towardsdatascience.com/introduction-to-priority-queues-in-python-83664d3178c3
