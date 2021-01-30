@@ -28,6 +28,30 @@ https://www.youtube.com/watch?v=MikphENIrOo
 
 ***********************************topics**************************************
 Topics:
+*join, for loop, equality, .index, swap
+Example:
+    def slidingPuzzle(self, board: List[List[int]]) -> int:
+        s = ''.join(str(d) for row in board for d in row) #Pay attention!!!
+        dq, seen = collections.deque(), {s}
+        dq.append((s, s.index('0'))) #Pay attention!!!
+        steps, height, width = 0, len(board), len(board[0]) 
+        while dq:
+            for _ in range(len(dq)):
+                t, i= dq.popleft()
+                if t == '123450':
+                    return steps
+                x, y = i // width, i % width
+                for r, c in (x, y + 1), (x, y - 1), (x + 1, y), (x - 1, y):
+                    if height > r >= 0 <= c < width: #Pay attention!!!
+                        ch = [d for d in t]
+                        ch[i], ch[r * width + c] = ch[r * width + c], '0' # swap '0' and its neighbor. #Pay attention!!!
+                        s = ''.join(ch)
+                        if s not in seen:
+                            seen.add(s)
+                            dq.append((s, r * width + c))
+            steps += 1              
+        return -1
+        
 *copy.deepcopy()
 Example:
 next_board = copy.deepcopy(cur_board_2D) #cur_board_2D and next_board are List[List[int]], if deepcopy is not used, they reference the same object.
