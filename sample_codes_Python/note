@@ -43,6 +43,16 @@ Example:
     b = sorted(a)
     print("original: ", b)
 
+*sorted arguments (key, reverse):
+Example:
+    a = [(1, 1), (2, 0), (3,4), (4, 1)]
+
+    def temp(c):
+        return c[0]
+
+    b = sorted(a, key = temp, reverse = True)
+    print("sorted: ", b)
+
 *reversed:
 Example:
     a = [1, 2, 3, 4]
