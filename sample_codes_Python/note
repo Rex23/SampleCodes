@@ -32,6 +32,34 @@ https://www.youtube.com/watch?v=MikphENIrOo
 
 ***********************************topics**************************************
 Topics:
+*nonlocal:
+Example:
+class Solution:
+    def sumNumbers(self, root: TreeNode) -> int:
+        
+        sum_ = 0
+        
+        def helper(root: TreeNode, pre_sum: int) -> None:
+            
+            nonlocal sum_ #Pay attention to this!!!!!
+            
+            if root == None:
+                return
+            
+            pre_sum = 10 * pre_sum + root.val
+            
+            helper(root.left, pre_sum)
+            helper(root.right, pre_sum)
+            
+            if root.left == None and root.right == None:
+                sum_ = sum_ + pre_sum
+            
+            return
+        
+        helper(root, 0)
+        
+        return sum_
+
 *divide by a negative integer:
 Example:
     Divide two integers always do floor division, e.g. 1 / -10 = -1
