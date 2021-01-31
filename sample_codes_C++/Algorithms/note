@@ -189,6 +189,7 @@ Java and Python:
 1348. Tweet Counts Per Frequency
 773. Sliding Puzzle (Python)
 1254. Number of Closed Islands (Python)
+129. Sum Root to Leaf Numbers (Python)
 
 *Remembered problems:
 
@@ -817,6 +818,7 @@ This is an important problem. Should try doing later several times.)
 498. Diagonal Traverse (I used lambda sort to solve the problem. A snake pattern can also be used which should be quicker and linear. Not hard. The python code took me a while since I am not familiar with the sort syntax.)
 390. Elimination Game (The trick is to track the sequence start, end and step at each recursive call. Probably use iterative call will be much faster.)
 515. Find Largest Value in Each Tree Row (easy)
+129. Sum Root to Leaf Numbers (pay attension of the use of 'nonlocal' in Python. not hard.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
