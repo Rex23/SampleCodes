@@ -32,6 +32,11 @@ https://www.youtube.com/watch?v=MikphENIrOo
 
 ***********************************topics**************************************
 Topics:
+*divide by a negative integer:
+Example:
+    Divide two integers always do floor division, e.g. 1 / -10 = -1
+    fixed by using int(float(a) / b)!!!!!!
+
 *sorted:
 Example:
     a = [1, 2, 3, 4]
