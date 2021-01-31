@@ -32,6 +32,34 @@ https://www.youtube.com/watch?v=MikphENIrOo
 
 ***********************************topics**************************************
 Topics:
+*sorted:
+Example:
+    a = [1, 2, 3, 4]
+    b = sorted(a)
+    print("original: ", b)
+
+*reversed:
+Example:
+    a = [1, 2, 3, 4]
+    b = reversed(a)
+    print("original: ", b)
+    print("convert to list: ", list(b))
+
+*itertools.accumulate and '+':
+Example:
+    from itertools import accumulate
+    a = [1, 2, 1]
+    print([0] + list(accumulate(a)))
+
+*extend and append:
+Example:
+    b = [1, 3, 4]
+    c = [5, 6, 7]
+    b.extend(c)
+    print("Test extend: ", b)
+    b.append(c)
+    print("Test append: ", b)
+
 *join, for loop, equality, .index, swap
 Example:
     def slidingPuzzle(self, board: List[List[int]]) -> int:
