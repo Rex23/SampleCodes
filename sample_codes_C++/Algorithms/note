@@ -190,6 +190,7 @@ Java and Python:
 773. Sliding Puzzle (Python)
 1254. Number of Closed Islands (Python)
 129. Sum Root to Leaf Numbers (Python)
+135. Candy (Python)
 
 *Remembered problems:
 
@@ -445,6 +446,9 @@ Definitely re-do!
     #The given solution in the discussions is also clear and good. It first grow the elements connected to the boundaries and give them 1. And then, it goes through the inner 0 elements, and grow them, once done, update the number of islands.
     #Worth re-do as the problem is classic!
 )
+****135. Candy (
+        #Hard. My strategy: divide the ratings into several monotone sections. Pre-assign each section a number of 1. And for each section, monotonically increase the value from 1 for 'count'. If the previous value for an element is smaller than 'count', give the element a new value of 'count'.
+        #Caveat: I did not focus on one segment each time, instead, I was focused on adjacent segements, which made the algorithm very complicated to solve and unnecessary. I did not solve it within the time limit and definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
