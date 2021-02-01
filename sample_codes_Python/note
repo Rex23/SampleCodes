@@ -32,6 +32,16 @@ https://www.youtube.com/watch?v=MikphENIrOo
 
 ***********************************topics**************************************
 Topics:
+*decreasing for loop:
+https://stackoverflow.com/questions/4294082/decreasing-for-loops-in-python-impossible
+Example:
+    print("range 1: ")
+    for i in range(6,0,-1):
+        print(i)
+    print("range 2: ")
+    for i in reversed(range(1, 7)):
+        print(i)
+
 *nonlocal:
 Example:
 class Solution:
