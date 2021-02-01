@@ -192,6 +192,7 @@ Java and Python:
 129. Sum Root to Leaf Numbers (Python)
 135. Candy (Python)
 754. Reach a Number (Python which was not written by me!)
+813. Largest Sum of Averages (Python)
 
 *Remembered problems:
 
@@ -612,6 +613,7 @@ Definitely re-do!
 1262. Greatest Sum Divisible by Three (sum up the nums and then minus the minimal elements get the solution. The dp solution is amazing!!! Definitely worth re-do using the dp solution!)
 1348. Tweet Counts Per Frequency (Pre-assign the buckets and assign the time into them. Just be careful. Do not make mistakes.)
 773. Sliding Puzzle (Designated as hard. In the discussions, the key is changed to a string. Just use BFS to solve it. The given Python solution is conciser than mine!!!)
+***813. Largest Sum of Averages (A classic problem. Worth re-do! I used top-down DP to solve it. Just do not make mistakes.)
 ********************************************************************************
 
 8. re-visit problems: 
