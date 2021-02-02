@@ -193,6 +193,7 @@ Java and Python:
 135. Candy (Python)
 754. Reach a Number (Python which was not written by me!)
 813. Largest Sum of Averages (Python)
+1167. Minimum Cost to Connect Sticks (Python)
 
 *Remembered problems:
 
@@ -453,6 +454,7 @@ Definitely re-do!
         #Caveat: I did not focus on one segment each time, instead, I was focused on adjacent segements, which made the algorithm very complicated to solve and unnecessary. I did not solve it within the time limit and definitely re-do!!!)
         #The given solution in the discussion is good. It uses two directions and is fast. But I think my way is easier to understand.
 ******754. Reach a Number (I did not figure out the solution and I did not even write the solution. Although it is designated as medium but I think it is hard!!! It is a math problem. Definitely re-do!!!!!!!!!)
+*****1167. Minimum Cost to Connect Sticks (I did not understand the problem. And therefore I did not figure out the solution. Definitely re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
