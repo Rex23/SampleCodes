@@ -195,6 +195,7 @@ Java and Python:
 813. Largest Sum of Averages (Python)
 1167. Minimum Cost to Connect Sticks (Python)
 787. Cheapest Flights Within K Stops (Python)
+201. Bitwise AND of Numbers Range (Python)
 
 *Remembered problems:
 
@@ -456,6 +457,7 @@ Definitely re-do!
         #The given solution in the discussion is good. It uses two directions and is fast. But I think my way is easier to understand.
 ******754. Reach a Number (I did not figure out the solution and I did not even write the solution. Although it is designated as medium but I think it is hard!!! It is a math problem. Definitely re-do!!!!!!!!!)
 *****1167. Minimum Cost to Connect Sticks (I did not understand the problem. And therefore I did not figure out the solution. Definitely re-do!!!!!!)
+****201. Bitwise AND of Numbers Range (My solution works. The key is to see how many continuous higher digits are the same, and add those digit values. However, the given solution in the discussions is amazing. It checks how many lower digits are different, and only leaves the higher digits!!!! Definitely re-do!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
