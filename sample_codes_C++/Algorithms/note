@@ -194,6 +194,7 @@ Java and Python:
 754. Reach a Number (Python which was not written by me!)
 813. Largest Sum of Averages (Python)
 1167. Minimum Cost to Connect Sticks (Python)
+787. Cheapest Flights Within K Stops (Python)
 
 *Remembered problems:
 
@@ -616,6 +617,7 @@ Definitely re-do!
 1348. Tweet Counts Per Frequency (Pre-assign the buckets and assign the time into them. Just be careful. Do not make mistakes.)
 773. Sliding Puzzle (Designated as hard. In the discussions, the key is changed to a string. Just use BFS to solve it. The given Python solution is conciser than mine!!!)
 ***813. Largest Sum of Averages (A classic problem. Worth re-do! I used top-down DP to solve it. Just do not make mistakes.)
+****787. Cheapest Flights Within K Stops (A very very good practise. DP with top-down approach.)
 ********************************************************************************
 
 8. re-visit problems: 
