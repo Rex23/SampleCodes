@@ -199,6 +199,7 @@ Java and Python:
 871. Minimum Number of Refueling Stops (Python)
 378. Kth Smallest Element in a Sorted Matrix (Python)
 1054. Distant Barcodes (Python)
+753. Cracking the Safe (Python)
 
 *Remembered problems:
 
@@ -466,6 +467,10 @@ Definitely re-do!
         #I use priority_queue to solve it. Pretty awesome. The idea is that find the max freq one and then find next one which is not the same as previous one. 
         #The given solution is also awesome. It first save the highest freq ones by a step of 2. And then just fill the reminders (does not matter which one goes next).
         #definitely worth re-do!)
+753. Cracking the Safe (
+        #Hard. I used hash map to solve the problem. The given solution uses DFS and backtracking. However, it needs to pre-understand the number of combinations is k^n. My method does not need that.
+        #I calculated wrong on the total combinations. Don't make the mistake again. Also, took too long to solve it.
+)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
