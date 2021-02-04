@@ -203,6 +203,7 @@ Java and Python:
 357. Count Numbers with Unique Digits (Python)
 1004. Max Consecutive Ones III (Python)
 84. Largest Rectangle in Histogram (Python)
+1545. Find Kth Bit in Nth Binary String (Python)
 
 *Remembered problems:
 
@@ -487,6 +488,7 @@ Definitely re-do!
         #I did not figure out the solution. Definitely re-do!
         #Also, I did not understand the stack solution. If got time, definitely investigate that!
 )
+***1545. Find Kth Bit in Nth Binary String (depth first search with binary search solves the problem. Very good practise. Did not figure it out in the first place! Worth re-do!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
