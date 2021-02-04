@@ -201,6 +201,7 @@ Java and Python:
 1054. Distant Barcodes (Python)
 753. Cracking the Safe (Python)
 357. Count Numbers with Unique Digits (Python)
+1004. Max Consecutive Ones III (Python)
 
 *Remembered problems:
 
@@ -478,6 +479,7 @@ Definitely re-do!
         #non_unique_(n + 1) = total_(n + 1) - unique_(n + 1)
         #definitely re-do!!!
 )
+***1004. Max Consecutive Ones III (A very very good two pointers problem. It took me a little bit long to figure out and can easily make mistakes. Sitting in the attempt list for a long time. Worth and best re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
