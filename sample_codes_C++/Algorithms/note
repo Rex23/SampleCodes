@@ -202,6 +202,7 @@ Java and Python:
 753. Cracking the Safe (Python)
 357. Count Numbers with Unique Digits (Python)
 1004. Max Consecutive Ones III (Python)
+84. Largest Rectangle in Histogram (Python)
 
 *Remembered problems:
 
@@ -480,6 +481,12 @@ Definitely re-do!
         #definitely re-do!!!
 )
 ***1004. Max Consecutive Ones III (A very very good two pointers problem. It took me a little bit long to figure out and can easily make mistakes. Sitting in the attempt list for a long time. Worth and best re-do!!!)
+********84. Largest Rectangle in Histogram 
+(
+        #Hard. The trick is that it is each bar focused! And for each bar, you need to find the first left and right bars which are smaller than current bar. And then, the equation is (r - l - 1) * h_i. 
+        #I did not figure out the solution. Definitely re-do!
+        #Also, I did not understand the stack solution. If got time, definitely investigate that!
+)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
