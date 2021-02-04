@@ -200,6 +200,7 @@ Java and Python:
 378. Kth Smallest Element in a Sorted Matrix (Python)
 1054. Distant Barcodes (Python)
 753. Cracking the Safe (Python)
+357. Count Numbers with Unique Digits (Python)
 
 *Remembered problems:
 
@@ -470,6 +471,12 @@ Definitely re-do!
 753. Cracking the Safe (
         #Hard. I used hash map to solve the problem. The given solution uses DFS and backtracking. However, it needs to pre-understand the number of combinations is k^n. My method does not need that.
         #I calculated wrong on the total combinations. Don't make the mistake again. Also, took too long to solve it.
+)
+***357. Count Numbers with Unique Digits (
+        #It took me way too long to figure the solution out! The trick is that for each digit level (n), find the number of unique value nums and non-unique value nums.
+        #unique_(n + 1) = unique_n * 10 + non_unique_n * n
+        #non_unique_(n + 1) = total_(n + 1) - unique_(n + 1)
+        #definitely re-do!!!
 )
 ************Have to re-do!***************
 
