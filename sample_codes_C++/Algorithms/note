@@ -209,6 +209,7 @@ Java and Python:
 1131. Maximum of Absolute Value Expression (Python)
 991. Broken Calculator (Python)
 583. Delete Operation for Two Strings (Python)
+1493. Longest Subarray of 1's After Deleting One Element (Python)
 
 *Remembered problems:
 
@@ -665,6 +666,7 @@ Definitely re-do!
 378. Kth Smallest Element in a Sorted Matrix (I used heapq to solve it. There is another way: first push the first column of elements into the priority queue. And then everytime pop up the smallest and add the adjacent element of the popped up element in the same row to the queue. Very good priority queue problem.)
 **991. Broken Calculator (dfs solves the problem.)
 583. Delete Operation for Two Strings (top-down DP with memoization solves the problem.)
+1493. Longest Subarray of 1's After Deleting One Element (sliding window can also solve this problem. But I used intervals method. May try the slidng window solution later.)
 ********************************************************************************
 
 8. re-visit problems: 
