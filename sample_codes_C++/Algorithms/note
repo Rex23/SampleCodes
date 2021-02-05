@@ -206,6 +206,7 @@ Java and Python:
 1545. Find Kth Bit in Nth Binary String (Python)
 470. Implement Rand10() Using Rand7() (Python)
 718. Maximum Length of Repeated Subarray (Python)
+1131. Maximum of Absolute Value Expression (Python)
 
 *Remembered problems:
 
@@ -496,6 +497,7 @@ Definitely re-do!
         #A very classic DP problem! I did not figure out the solution in the first place. But I did an amazing job solve it later!!! Worth re-do!
         #Alternative max on list of list:
         #return max(max(row) for row in memo))
+**1131. Maximum of Absolute Value Expression (The abs form is the biggest of all the possible forms. I did not derive it right due to careless. Also, it can be reduced into 4 forms. Definitely re-do!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
