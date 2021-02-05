@@ -207,6 +207,7 @@ Java and Python:
 470. Implement Rand10() Using Rand7() (Python)
 718. Maximum Length of Repeated Subarray (Python)
 1131. Maximum of Absolute Value Expression (Python)
+991. Broken Calculator (Python)
 
 *Remembered problems:
 
@@ -661,6 +662,7 @@ Definitely re-do!
 ***813. Largest Sum of Averages (A classic problem. Worth re-do! I used top-down DP to solve it. Just do not make mistakes.)
 ****787. Cheapest Flights Within K Stops (A very very good practise. DP with top-down approach.)
 378. Kth Smallest Element in a Sorted Matrix (I used heapq to solve it. There is another way: first push the first column of elements into the priority queue. And then everytime pop up the smallest and add the adjacent element of the popped up element in the same row to the queue. Very good priority queue problem.)
+**991. Broken Calculator (dfs solves the problem.)
 ********************************************************************************
 
 8. re-visit problems: 
