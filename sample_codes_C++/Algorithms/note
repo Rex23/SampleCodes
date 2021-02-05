@@ -210,6 +210,7 @@ Java and Python:
 991. Broken Calculator (Python)
 583. Delete Operation for Two Strings (Python)
 1493. Longest Subarray of 1's After Deleting One Element (Python)
+1230. Toss Strange Coins (Python)
 
 *Remembered problems:
 
@@ -667,6 +668,7 @@ Definitely re-do!
 **991. Broken Calculator (dfs solves the problem.)
 583. Delete Operation for Two Strings (top-down DP with memoization solves the problem.)
 1493. Longest Subarray of 1's After Deleting One Element (sliding window can also solve this problem. But I used intervals method. May try the slidng window solution later.)
+***1230. Toss Strange Coins (Top-down DP with memoization solves the problem.)
 ********************************************************************************
 
 8. re-visit problems: 
