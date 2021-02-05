@@ -205,6 +205,7 @@ Java and Python:
 84. Largest Rectangle in Histogram (Python)
 1545. Find Kth Bit in Nth Binary String (Python)
 470. Implement Rand10() Using Rand7() (Python)
+718. Maximum Length of Repeated Subarray (Python)
 
 *Remembered problems:
 
@@ -491,6 +492,10 @@ Definitely re-do!
 )
 ***1545. Find Kth Bit in Nth Binary String (depth first search with binary search solves the problem. Very good practise. Did not figure it out in the first place! Worth re-do!)
 ********470. Implement Rand10() Using Rand7() (One of the most important problems on random number generator! The solution of the problem is amazing. Remember and definitely re-do!!!)
+*****718. Maximum Length of Repeated Subarray (
+        #A very classic DP problem! I did not figure out the solution in the first place. But I did an amazing job solve it later!!! Worth re-do!
+        #Alternative max on list of list:
+        #return max(max(row) for row in memo))
 ************Have to re-do!***************
 
 8. very important re-visit problems:
