@@ -1669,6 +1669,10 @@ array = unique_ptr <int[]>(new int[k]);
 Example:
 auto iter = lower_bound(a.begin(), a.end(), 4, [&](vector <int>& a1, int value){ return a1[0] < value;}); //without the lambda function it will be erroneous!!!
 
+*upper_bound on vector of vector!!!
+Example:
+auto iter = lower_bound(a.begin(), a.end(), 4, [&](int value, vector <int>& a1){ return value < a1[0];}); //without the lambda function it will be erroneous!!!
+
 *1 + n + n^2 + n^3 + ... = 1 / (1 - n)
 Example:
 = (1/49) + (9/49) * (1/49) + (9/49)^2 * (1/49) + (9/49)^3 * (1/49) + ...
