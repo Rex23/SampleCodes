@@ -213,6 +213,7 @@ Java and Python:
 1230. Toss Strange Coins (Python)
 1753. Maximum Score From Removing Stones (C++)
 1752. Check if Array Is Sorted and Rotated (C++)
+1754. Largest Merge Of Two Strings (C++)
 
 *Remembered problems:
 
@@ -506,6 +507,7 @@ Definitely re-do!
 **1131. Maximum of Absolute Value Expression (The abs form is the biggest of all the possible forms. I did not derive it right due to careless. Also, it can be reduced into 4 forms. Definitely re-do!)
 ***1753. Maximum Score From Removing Stones (The trick is to always remove stones from the top two piles! I failed to figure it out in the contest!)
 **1752. Check if Array Is Sorted and Rotated (Designated as easy! The trick is to check how many kinks there are including the one at the end!!! Failed to figure it out in the contest!)
+******1754. Largest Merge Of Two Strings (Did not figure it out in the contest at all!!!!!! Have to re-do! Very important!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
