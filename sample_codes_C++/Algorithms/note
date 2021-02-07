@@ -211,6 +211,7 @@ Java and Python:
 583. Delete Operation for Two Strings (Python)
 1493. Longest Subarray of 1's After Deleting One Element (Python)
 1230. Toss Strange Coins (Python)
+1753. Maximum Score From Removing Stones (C++)
 
 *Remembered problems:
 
@@ -502,6 +503,7 @@ Definitely re-do!
         #Alternative max on list of list:
         #return max(max(row) for row in memo))
 **1131. Maximum of Absolute Value Expression (The abs form is the biggest of all the possible forms. I did not derive it right due to careless. Also, it can be reduced into 4 forms. Definitely re-do!)
+***1753. Maximum Score From Removing Stones (The trick is to always remove stones from the top two piles! I failed to figure it out in the contest!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
