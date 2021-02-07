@@ -214,6 +214,7 @@ Java and Python:
 1753. Maximum Score From Removing Stones (C++)
 1752. Check if Array Is Sorted and Rotated (C++)
 1754. Largest Merge Of Two Strings (C++)
+1751. Maximum Number of Events That Can Be Attended II (C++)
 
 *Remembered problems:
 
@@ -508,6 +509,7 @@ Definitely re-do!
 ***1753. Maximum Score From Removing Stones (The trick is to always remove stones from the top two piles! I failed to figure it out in the contest!)
 **1752. Check if Array Is Sorted and Rotated (Designated as easy! The trick is to check how many kinks there are including the one at the end!!! Failed to figure it out in the contest!)
 ******1754. Largest Merge Of Two Strings (Did not figure it out in the contest at all!!!!!! Have to re-do! Very important!!!)
+*********1751. Maximum Number of Events That Can Be Attended II (One of the hardest problems. The interval is either chosen or not chosen!!! Have to re-do and re-do!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
