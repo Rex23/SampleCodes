@@ -32,6 +32,9 @@ https://www.youtube.com/watch?v=MikphENIrOo
 
 ***********************************topics**************************************
 Topics:
+*bisect_left and bisect_right
+https://www.geeksforgeeks.org/bisect-algorithm-functions-in-python/
+
 sum on nested list:
 https://stackoverflow.com/questions/25047561/finding-a-sum-in-nested-list-using-a-lambda-function/25047602
 Example:
