@@ -220,6 +220,7 @@ Java and Python:
 233. Number of Digit One (C++)
 932. Beautiful Array (Python not by me)
 1247. Minimum Swaps to Make Strings Equal (C++)
+638. Shopping Offers (C++)
 
 *Remembered problems:
 
@@ -520,6 +521,7 @@ Definitely re-do!
 *********233. Number of Digit One (Hard! The given solution is amazing!!! I did not figure out the solution at all and I did not write the solution!!! Definitely re-do!!!)
 ********932. Beautiful Array (I did not figure out the solution at all!!! The given solution by Lee is amazing!!! Have to re-do and re-do!!!! Highest priority!!!)
 ***1247. Minimum Swaps to Make Strings Equal (Very good problem. And kind of hard, but I figured it out!!! Basically, merge (x,y) and (x,y) first, then (x,y) and (y, x) or (y, x) and (x,y). In addition, if the length of s1 and s2 are different or the total number of x or y is odd, return -1. Definitely worth re-do!)
+********638. Shopping Offers (For each recursion, I go through one special offer. And in the given solution, for each recursion, it always go through the same special offers. Also, it pre-count the original cost without special offers. The good thing is that it can memorize less! In addition, the python solution is amazing!!! I also made a fatal mistake. The number is converted to a wrong vec. Definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
