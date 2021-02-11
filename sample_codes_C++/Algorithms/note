@@ -225,6 +225,7 @@ Java and Python:
 815. Bus Routes (C++)
 827. Making A Large Island (C++)
 1390. Four Divisors (C++)
+909. Snakes and Ladders (C++)
 
 *Remembered problems:
 
@@ -528,6 +529,12 @@ Definitely re-do!
 ********638. Shopping Offers (For each recursion, I go through one special offer. And in the given solution, for each recursion, it always go through the same special offers. Also, it pre-count the original cost without special offers. The good thing is that it can memorize less! In addition, the python solution is amazing!!! I also made a fatal mistake. The number is converted to a wrong vec. Definitely re-do!!!)
 *********992. Subarrays with K Different Integers (Top priority. One of the most important questions on two pointers. I did not figure out the solution and I did not write the solution!!! Have to re-do and re-do!!!)
 815. Bus Routes (Hard! I used Dijkstra's algorithm (BFS) to solve it. Proud of myself!!! Worth re-do!!!)
+****909. Snakes and Ladders (        
+        //The problem is not easy due to the following reasons:
+        //1. The going forward step is from 1 - 6, with 6 as a constant.
+        //2. The ladder can go back to a smaller number, and the number can or cannot be used depending on whether the current go back is smaller than the previous steps on the smaller number.
+        //Made so many mistakes!
+        //Recommended re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
