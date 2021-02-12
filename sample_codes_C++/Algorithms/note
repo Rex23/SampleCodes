@@ -229,6 +229,7 @@ Java and Python:
 32. Longest Valid Parentheses (C++)
 395. Longest Substring with At Least K Repeating Characters (C++)
 340. Longest Substring with At Most K Distinct Characters (C++)
+371. Sum of Two Integers (C++)
 
 *Remembered problems:
 
@@ -543,6 +544,7 @@ Definitely re-do!
         //Made so many mistakes!
         //Recommended re-do!!!)
 ********32. Longest Valid Parentheses (Hard!!! One of the most important problems on parentheses and stack problem! The stack method is amazing!!! I did not figure out the solution at all! Definitely re-do!!!)
+*********371. Sum of Two Integers (This problem is still damn hard!!!!!! Have to re-investigate!!!!!! One of the hardest bit mask problem!!!!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
