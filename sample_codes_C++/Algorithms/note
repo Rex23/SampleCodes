@@ -226,6 +226,7 @@ Java and Python:
 827. Making A Large Island (C++)
 1390. Four Divisors (C++)
 909. Snakes and Ladders (C++)
+32. Longest Valid Parentheses (C++)
 
 *Remembered problems:
 
@@ -535,6 +536,7 @@ Definitely re-do!
         //2. The ladder can go back to a smaller number, and the number can or cannot be used depending on whether the current go back is smaller than the previous steps on the smaller number.
         //Made so many mistakes!
         //Recommended re-do!!!)
+********32. Longest Valid Parentheses (Hard!!! One of the most important problems on parentheses and stack problem! The stack method is amazing!!! I did not figure out the solution at all! Definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
