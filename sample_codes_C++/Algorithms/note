@@ -230,6 +230,7 @@ Java and Python:
 395. Longest Substring with At Least K Repeating Characters (C++)
 340. Longest Substring with At Most K Distinct Characters (C++)
 371. Sum of Two Integers (C++)
+1293. Shortest Path in a Grid with Obstacles Elimination (C++)
 
 *Remembered problems:
 
@@ -545,6 +546,10 @@ Definitely re-do!
         //Recommended re-do!!!)
 ********32. Longest Valid Parentheses (Hard!!! One of the most important problems on parentheses and stack problem! The stack method is amazing!!! I did not figure out the solution at all! Definitely re-do!!!)
 *********371. Sum of Two Integers (This problem is still damn hard!!!!!! Have to re-investigate!!!!!! One of the hardest bit mask problem!!!!!!)
+******1293. Shortest Path in a Grid with Obstacles Elimination (
+    //Hard. I used Dijkstra's algorithm to solve the problem. The benefit is that I don't need to track whether a cell is visited.
+    //The Python solution is also good. It BFS and used visted to track the cells. It can track all the possibilities for a cell with different combinations of (i, j, k). The logic is clearer.
+    //Very worth re-do and very important problem!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
