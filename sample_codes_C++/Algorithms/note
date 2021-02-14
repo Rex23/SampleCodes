@@ -232,6 +232,7 @@ Java and Python:
 371. Sum of Two Integers (C++)
 1293. Shortest Path in a Grid with Obstacles Elimination (C++)
 1760. Minimum Limit of Balls in a Bag (C++)
+1761. Minimum Degree of a Connected Trio in a Graph (C++)
 
 *Remembered problems:
 
@@ -562,8 +563,8 @@ Definitely re-do!
         1011. Capacity To Ship Packages In N Days
         875. Koko Eating Bananas
         774. Minimize Max Distance to Gas Station
-        410. Split Array Largest Sum
-        )
+        410. Split Array Largest Sum)
+***1761. Minimum Degree of a Connected Trio in a Graph (Designated as hard. I should have optimized my code! Basically got the same idea but in contest did not have the courage to finish optimizing it!!! The trick is that for an edge, always get adjacency for the node with a smaller value. Worth re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
