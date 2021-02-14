@@ -1740,6 +1740,18 @@ Example:
 = (1/49) * (49/40)
 = 1/40
 
+*how many steps to split number a into a number which is equal or smaller than b.
+The equation:
+(a - 1) / b
+Example:
+a = 7, b = 3
+a' = 1, b = 3, result = 0
+a' = 2, b = 3, result = 0
+a' = 3, b = 3, result = 0
+a' = 4, b = 3, result = 1
+a' = 5, b = 3, result = 1
+a' = 6, b = 3, result = 1
+a' = 7, b = 3, result = 2
 
 
 
