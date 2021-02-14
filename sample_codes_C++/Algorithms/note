@@ -231,6 +231,7 @@ Java and Python:
 340. Longest Substring with At Most K Distinct Characters (C++)
 371. Sum of Two Integers (C++)
 1293. Shortest Path in a Grid with Obstacles Elimination (C++)
+1760. Minimum Limit of Balls in a Bag (C++)
 
 *Remembered problems:
 
@@ -550,6 +551,19 @@ Definitely re-do!
     //Hard. I used Dijkstra's algorithm to solve the problem. The benefit is that I don't need to track whether a cell is visited.
     //The Python solution is also good. It BFS and used visted to track the cells. It can track all the possibilities for a cell with different combinations of (i, j, k). The logic is clearer.
     //Very worth re-do and very important problem!!!)
+*********1760. Minimum Limit of Balls in a Bag (//Although the problem is listed as medium, it is very hard due to the following reasons!!!
+        //1. Did not figure out that the minimal splitting can be based on a target max penalty value.
+        //2. Therefore, did not figure out to use binary search.
+        //3. Did not realize that the lowerbound is 1!!!
+        //This problem is one of the most important binary search problems and have to re-do and re-do!!!
+        More Good Binary Search Problems (From Lee's other post)
+        1283. Find the Smallest Divisor Given a Threshold
+        1231. Divide Chocolate
+        1011. Capacity To Ship Packages In N Days
+        875. Koko Eating Bananas
+        774. Minimize Max Distance to Gas Station
+        410. Split Array Largest Sum
+        )
 ************Have to re-do!***************
 
 8. very important re-visit problems:
