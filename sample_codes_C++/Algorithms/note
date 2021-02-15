@@ -565,6 +565,11 @@ Definitely re-do!
         774. Minimize Max Distance to Gas Station
         410. Split Array Largest Sum)
 ***1761. Minimum Degree of a Connected Trio in a Graph (Designated as hard. I should have optimized my code! Basically got the same idea but in contest did not have the courage to finish optimizing it!!! The trick is that for an edge, always get adjacency for the node with a smaller value. Worth re-do!!!)
+
+(Second time)********300. Longest Increasing Subsequence (A high frequency problem. What should I say. The solution is very unique. I am afraid that I cannot remember it long term. Practise more. Definitely re-do!!!!!!)
+(Second time: still hard!!! Use dynamic programming. Practise more!!!)
+
+
 ************Have to re-do!***************
 
 8. very important re-visit problems:
@@ -652,7 +657,6 @@ Definitely re-do!
 138. Copy List with Random Pointer (High frequency. Use an unordered_map can solve such kind of random pointer problem. The hash is from old to new.)
 139. Word Break (Classic and high frequency! a BFS is slow! Use Dynamic programming!)
 518. Coin Change 2 (A high frequency problem. A classic dynamic programming problem. Did not figure out the solution. Have to re-do!!!!!!!!!!! The trick is that loop the coin first!!!)
-300. Longest Increasing Subsequence (A high frequency problem. What should I say. The solution is very unique. I am afraid that I cannot remember it long term. Practise more. Definitely re-do!!!!!!)
 1283. Find the Smallest Divisor Given a Threshold (High frequency and very good practise. A binary search problem. Find the left most solution.)
 34. Find First and Last Position of Element in Sorted Array (Classic!!! can re-do. Binary search, first use lower bound and then find the right most ele.)
 98. Validate Binary Search Tree (good practise. use return && && to solve the in-order problem.)
