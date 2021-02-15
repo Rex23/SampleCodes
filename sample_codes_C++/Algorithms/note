@@ -233,6 +233,7 @@ Java and Python:
 1293. Shortest Path in a Grid with Obstacles Elimination (C++)
 1760. Minimum Limit of Balls in a Bag (C++)
 1761. Minimum Degree of a Connected Trio in a Graph (C++)
+354. Russian Doll Envelopes (C++)
 
 *Remembered problems:
 
@@ -566,9 +567,11 @@ Definitely re-do!
         410. Split Array Largest Sum)
 ***1761. Minimum Degree of a Connected Trio in a Graph (Designated as hard. I should have optimized my code! Basically got the same idea but in contest did not have the courage to finish optimizing it!!! The trick is that for an edge, always get adjacency for the node with a smaller value. Worth re-do!!!)
 
+//Longest Increasing Subsequence!!!
 (Second time)********300. Longest Increasing Subsequence (A high frequency problem. What should I say. The solution is very unique. I am afraid that I cannot remember it long term. Practise more. Definitely re-do!!!!!!)
 (Second time: still hard!!! Use dynamic programming. Practise more!!!)
-
+354. Russian Doll Envelopes(This is one of the hardest problems. It is a particular kind of problem: Longest Increasing Subsequence! It is solved based on sorting and dp. Definitely re-do!!!!!!)
+//Longest Increasing Subsequence!!!
 
 ************Have to re-do!***************
 
