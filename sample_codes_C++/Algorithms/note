@@ -234,6 +234,7 @@ Java and Python:
 1760. Minimum Limit of Balls in a Bag (C++)
 1761. Minimum Degree of a Connected Trio in a Graph (C++)
 354. Russian Doll Envelopes (C++)
+529. Minesweeper (C++)
 
 *Remembered problems:
 
@@ -741,6 +742,7 @@ Definitely re-do!
 ***1230. Toss Strange Coins (Top-down DP with memoization solves the problem.)
 827. Making A Large Island (Designated as hard. My strategy is that I give different islands different indexes and record their size. And for each element with 0, I will find adjacent indexes and their corresponding sizes, and add them up. Loop through all the elements with 0 and get the maximum connected islands.) 
 *1390. Four Divisors (get all of the prime numbers. In the given solution, just check the divisors <= sqrt(n) (if divisor * divisor == n, then n is not). Re-do!)
+*529. Minesweeper (The problem description is the hard part of the problem. Just read the problem description carefully. If the empty element has adjacent 'M', stop; if not, continue to search adjacent cells.)
 ********************************************************************************
 
 8. re-visit problems: 
