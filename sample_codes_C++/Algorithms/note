@@ -753,7 +753,6 @@ Definitely re-do!
 *1390. Four Divisors (get all of the prime numbers. In the given solution, just check the divisors <= sqrt(n) (if divisor * divisor == n, then n is not). Re-do!)
 *529. Minesweeper (The problem description is the hard part of the problem. Just read the problem description carefully. If the empty element has adjacent 'M', stop; if not, continue to search adjacent cells.)
 304. Range Sum Query 2D - Immutable (2D pre-sum. Good practise.)
-47. Permutations II (back tracking solves the problem.)
 ********************************************************************************
 
 8. re-visit problems: 
@@ -968,6 +967,7 @@ This is an important problem. Should try doing later several times.)
 390. Elimination Game (The trick is to track the sequence start, end and step at each recursive call. Probably use iterative call will be much faster.)
 515. Find Largest Value in Each Tree Row (easy)
 129. Sum Root to Leaf Numbers (pay attension of the use of 'nonlocal' in Python. not hard.)
+47. Permutations II (back tracking solves the problem.)
 
 *Problem 392: one string is a substring of another, re-visit.
 
