@@ -237,6 +237,7 @@ Java and Python:
 529. Minesweeper (C++)
 689. Maximum Sum of 3 Non-Overlapping Subarrays (C++)
 304. Range Sum Query 2D - Immutable (C++)
+89. Gray Code (C++)
 
 *Remembered problems:
 
@@ -580,6 +581,7 @@ Definitely re-do!
 (
 //Hard! I did not figure out the solution and I did not write the solution! Defintely re-do!!! BTW, the complexity estimation of the top-down DP solution I tried to write is entirely wrong! Hopefully I can learn some lession here!
 )
+*******89. Gray Code (The given solution extends the previous from left instead of right. And, the importance is that it keeps the original and copy the original reversely and add 1. I wrote something very long and slow. Definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
