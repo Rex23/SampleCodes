@@ -238,6 +238,7 @@ Java and Python:
 689. Maximum Sum of 3 Non-Overlapping Subarrays (C++)
 304. Range Sum Query 2D - Immutable (C++)
 89. Gray Code (C++)
+47. Permutations II (C++)
 
 *Remembered problems:
 
@@ -752,6 +753,7 @@ Definitely re-do!
 *1390. Four Divisors (get all of the prime numbers. In the given solution, just check the divisors <= sqrt(n) (if divisor * divisor == n, then n is not). Re-do!)
 *529. Minesweeper (The problem description is the hard part of the problem. Just read the problem description carefully. If the empty element has adjacent 'M', stop; if not, continue to search adjacent cells.)
 304. Range Sum Query 2D - Immutable (2D pre-sum. Good practise.)
+47. Permutations II (back tracking solves the problem.)
 ********************************************************************************
 
 8. re-visit problems: 
