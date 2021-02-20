@@ -240,6 +240,7 @@ Java and Python:
 89. Gray Code (C++)
 47. Permutations II (C++)
 713. Subarray Product Less Than K (C++)
+97. Interleaving String (C++)
 
 *Remembered problems:
 
@@ -584,6 +585,7 @@ Definitely re-do!
 //Hard! I did not figure out the solution and I did not write the solution! Defintely re-do!!! BTW, the complexity estimation of the top-down DP solution I tried to write is entirely wrong! Hopefully I can learn some lession here!
 )
 *******89. Gray Code (The given solution extends the previous from left instead of right. And, the importance is that it keeps the original and copy the original reversely and add 1. I wrote something very long and slow. Definitely re-do!!!)
+97. Interleaving String (Hard. Classic dp problem. I used top-down dp with memoization to solve this problem. The key is that s3' position depends on s1 and s2. Worth re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
