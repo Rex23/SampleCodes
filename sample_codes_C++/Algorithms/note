@@ -241,6 +241,7 @@ Java and Python:
 47. Permutations II (C++)
 713. Subarray Product Less Than K (C++)
 97. Interleaving String (C++)
+838. Push Dominoes (C++)
 
 *Remembered problems:
 
@@ -757,6 +758,7 @@ Definitely re-do!
 *529. Minesweeper (The problem description is the hard part of the problem. Just read the problem description carefully. If the empty element has adjacent 'M', stop; if not, continue to search adjacent cells.)
 304. Range Sum Query 2D - Immutable (2D pre-sum. Good practise.)
 ********713. Subarray Product Less Than K (two pointer solves the problem. Very classic two-pointer problem!!! Worth re-do and re-do!!)
+838. Push Dominoes (Just be careful. For each card, check minimal distance to left and right initiating domino cards respectively.)
 ********************************************************************************
 
 8. re-visit problems: 
