@@ -243,6 +243,7 @@ Java and Python:
 97. Interleaving String (C++)
 838. Push Dominoes (C++)
 1186. Maximum Subarray Sum with One Deletion (C++)
+1769. Minimum Number of Operations to Move All Balls to Each Box (C++)
 
 *Remembered problems:
 
@@ -588,6 +589,7 @@ Definitely re-do!
 )
 *******89. Gray Code (The given solution extends the previous from left instead of right. And, the importance is that it keeps the original and copy the original reversely and add 1. I wrote something very long and slow. Definitely re-do!!!)
 97. Interleaving String (Hard. Classic dp problem. I used top-down dp with memoization to solve this problem. The key is that s3' position depends on s1 and s2. Worth re-do!!!)
+********1769. Minimum Number of Operations to Move All Balls to Each Box (I totally failed this problem in contest. The logic was a mess!!! It is actually a DP problem with two variables. Have to re-do!!! Top priority!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
