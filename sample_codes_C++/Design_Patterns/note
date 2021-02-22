@@ -1,5 +1,0 @@
-*bridge pattern: use bridge to call different underling implementation classes. The implementation classes are hided from the user.
-
-*singleton pattern
-
-
