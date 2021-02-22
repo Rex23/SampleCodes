@@ -246,6 +246,7 @@ Java and Python:
 1769. Minimum Number of Operations to Move All Balls to Each Box (C++)
 1770. Maximum Score from Performing Multiplication Operations (C++)
 1771. Maximize Palindrome Length From Subsequences (C++)
+1763. Longest Nice Substring (C++)
 
 *Remembered problems:
 
@@ -602,6 +603,7 @@ Definitely re-do!
         //3. when loop dp again, some are missing using top-down!!!
         //Have to re-do using bottom-up again and again!!!        
 )
+********1763. Longest Nice Substring (This is not easy!!!!!!!!!!! It is marked as easy in the contest but I had no clue!!!!!! Had to use brute force to solve it!!!!!!!!!!!!! The given solution is divide and conquer!!! Definitely re-do!!!)
 ************Have to re-do!***************
 
 8. very important re-visit problems:
