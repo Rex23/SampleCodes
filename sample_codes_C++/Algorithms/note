@@ -595,6 +595,7 @@ Definitely re-do!
 ********1770. Maximum Score from Performing Multiplication Operations (Failed in the contest. It gave me a lesson that the dp frame matters! For example, set is much slower than 2D array. I need to think carefully about the frame to speed it up! Recommend to re-do!!!)
 **********1771. Maximize Palindrome Length From Subsequences 
 (
+        //problem 516 is the basis!!! Longest Palindromic Subsequence
         //One of the hardest problem!!! It taught me a lesson that the bottom-up approach can be way easier than the top-down approach. Also, additional lessions:
         //1. index from 0 to n - 1
         //2. pre-judge, do not judge at the next level!!!
