@@ -1,2 +1,5 @@
 *The mine sweeper game follows the traditional rule of the one in the old Windows version.
-*It is still under development using my spare time. Will do more tests on it.
+*It is still under development but if you would like to play the preliminary version, the rule is as follows:
+Rule:
+Each time on the command line, input the location and instruction, e.g. 0, 1, R, where (0, 1) represents the location, and 'R' represents 'reveal of the cell'. If you stepped on the mine, game is over. If not, the updated mine with revealed cells will be printed on the screen. If you would like to flag the cell, you can type x, y, F, where x and y are coordinates, and 'F' means to flag the cell. After all the mines are successfully flags, game is over and you win.
+
